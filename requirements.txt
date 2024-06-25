@@ -1,0 +1,9 @@
+click
+coverage
+notebook
+numpy
+pandas
+pytest
+python-dotenv
+PyYAML
+ruff
