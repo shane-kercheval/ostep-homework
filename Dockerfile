@@ -1,6 +1,5 @@
 FROM python:3.11
 
-# Install necessary packages for building software
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     software-properties-common \
@@ -14,7 +13,8 @@ RUN apt-get update && \
     cmake \
     curl \
     libgtest-dev \
-    clang-tidy
+    clang-tidy \
+    valgrind
 
 # Build and install Google Test
 RUN cd /usr/src/gtest && \
