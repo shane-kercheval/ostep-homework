@@ -7,13 +7,17 @@ int balance = 0;
 int test_and_set(int *current_ptr, int new) {
     // each statement is atomic
     int current = *current_ptr;  // get current value from pointer (lock->flag)
-    // What if a context switch happens here after `old` is assigned but before `old_ptr` is set. Seems like there would be a race condition leading to two threads acquiring the lock.
+    // What if a context switch happens here after `old` is assigned but before `old_ptr` is set.
+    // Seems like there would be a race condition leading to two threads acquiring the lock.
     // For example:
     // - Thread 0 executes and `old` is set to 0; then context switch happens before `*old_ptr = new`
     // - Now Thead 1 executes and `old` is also set to 0, `current_ptr` is set to 1; and 0 is returned; the lock is acquired by Thread 1.
     // - Sometime later (before Thread 1 releases the lock) Thread 0 resumes. `old` is still 0 from before the context swich, and that value is returned. Now the lock is also aquired by Thread 0
     // ——
-    // I misunderstood. The authors are just showing what the operation would look like in C. But they specifically mention that the test and set operations are atomic and this an instruction supported at the hardware level. So I’m correct, that if those two operations (setting old and setting old_prt) weren’t atomic there would be a race condition. But that wasn’t what the authors were trying to suggest.
+    // I misunderstood. The authors are just showing sudocode and what the operation would look like in C.
+    // But they specifically mention that the test and set operations are atomic and this an instruction supported at the hardware level.
+    // So I’m correct, that if those two operations (setting old and setting old_prt) weren’t atomic there would be a race condition.
+    // But that wasn’t what the authors were trying to suggest.
     // So this would be more likey to fail with many threads, and could still fail with 1, but is less likely.
     *current_ptr = new; // assign new value into pointer (lock->flag)
     return current; // return the current value
