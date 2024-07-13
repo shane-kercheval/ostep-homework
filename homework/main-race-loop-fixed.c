@@ -4,6 +4,7 @@
 int balance = 0;
 pthread_mutex_t lock;
 
+// NOTE: This code doesn't check the value returned by pthread_mutex_lock
 void *worker(void *arg) {
     pthread_mutex_lock(&lock);
     // critical section
