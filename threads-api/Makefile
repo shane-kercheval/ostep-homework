@@ -25,7 +25,6 @@ helgrind-main-race-loop-fixed:
 	valgrind --tool=helgrind ./main-race-loop-fixed
 
 
-
 main-deadlock: main-deadlock.c common_threads.h
 	gcc -o main-deadlock main-deadlock.c $(FLAGS)
 
