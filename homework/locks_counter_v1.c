@@ -4,6 +4,7 @@
 #include <pthread.h>
 #include <sys/time.h>
 
+#define MICRO_SECONDS_IN_SECOND 1000000
 
 typedef struct {
     int value;
@@ -75,6 +76,10 @@ void *worker(void *arg) {
     run_loops(num_loops, id);
 }
 
+long duration(struct timeval start, struct timeval end) {
+    return ((end.tv_sec - start.tv_sec) * MICRO_SECONDS_IN_SECOND) + (end.tv_usec - start.tv_usec);
+}
+
 int main(int argc, char *argv[]) {
     printf("COUNTER - V1\n");
     if (argc < 3) {
@@ -109,10 +114,8 @@ int main(int argc, char *argv[]) {
     }
     gettimeofday(&end, NULL);
     printf("counter end: %d\n", counter.value);
-    long seconds = (end.tv_sec - start.tv_sec);
-    long micros = ((seconds * 1000000) + end.tv_usec) - (start.tv_usec);
-    printf("Execution time: %ld seconds, %ld microseconds\n", seconds, micros);
+    long micro_seconds = duration(start, end);
+    printf("Execution time: %ld microseconds\n", micro_seconds);
     printf("----\n\n");
-
     return 0;
 }
