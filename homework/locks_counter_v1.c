@@ -3,6 +3,7 @@
 #include <stdbool.h>
 #include <pthread.h>
 #include <sys/time.h>
+#include <unistd.h>
 
 #define MICRO_SECONDS_IN_SECOND 1000000
 
@@ -109,6 +110,8 @@ int main(int argc, char *argv[]) {
     int num_loops = atoi(argv[2]);
     printf("Number of threads: %d\n", num_threads);
     printf("Number of loops: %d\n", num_loops);
+    long num_cpu_cores = sysconf(_SC_NPROCESSORS_ONLN);  // # of "logical processors" that are "currently online"
+    printf("Number of CPU cores available: %ld\n", num_cpu_cores);
     
     init(&counter);
 

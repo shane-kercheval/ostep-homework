@@ -3,6 +3,7 @@
 #include <stdbool.h>
 #include <pthread.h>
 #include <sys/time.h>
+#include <unistd.h>
 
 #define MICRO_SECONDS_IN_SECOND 1000000
 
@@ -55,7 +56,7 @@ long duration(struct timeval start, struct timeval end) {
 int record_stats(const char* type, int num_threads, int num_loops, long micro_seconds) {
     // as a reminder, `const` means that the value of the variable `type` will not be modified
     // it leads to better safety and optimization by the compiler
-    FILE *file = fopen("results.csv", "a+");
+    FILE *file = fopen("lock_results.csv", "a+");
     if (file == NULL) {
         fprintf(stderr, "Failed to open results.csv\n");
         return 1;
@@ -81,6 +82,9 @@ int main(int argc, char *argv[]) {
     int num_loops = atoi(argv[2]);
     printf("Number of threads: %d\n", num_threads);
     printf("Number of loops: %d\n", num_loops);
+    long num_cpu_cores = sysconf(_SC_NPROCESSORS_ONLN);  // # of "logical processors" that are "currently online"
+    printf("Number of CPU cores available: %ld\n", num_cpu_cores);
+    
     
     struct timeval start, end;
     printf("counter start: %d\n", counter.value);
