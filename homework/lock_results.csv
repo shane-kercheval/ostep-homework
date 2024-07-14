@@ -70,3 +70,892 @@ Locking V2 - Approx,1,10000000,474412,10000,true
 Locking V2 - Approx,2,10000000,759773,10000,true
 Locking V2 - Approx,4,10000000,2977946,10000,true
 Locking V2 - Approx,10,10000000,7884329,10000,true
+Locking V2 - Approx,20,10000000,14322130,10000,true
+Locking V2 - Approx,0,10000000,77219,1000000,true
+Locking V2 - Approx,1,10000000,643246,1000000,true
+Locking V2 - Approx,2,10000000,1171486,1000000,true
+Locking V2 - Approx,4,10000000,2855265,1000000,true
+Locking V2 - Approx,10,10000000,7637087,1000000,true
+Locking V2 - Approx,20,10000000,14519138,1000000,true
+Locking V3 - Approx,0,10000000,26916,100,true
+Locking V3 - Approx,1,10000000,61332,100,true
+Locking V3 - Approx,2,10000000,94453,100,true
+Locking V3 - Approx,4,10000000,201827,100,true
+Locking V3 - Approx,10,10000000,712076,100,true
+Locking V3 - Approx,20,10000000,1835426,100,false
+Locking V3 - Approx,0,10000000,25984,10000,true
+Locking V3 - Approx,1,10000000,75156,10000,true
+Locking V3 - Approx,2,10000000,124930,10000,true
+Locking V3 - Approx,4,10000000,231001,10000,true
+Locking V3 - Approx,10,10000000,928896,10000,true
+Locking V3 - Approx,20,10000000,1914569,10000,false
+Locking V3 - Approx,0,10000000,25730,1000000,true
+Locking V3 - Approx,1,10000000,65303,1000000,true
+Locking V3 - Approx,2,10000000,134676,1000000,true
+Locking V3 - Approx,4,10000000,230848,1000000,true
+Locking V3 - Approx,10,10000000,899785,1000000,true
+Locking V3 - Approx,20,10000000,1813804,1000000,false
+No Locking,0,10000000,21211,-1,true
+No Locking,1,10000000,35407,-1,false
+No Locking,2,10000000,56877,-1,false
+No Locking,4,10000000,127223,-1,false
+No Locking,10,10000000,459974,-1,false
+No Locking,20,10000000,867266,-1,false
+Locking V1,0,10000000,63379,-1,true
+Locking V1,1,10000000,594384,-1,true
+Locking V1,2,10000000,1213253,-1,true
+Locking V1,4,10000000,2936627,-1,true
+Locking V1,10,10000000,6946135,-1,true
+Locking V1,20,10000000,10723692,-1,true
+Locking V2 - Approx,0,10000000,80543,100,true
+Locking V2 - Approx,1,10000000,507869,100,true
+Locking V2 - Approx,2,10000000,807822,100,true
+Locking V2 - Approx,4,10000000,2938460,100,true
+Locking V2 - Approx,10,10000000,7946217,100,true
+Locking V2 - Approx,20,10000000,15190828,100,true
+Locking V2 - Approx,0,10000000,76800,10000,true
+Locking V2 - Approx,1,10000000,479982,10000,true
+Locking V2 - Approx,2,10000000,833532,10000,true
+Locking V2 - Approx,4,10000000,2735614,10000,true
+Locking V2 - Approx,10,10000000,7726627,10000,true
+Locking V2 - Approx,20,10000000,14790069,10000,true
+Locking V2 - Approx,0,10000000,75847,1000000,true
+Locking V2 - Approx,1,10000000,447486,1000000,true
+Locking V2 - Approx,2,10000000,802748,1000000,true
+Locking V2 - Approx,4,10000000,2939341,1000000,true
+Locking V2 - Approx,10,10000000,7894675,1000000,true
+Locking V2 - Approx,20,10000000,14819022,1000000,true
+Locking V3 - Approx,0,10000000,27644,100,true
+Locking V3 - Approx,1,10000000,66684,100,true
+Locking V3 - Approx,2,10000000,107872,100,true
+Locking V3 - Approx,4,10000000,210929,100,true
+Locking V3 - Approx,10,10000000,724154,100,true
+Locking V3 - Approx,20,10000000,1787874,100,false
+Locking V3 - Approx,0,10000000,25833,10000,true
+Locking V3 - Approx,1,10000000,73813,10000,true
+Locking V3 - Approx,2,10000000,133946,10000,true
+Locking V3 - Approx,4,10000000,236179,10000,true
+Locking V3 - Approx,10,10000000,1011457,10000,true
+Locking V3 - Approx,20,10000000,1954155,10000,false
+Locking V3 - Approx,0,10000000,25265,1000000,true
+Locking V3 - Approx,1,10000000,67064,1000000,true
+Locking V3 - Approx,2,10000000,113473,1000000,true
+Locking V3 - Approx,4,10000000,222336,1000000,true
+Locking V3 - Approx,10,10000000,956109,1000000,true
+Locking V3 - Approx,20,10000000,1974295,1000000,false
+No Locking,0,10000000,21140,-1,true
+No Locking,1,10000000,61725,-1,false
+No Locking,2,10000000,63937,-1,false
+No Locking,4,10000000,132343,-1,false
+No Locking,10,10000000,509305,-1,false
+No Locking,20,10000000,960901,-1,false
+Locking V1,0,10000000,62152,-1,true
+Locking V1,1,10000000,598948,-1,true
+Locking V1,2,10000000,1212366,-1,true
+Locking V1,4,10000000,2913792,-1,true
+Locking V1,10,10000000,6490876,-1,true
+Locking V1,20,10000000,10781026,-1,true
+Locking V2 - Approx,0,10000000,80452,100,true
+Locking V2 - Approx,1,10000000,479186,100,true
+Locking V2 - Approx,2,10000000,843139,100,true
+Locking V2 - Approx,4,10000000,2931842,100,true
+Locking V2 - Approx,10,10000000,8028308,100,true
+Locking V2 - Approx,20,10000000,14681026,100,true
+Locking V2 - Approx,0,10000000,79471,10000,true
+Locking V2 - Approx,1,10000000,491807,10000,true
+Locking V2 - Approx,2,10000000,760074,10000,true
+Locking V2 - Approx,4,10000000,2926915,10000,true
+Locking V2 - Approx,10,10000000,7776741,10000,true
+Locking V2 - Approx,20,10000000,14900336,10000,true
+Locking V2 - Approx,0,10000000,76962,1000000,true
+Locking V2 - Approx,1,10000000,502180,1000000,true
+Locking V2 - Approx,2,10000000,777396,1000000,true
+Locking V2 - Approx,4,10000000,2960915,1000000,true
+Locking V2 - Approx,10,10000000,7902005,1000000,true
+Locking V2 - Approx,20,10000000,14630468,1000000,true
+Locking V3 - Approx,0,10000000,27747,100,true
+Locking V3 - Approx,1,10000000,72085,100,true
+Locking V3 - Approx,2,10000000,119045,100,true
+Locking V3 - Approx,4,10000000,214143,100,true
+Locking V3 - Approx,10,10000000,734851,100,true
+Locking V3 - Approx,20,10000000,1779277,100,false
+Locking V3 - Approx,0,10000000,25713,10000,true
+Locking V3 - Approx,1,10000000,60091,10000,true
+Locking V3 - Approx,2,10000000,115623,10000,true
+Locking V3 - Approx,4,10000000,224971,10000,true
+Locking V3 - Approx,10,10000000,910738,10000,true
+Locking V3 - Approx,20,10000000,1870560,10000,false
+Locking V3 - Approx,0,10000000,25928,1000000,true
+Locking V3 - Approx,1,10000000,57385,1000000,true
+Locking V3 - Approx,2,10000000,111066,1000000,true
+Locking V3 - Approx,4,10000000,254207,1000000,true
+Locking V3 - Approx,10,10000000,909723,1000000,true
+Locking V3 - Approx,20,10000000,1831808,1000000,false
+No Locking,0,10000000,20637,-1,true
+No Locking,1,10000000,29368,-1,false
+No Locking,2,10000000,66674,-1,false
+No Locking,4,10000000,127413,-1,false
+No Locking,10,10000000,487489,-1,false
+No Locking,20,10000000,1021993,-1,false
+Locking V1,0,10000000,62018,-1,true
+Locking V1,1,10000000,800033,-1,true
+Locking V1,2,10000000,1217290,-1,true
+Locking V1,4,10000000,2856921,-1,true
+Locking V1,10,10000000,6845821,-1,true
+Locking V1,20,10000000,10724741,-1,true
+Locking V2 - Approx,0,10000000,81900,100,true
+Locking V2 - Approx,1,10000000,465720,100,true
+Locking V2 - Approx,2,10000000,913540,100,true
+Locking V2 - Approx,4,10000000,2907590,100,true
+Locking V2 - Approx,10,10000000,7826815,100,true
+Locking V2 - Approx,20,10000000,14181979,100,true
+Locking V2 - Approx,0,10000000,76346,10000,true
+Locking V2 - Approx,1,10000000,439128,10000,true
+Locking V2 - Approx,2,10000000,780452,10000,true
+Locking V2 - Approx,4,10000000,2936769,10000,true
+Locking V2 - Approx,10,10000000,7871757,10000,true
+Locking V2 - Approx,20,10000000,14656473,10000,true
+Locking V2 - Approx,0,10000000,77206,1000000,true
+Locking V2 - Approx,1,10000000,447839,1000000,true
+Locking V2 - Approx,2,10000000,928475,1000000,true
+Locking V2 - Approx,4,10000000,2883661,1000000,true
+Locking V2 - Approx,10,10000000,7639692,1000000,true
+Locking V2 - Approx,20,10000000,14510712,1000000,true
+Locking V3 - Approx,0,10000000,29074,100,true
+Locking V3 - Approx,1,10000000,58394,100,true
+Locking V3 - Approx,2,10000000,91980,100,true
+Locking V3 - Approx,4,10000000,195195,100,true
+Locking V3 - Approx,10,10000000,706320,100,true
+Locking V3 - Approx,20,10000000,1773297,100,false
+Locking V3 - Approx,0,10000000,25969,10000,true
+Locking V3 - Approx,1,10000000,56043,10000,true
+Locking V3 - Approx,2,10000000,97680,10000,true
+Locking V3 - Approx,4,10000000,254293,10000,true
+Locking V3 - Approx,10,10000000,963359,10000,true
+Locking V3 - Approx,20,10000000,1789583,10000,false
+Locking V3 - Approx,0,10000000,25449,1000000,true
+Locking V3 - Approx,1,10000000,59648,1000000,true
+Locking V3 - Approx,2,10000000,106206,1000000,true
+Locking V3 - Approx,4,10000000,234568,1000000,true
+Locking V3 - Approx,10,10000000,914715,1000000,true
+Locking V3 - Approx,20,10000000,1809546,1000000,false
+No Locking,0,10000000,20763,-1,true
+No Locking,1,10000000,39102,-1,false
+No Locking,2,10000000,52164,-1,false
+No Locking,4,10000000,131202,-1,false
+No Locking,10,10000000,469426,-1,false
+No Locking,20,10000000,999762,-1,false
+Locking V1,0,10000000,62168,-1,true
+Locking V1,1,10000000,785025,-1,true
+Locking V1,2,10000000,1241329,-1,true
+Locking V1,4,10000000,2764849,-1,true
+Locking V1,10,10000000,6697718,-1,true
+Locking V1,20,10000000,10737835,-1,true
+Locking V2 - Approx,0,10000000,81198,100,true
+Locking V2 - Approx,1,10000000,458794,100,true
+Locking V2 - Approx,2,10000000,827414,100,true
+Locking V2 - Approx,4,10000000,2946976,100,true
+Locking V2 - Approx,10,10000000,7712415,100,true
+Locking V2 - Approx,20,10000000,14384246,100,true
+Locking V2 - Approx,0,10000000,75617,10000,true
+Locking V2 - Approx,1,10000000,474040,10000,true
+Locking V2 - Approx,2,10000000,908712,10000,true
+Locking V2 - Approx,4,10000000,2888025,10000,true
+Locking V2 - Approx,10,10000000,7784388,10000,true
+Locking V2 - Approx,20,10000000,14283794,10000,true
+Locking V2 - Approx,0,10000000,76721,1000000,true
+Locking V2 - Approx,1,10000000,583665,1000000,true
+Locking V2 - Approx,2,10000000,1000522,1000000,true
+Locking V2 - Approx,4,10000000,2674702,1000000,true
+Locking V2 - Approx,10,10000000,7963448,1000000,true
+Locking V2 - Approx,20,10000000,14751166,1000000,true
+Locking V3 - Approx,0,10000000,27394,100,true
+Locking V3 - Approx,1,10000000,68234,100,true
+Locking V3 - Approx,2,10000000,95048,100,true
+Locking V3 - Approx,4,10000000,195185,100,true
+Locking V3 - Approx,10,10000000,709282,100,true
+Locking V3 - Approx,20,10000000,1674409,100,false
+Locking V3 - Approx,0,10000000,25829,10000,true
+Locking V3 - Approx,1,10000000,83559,10000,true
+Locking V3 - Approx,2,10000000,115015,10000,true
+Locking V3 - Approx,4,10000000,256976,10000,true
+Locking V3 - Approx,10,10000000,958581,10000,true
+Locking V3 - Approx,20,10000000,1862018,10000,false
+Locking V3 - Approx,0,10000000,25114,1000000,true
+Locking V3 - Approx,1,10000000,58847,1000000,true
+Locking V3 - Approx,2,10000000,110840,1000000,true
+Locking V3 - Approx,4,10000000,226211,1000000,true
+Locking V3 - Approx,10,10000000,900447,1000000,true
+Locking V3 - Approx,20,10000000,1781420,1000000,false
+No Locking,0,10000000,20702,-1,true
+No Locking,1,10000000,29901,-1,false
+No Locking,2,10000000,51747,-1,false
+No Locking,4,10000000,127854,-1,false
+No Locking,10,10000000,466934,-1,false
+No Locking,20,10000000,850128,-1,false
+Locking V1,0,10000000,63221,-1,true
+Locking V1,1,10000000,773566,-1,true
+Locking V1,2,10000000,1234861,-1,true
+Locking V1,4,10000000,2814706,-1,true
+Locking V1,10,10000000,6782924,-1,true
+Locking V1,20,10000000,10902101,-1,true
+Locking V2 - Approx,0,10000000,80893,100,true
+Locking V2 - Approx,1,10000000,448971,100,true
+Locking V2 - Approx,2,10000000,821680,100,true
+Locking V2 - Approx,4,10000000,2923239,100,true
+Locking V2 - Approx,10,10000000,8057928,100,true
+Locking V2 - Approx,20,10000000,14703943,100,true
+Locking V2 - Approx,0,10000000,76909,10000,true
+Locking V2 - Approx,1,10000000,442650,10000,true
+Locking V2 - Approx,2,10000000,777735,10000,true
+Locking V2 - Approx,4,10000000,2880558,10000,true
+Locking V2 - Approx,10,10000000,7926945,10000,true
+Locking V2 - Approx,20,10000000,14760825,10000,true
+Locking V2 - Approx,0,10000000,75898,1000000,true
+Locking V2 - Approx,1,10000000,444295,1000000,true
+Locking V2 - Approx,2,10000000,788037,1000000,true
+Locking V2 - Approx,4,10000000,2861427,1000000,true
+Locking V2 - Approx,10,10000000,8010822,1000000,true
+Locking V2 - Approx,20,10000000,14852250,1000000,true
+Locking V3 - Approx,0,10000000,27154,100,true
+Locking V3 - Approx,1,10000000,61623,100,true
+Locking V3 - Approx,2,10000000,97501,100,true
+Locking V3 - Approx,4,10000000,197747,100,true
+Locking V3 - Approx,10,10000000,770468,100,true
+Locking V3 - Approx,20,10000000,1768399,100,false
+Locking V3 - Approx,0,10000000,25686,10000,true
+Locking V3 - Approx,1,10000000,68131,10000,true
+Locking V3 - Approx,2,10000000,118278,10000,true
+Locking V3 - Approx,4,10000000,218688,10000,true
+Locking V3 - Approx,10,10000000,1034764,10000,true
+Locking V3 - Approx,20,10000000,1873809,10000,false
+Locking V3 - Approx,0,10000000,25832,1000000,true
+Locking V3 - Approx,1,10000000,56469,1000000,true
+Locking V3 - Approx,2,10000000,87926,1000000,true
+Locking V3 - Approx,4,10000000,260246,1000000,true
+Locking V3 - Approx,10,10000000,960536,1000000,true
+Locking V3 - Approx,20,10000000,1894606,1000000,false
+No Locking,0,10000000,20602,-1,true
+No Locking,1,10000000,31712,-1,false
+No Locking,2,10000000,49632,-1,false
+No Locking,4,10000000,130297,-1,false
+No Locking,10,10000000,481138,-1,false
+No Locking,20,10000000,955828,-1,false
+Locking V1,0,10000000,61770,-1,true
+Locking V1,1,10000000,814711,-1,true
+Locking V1,2,10000000,1244262,-1,true
+Locking V1,4,10000000,2851498,-1,true
+Locking V1,10,10000000,6771794,-1,true
+Locking V1,20,10000000,10624762,-1,true
+Locking V2 - Approx,0,10000000,81235,100,true
+Locking V2 - Approx,1,10000000,455086,100,true
+Locking V2 - Approx,2,10000000,788221,100,true
+Locking V2 - Approx,4,10000000,2962444,100,true
+Locking V2 - Approx,10,10000000,7946663,100,true
+Locking V2 - Approx,20,10000000,14736238,100,true
+Locking V2 - Approx,0,10000000,77933,10000,true
+Locking V2 - Approx,1,10000000,456237,10000,true
+Locking V2 - Approx,2,10000000,799925,10000,true
+Locking V2 - Approx,4,10000000,2874592,10000,true
+Locking V2 - Approx,10,10000000,7887883,10000,true
+Locking V2 - Approx,20,10000000,14742052,10000,true
+Locking V2 - Approx,0,10000000,75774,1000000,true
+Locking V2 - Approx,1,10000000,454469,1000000,true
+Locking V2 - Approx,2,10000000,760141,1000000,true
+Locking V2 - Approx,4,10000000,2880401,1000000,true
+Locking V2 - Approx,10,10000000,7771839,1000000,true
+Locking V2 - Approx,20,10000000,14659441,1000000,true
+Locking V3 - Approx,0,10000000,26851,100,true
+Locking V3 - Approx,1,10000000,65908,100,true
+Locking V3 - Approx,2,10000000,104104,100,true
+Locking V3 - Approx,4,10000000,229260,100,true
+Locking V3 - Approx,10,10000000,718948,100,true
+Locking V3 - Approx,20,10000000,1774811,100,false
+Locking V3 - Approx,0,10000000,25527,10000,true
+Locking V3 - Approx,1,10000000,64627,10000,true
+Locking V3 - Approx,2,10000000,126351,10000,true
+Locking V3 - Approx,4,10000000,228938,10000,true
+Locking V3 - Approx,10,10000000,956416,10000,true
+Locking V3 - Approx,20,10000000,1927907,10000,false
+Locking V3 - Approx,0,10000000,25480,1000000,true
+Locking V3 - Approx,1,10000000,58420,1000000,true
+Locking V3 - Approx,2,10000000,101302,1000000,true
+Locking V3 - Approx,4,10000000,231000,1000000,true
+Locking V3 - Approx,10,10000000,1026852,1000000,true
+Locking V3 - Approx,20,10000000,1938472,1000000,false
+No Locking,0,10000000,21140,-1,true
+No Locking,1,10000000,26992,-1,false
+No Locking,2,10000000,54016,-1,false
+No Locking,4,10000000,127739,-1,false
+No Locking,10,10000000,547849,-1,false
+No Locking,20,10000000,988033,-1,false
+Locking V1,0,10000000,63329,-1,true
+Locking V1,1,10000000,809181,-1,true
+Locking V1,2,10000000,1335650,-1,true
+Locking V1,4,10000000,2918374,-1,true
+Locking V1,10,10000000,6660610,-1,true
+Locking V1,20,10000000,10951812,-1,true
+Locking V2 - Approx,0,10000000,78822,100,true
+Locking V2 - Approx,1,10000000,487467,100,true
+Locking V2 - Approx,2,10000000,787326,100,true
+Locking V2 - Approx,4,10000000,2956286,100,true
+Locking V2 - Approx,10,10000000,7999963,100,true
+Locking V2 - Approx,20,10000000,14946370,100,true
+Locking V2 - Approx,0,10000000,77410,10000,true
+Locking V2 - Approx,1,10000000,453223,10000,true
+Locking V2 - Approx,2,10000000,735888,10000,true
+Locking V2 - Approx,4,10000000,2933951,10000,true
+Locking V2 - Approx,10,10000000,7989677,10000,true
+Locking V2 - Approx,20,10000000,14858848,10000,true
+Locking V2 - Approx,0,10000000,75640,1000000,true
+Locking V2 - Approx,1,10000000,438366,1000000,true
+Locking V2 - Approx,2,10000000,739875,1000000,true
+Locking V2 - Approx,4,10000000,2882807,1000000,true
+Locking V2 - Approx,10,10000000,7959733,1000000,true
+Locking V2 - Approx,20,10000000,15033748,1000000,true
+Locking V3 - Approx,0,10000000,27597,100,true
+Locking V3 - Approx,1,10000000,66633,100,true
+Locking V3 - Approx,2,10000000,91409,100,true
+Locking V3 - Approx,4,10000000,194466,100,true
+Locking V3 - Approx,10,10000000,728943,100,true
+Locking V3 - Approx,20,10000000,1808463,100,false
+Locking V3 - Approx,0,10000000,26011,10000,true
+Locking V3 - Approx,1,10000000,73941,10000,true
+Locking V3 - Approx,2,10000000,117493,10000,true
+Locking V3 - Approx,4,10000000,236936,10000,true
+Locking V3 - Approx,10,10000000,1034171,10000,true
+Locking V3 - Approx,20,10000000,2011947,10000,false
+Locking V3 - Approx,0,10000000,25486,1000000,true
+Locking V3 - Approx,1,10000000,70201,1000000,true
+Locking V3 - Approx,2,10000000,97699,1000000,true
+Locking V3 - Approx,4,10000000,219585,1000000,true
+Locking V3 - Approx,10,10000000,949950,1000000,true
+Locking V3 - Approx,20,10000000,1894844,1000000,false
+No Locking,0,10000000,20746,-1,true
+No Locking,1,10000000,37200,-1,false
+No Locking,2,10000000,48782,-1,false
+No Locking,4,10000000,125632,-1,false
+No Locking,10,10000000,536397,-1,false
+No Locking,20,10000000,974473,-1,false
+Locking V1,0,10000000,62722,-1,true
+Locking V1,1,10000000,810333,-1,true
+Locking V1,2,10000000,1295437,-1,true
+Locking V1,4,10000000,2799942,-1,true
+Locking V1,10,10000000,6731283,-1,true
+Locking V1,20,10000000,10689665,-1,true
+Locking V2 - Approx,0,10000000,81852,100,true
+Locking V2 - Approx,1,10000000,465287,100,true
+Locking V2 - Approx,2,10000000,803637,100,true
+Locking V2 - Approx,4,10000000,2920681,100,true
+Locking V2 - Approx,10,10000000,7986799,100,true
+Locking V2 - Approx,20,10000000,14708282,100,true
+Locking V2 - Approx,0,10000000,76318,10000,true
+Locking V2 - Approx,1,10000000,448633,10000,true
+Locking V2 - Approx,2,10000000,803166,10000,true
+Locking V2 - Approx,4,10000000,2919856,10000,true
+Locking V2 - Approx,10,10000000,7932134,10000,true
+Locking V2 - Approx,20,10000000,14770700,10000,true
+Locking V2 - Approx,0,10000000,78321,1000000,true
+Locking V2 - Approx,1,10000000,456746,1000000,true
+Locking V2 - Approx,2,10000000,750989,1000000,true
+Locking V2 - Approx,4,10000000,2902419,1000000,true
+Locking V2 - Approx,10,10000000,7875089,1000000,true
+Locking V2 - Approx,20,10000000,14694185,1000000,true
+Locking V3 - Approx,0,10000000,27159,100,true
+Locking V3 - Approx,1,10000000,62690,100,true
+Locking V3 - Approx,2,10000000,101777,100,true
+Locking V3 - Approx,4,10000000,196030,100,true
+Locking V3 - Approx,10,10000000,730148,100,true
+Locking V3 - Approx,20,10000000,1785448,100,false
+Locking V3 - Approx,0,10000000,25359,10000,true
+Locking V3 - Approx,1,10000000,76141,10000,true
+Locking V3 - Approx,2,10000000,110732,10000,true
+Locking V3 - Approx,4,10000000,237225,10000,true
+Locking V3 - Approx,10,10000000,992957,10000,true
+Locking V3 - Approx,20,10000000,1968093,10000,false
+Locking V3 - Approx,0,10000000,25683,1000000,true
+Locking V3 - Approx,1,10000000,59802,1000000,true
+Locking V3 - Approx,2,10000000,107957,1000000,true
+Locking V3 - Approx,4,10000000,232557,1000000,true
+Locking V3 - Approx,10,10000000,977987,1000000,true
+Locking V3 - Approx,20,10000000,1917291,1000000,false
+No Locking,0,10000000,20898,-1,true
+No Locking,1,10000000,27598,-1,false
+No Locking,2,10000000,58590,-1,false
+No Locking,4,10000000,132121,-1,false
+No Locking,10,10000000,457535,-1,false
+No Locking,20,10000000,978244,-1,false
+Locking V1,0,10000000,61209,-1,true
+Locking V1,1,10000000,784845,-1,true
+Locking V1,2,10000000,1266253,-1,true
+Locking V1,4,10000000,2896893,-1,true
+Locking V1,10,10000000,6767844,-1,true
+Locking V1,20,10000000,10333076,-1,true
+Locking V2 - Approx,0,10000000,190156,100,true
+Locking V2 - Approx,1,10000000,612552,100,true
+Locking V2 - Approx,2,10000000,996469,100,true
+Locking V2 - Approx,4,10000000,2909350,100,true
+Locking V2 - Approx,10,10000000,7603151,100,true
+Locking V2 - Approx,20,10000000,14651331,100,true
+Locking V2 - Approx,0,10000000,75613,10000,true
+Locking V2 - Approx,1,10000000,452338,10000,true
+Locking V2 - Approx,2,10000000,818758,10000,true
+Locking V2 - Approx,4,10000000,2937632,10000,true
+Locking V2 - Approx,10,10000000,7354959,10000,true
+Locking V2 - Approx,20,10000000,14555587,10000,true
+Locking V2 - Approx,0,10000000,75801,1000000,true
+Locking V2 - Approx,1,10000000,480041,1000000,true
+Locking V2 - Approx,2,10000000,948615,1000000,true
+Locking V2 - Approx,4,10000000,2923269,1000000,true
+Locking V2 - Approx,10,10000000,7867830,1000000,true
+Locking V2 - Approx,20,10000000,14287217,1000000,true
+Locking V3 - Approx,0,10000000,28417,100,true
+Locking V3 - Approx,1,10000000,67980,100,true
+Locking V3 - Approx,2,10000000,96731,100,true
+Locking V3 - Approx,4,10000000,204756,100,true
+Locking V3 - Approx,10,10000000,768841,100,true
+Locking V3 - Approx,20,10000000,1759021,100,false
+Locking V3 - Approx,0,10000000,26299,10000,true
+Locking V3 - Approx,1,10000000,68020,10000,true
+Locking V3 - Approx,2,10000000,96958,10000,true
+Locking V3 - Approx,4,10000000,250339,10000,true
+Locking V3 - Approx,10,10000000,1067759,10000,true
+Locking V3 - Approx,20,10000000,1935260,10000,false
+Locking V3 - Approx,0,10000000,25766,1000000,true
+Locking V3 - Approx,1,10000000,91726,1000000,true
+Locking V3 - Approx,2,10000000,116731,1000000,true
+Locking V3 - Approx,4,10000000,224467,1000000,true
+Locking V3 - Approx,10,10000000,988599,1000000,true
+Locking V3 - Approx,20,10000000,1968292,1000000,false
+No Locking,0,10000000,21318,-1,true
+No Locking,1,10000000,33127,-1,false
+No Locking,2,10000000,56746,-1,false
+No Locking,4,10000000,148865,-1,false
+No Locking,10,10000000,496385,-1,false
+No Locking,20,10000000,1041872,-1,false
+Locking V1,0,10000000,62803,-1,true
+Locking V1,1,10000000,790799,-1,true
+Locking V1,2,10000000,1275920,-1,true
+Locking V1,4,10000000,2896887,-1,true
+Locking V1,10,10000000,6554605,-1,true
+Locking V1,20,10000000,10781145,-1,true
+Locking V2 - Approx,0,10000000,79559,100,true
+Locking V2 - Approx,1,10000000,468124,100,true
+Locking V2 - Approx,2,10000000,758499,100,true
+Locking V2 - Approx,4,10000000,2884894,100,true
+Locking V2 - Approx,10,10000000,7972922,100,true
+Locking V2 - Approx,20,10000000,14512672,100,true
+Locking V2 - Approx,0,10000000,75580,10000,true
+Locking V2 - Approx,1,10000000,444656,10000,true
+Locking V2 - Approx,2,10000000,813379,10000,true
+Locking V2 - Approx,4,10000000,2918674,10000,true
+Locking V2 - Approx,10,10000000,7970825,10000,true
+Locking V2 - Approx,20,10000000,14590501,10000,true
+Locking V2 - Approx,0,10000000,76835,1000000,true
+Locking V2 - Approx,1,10000000,467537,1000000,true
+Locking V2 - Approx,2,10000000,762489,1000000,true
+Locking V2 - Approx,4,10000000,2959813,1000000,true
+Locking V2 - Approx,10,10000000,7972262,1000000,true
+Locking V2 - Approx,20,10000000,14605640,1000000,true
+Locking V3 - Approx,0,10000000,26873,100,true
+Locking V3 - Approx,1,10000000,66455,100,true
+Locking V3 - Approx,2,10000000,90945,100,true
+Locking V3 - Approx,4,10000000,206981,100,true
+Locking V3 - Approx,10,10000000,744411,100,true
+Locking V3 - Approx,20,10000000,1836238,100,false
+Locking V3 - Approx,0,10000000,25727,10000,true
+Locking V3 - Approx,1,10000000,57496,10000,true
+Locking V3 - Approx,2,10000000,111348,10000,true
+Locking V3 - Approx,4,10000000,241766,10000,true
+Locking V3 - Approx,10,10000000,1012003,10000,true
+Locking V3 - Approx,20,10000000,1965331,10000,false
+Locking V3 - Approx,0,10000000,25886,1000000,true
+Locking V3 - Approx,1,10000000,65232,1000000,true
+Locking V3 - Approx,2,10000000,118442,1000000,true
+Locking V3 - Approx,4,10000000,246058,1000000,true
+Locking V3 - Approx,10,10000000,992254,1000000,true
+Locking V3 - Approx,20,10000000,2040709,1000000,false
+No Locking,0,10000000,20853,-1,true
+No Locking,1,10000000,37086,-1,false
+No Locking,2,10000000,56481,-1,false
+No Locking,4,10000000,154294,-1,false
+No Locking,10,10000000,499033,-1,false
+No Locking,20,10000000,1017841,-1,false
+Locking V1,0,10000000,62959,-1,true
+Locking V1,1,10000000,820028,-1,true
+Locking V1,2,10000000,1265433,-1,true
+Locking V1,4,10000000,2847579,-1,true
+Locking V1,10,10000000,6565236,-1,true
+Locking V1,20,10000000,10897680,-1,true
+Locking V2 - Approx,0,10000000,80649,100,true
+Locking V2 - Approx,1,10000000,493681,100,true
+Locking V2 - Approx,2,10000000,815704,100,true
+Locking V2 - Approx,4,10000000,2974206,100,true
+Locking V2 - Approx,10,10000000,7935248,100,true
+Locking V2 - Approx,20,10000000,14668141,100,true
+Locking V2 - Approx,0,10000000,76056,10000,true
+Locking V2 - Approx,1,10000000,442870,10000,true
+Locking V2 - Approx,2,10000000,850230,10000,true
+Locking V2 - Approx,4,10000000,2916152,10000,true
+Locking V2 - Approx,10,10000000,7987226,10000,true
+Locking V2 - Approx,20,10000000,14791107,10000,true
+Locking V2 - Approx,0,10000000,76024,1000000,true
+Locking V2 - Approx,1,10000000,467464,1000000,true
+Locking V2 - Approx,2,10000000,795731,1000000,true
+Locking V2 - Approx,4,10000000,2933902,1000000,true
+Locking V2 - Approx,10,10000000,7867943,1000000,true
+Locking V2 - Approx,20,10000000,14761766,1000000,true
+Locking V3 - Approx,0,10000000,27831,100,true
+Locking V3 - Approx,1,10000000,62647,100,true
+Locking V3 - Approx,2,10000000,90277,100,true
+Locking V3 - Approx,4,10000000,215412,100,true
+Locking V3 - Approx,10,10000000,739466,100,true
+Locking V3 - Approx,20,10000000,1801466,100,false
+Locking V3 - Approx,0,10000000,25745,10000,true
+Locking V3 - Approx,1,10000000,59650,10000,true
+Locking V3 - Approx,2,10000000,107895,10000,true
+Locking V3 - Approx,4,10000000,221162,10000,true
+Locking V3 - Approx,10,10000000,1091205,10000,true
+Locking V3 - Approx,20,10000000,1926424,10000,false
+Locking V3 - Approx,0,10000000,25639,1000000,true
+Locking V3 - Approx,1,10000000,57205,1000000,true
+Locking V3 - Approx,2,10000000,106115,1000000,true
+Locking V3 - Approx,4,10000000,247244,1000000,true
+Locking V3 - Approx,10,10000000,969115,1000000,true
+Locking V3 - Approx,20,10000000,1860416,1000000,false
+No Locking,0,10000000,20724,-1,true
+No Locking,1,10000000,27249,-1,false
+No Locking,2,10000000,52625,-1,false
+No Locking,4,10000000,131465,-1,false
+No Locking,10,10000000,565352,-1,false
+No Locking,20,10000000,967901,-1,false
+Locking V1,0,10000000,63160,-1,true
+Locking V1,1,10000000,794516,-1,true
+Locking V1,2,10000000,1249598,-1,true
+Locking V1,4,10000000,2874394,-1,true
+Locking V1,10,10000000,6504648,-1,true
+Locking V1,20,10000000,10863289,-1,true
+Locking V2 - Approx,0,10000000,80662,100,true
+Locking V2 - Approx,1,10000000,447024,100,true
+Locking V2 - Approx,2,10000000,756747,100,true
+Locking V2 - Approx,4,10000000,2995881,100,true
+Locking V2 - Approx,10,10000000,7985803,100,true
+Locking V2 - Approx,20,10000000,14696112,100,true
+Locking V2 - Approx,0,10000000,75942,10000,true
+Locking V2 - Approx,1,10000000,455303,10000,true
+Locking V2 - Approx,2,10000000,857322,10000,true
+Locking V2 - Approx,4,10000000,2918673,10000,true
+Locking V2 - Approx,10,10000000,7918281,10000,true
+Locking V2 - Approx,20,10000000,14772113,10000,true
+Locking V2 - Approx,0,10000000,76383,1000000,true
+Locking V2 - Approx,1,10000000,447657,1000000,true
+Locking V2 - Approx,2,10000000,765479,1000000,true
+Locking V2 - Approx,4,10000000,2901694,1000000,true
+Locking V2 - Approx,10,10000000,7906922,1000000,true
+Locking V2 - Approx,20,10000000,14657081,1000000,true
+Locking V3 - Approx,0,10000000,26686,100,true
+Locking V3 - Approx,1,10000000,64663,100,true
+Locking V3 - Approx,2,10000000,100539,100,true
+Locking V3 - Approx,4,10000000,201572,100,true
+Locking V3 - Approx,10,10000000,750959,100,true
+Locking V3 - Approx,20,10000000,1774338,100,false
+Locking V3 - Approx,0,10000000,26321,10000,true
+Locking V3 - Approx,1,10000000,62494,10000,true
+Locking V3 - Approx,2,10000000,134591,10000,true
+Locking V3 - Approx,4,10000000,226358,10000,true
+Locking V3 - Approx,10,10000000,972240,10000,true
+Locking V3 - Approx,20,10000000,1978863,10000,false
+Locking V3 - Approx,0,10000000,25400,1000000,true
+Locking V3 - Approx,1,10000000,64300,1000000,true
+Locking V3 - Approx,2,10000000,114099,1000000,true
+Locking V3 - Approx,4,10000000,225230,1000000,true
+Locking V3 - Approx,10,10000000,969965,1000000,true
+Locking V3 - Approx,20,10000000,2065973,1000000,false
+No Locking,0,10000000,21270,-1,true
+No Locking,1,10000000,28785,-1,false
+No Locking,2,10000000,58868,-1,false
+No Locking,4,10000000,130214,-1,false
+No Locking,10,10000000,526254,-1,false
+No Locking,20,10000000,912363,-1,false
+Locking V1,0,10000000,64435,-1,true
+Locking V1,1,10000000,849232,-1,true
+Locking V1,2,10000000,1245850,-1,true
+Locking V1,4,10000000,2850603,-1,true
+Locking V1,10,10000000,6629107,-1,true
+Locking V1,20,10000000,10825951,-1,true
+Locking V2 - Approx,0,10000000,81730,100,true
+Locking V2 - Approx,1,10000000,474052,100,true
+Locking V2 - Approx,2,10000000,865177,100,true
+Locking V2 - Approx,4,10000000,2956624,100,true
+Locking V2 - Approx,10,10000000,7890567,100,true
+Locking V2 - Approx,20,10000000,14537131,100,true
+Locking V2 - Approx,0,10000000,75702,10000,true
+Locking V2 - Approx,1,10000000,452392,10000,true
+Locking V2 - Approx,2,10000000,785413,10000,true
+Locking V2 - Approx,4,10000000,2922975,10000,true
+Locking V2 - Approx,10,10000000,7845537,10000,true
+Locking V2 - Approx,20,10000000,14687226,10000,true
+Locking V2 - Approx,0,10000000,76321,1000000,true
+Locking V2 - Approx,1,10000000,451716,1000000,true
+Locking V2 - Approx,2,10000000,816359,1000000,true
+Locking V2 - Approx,4,10000000,2925623,1000000,true
+Locking V2 - Approx,10,10000000,7949612,1000000,true
+Locking V2 - Approx,20,10000000,14484711,1000000,true
+Locking V3 - Approx,0,10000000,27828,100,true
+Locking V3 - Approx,1,10000000,66538,100,true
+Locking V3 - Approx,2,10000000,90499,100,true
+Locking V3 - Approx,4,10000000,200421,100,true
+Locking V3 - Approx,10,10000000,708457,100,true
+Locking V3 - Approx,20,10000000,1823650,100,false
+Locking V3 - Approx,0,10000000,25380,10000,true
+Locking V3 - Approx,1,10000000,66306,10000,true
+Locking V3 - Approx,2,10000000,100426,10000,true
+Locking V3 - Approx,4,10000000,228535,10000,true
+Locking V3 - Approx,10,10000000,1012266,10000,true
+Locking V3 - Approx,20,10000000,2042984,10000,false
+Locking V3 - Approx,0,10000000,25534,1000000,true
+Locking V3 - Approx,1,10000000,58608,1000000,true
+Locking V3 - Approx,2,10000000,96986,1000000,true
+Locking V3 - Approx,4,10000000,224348,1000000,true
+Locking V3 - Approx,10,10000000,970961,1000000,true
+Locking V3 - Approx,20,10000000,1997290,1000000,false
+No Locking,0,10000000,21133,-1,true
+No Locking,1,10000000,32317,-1,false
+No Locking,2,10000000,56064,-1,false
+No Locking,4,10000000,122002,-1,false
+No Locking,10,10000000,540606,-1,false
+No Locking,20,10000000,969826,-1,false
+Locking V1,0,10000000,62735,-1,true
+Locking V1,1,10000000,827464,-1,true
+Locking V1,2,10000000,1304482,-1,true
+Locking V1,4,10000000,2956819,-1,true
+Locking V1,10,10000000,6782843,-1,true
+Locking V1,20,10000000,10703759,-1,true
+Locking V2 - Approx,0,10000000,80979,100,true
+Locking V2 - Approx,1,10000000,455875,100,true
+Locking V2 - Approx,2,10000000,744813,100,true
+Locking V2 - Approx,4,10000000,2923138,100,true
+Locking V2 - Approx,10,10000000,7838927,100,true
+Locking V2 - Approx,20,10000000,14669417,100,true
+Locking V2 - Approx,0,10000000,76107,10000,true
+Locking V2 - Approx,1,10000000,469398,10000,true
+Locking V2 - Approx,2,10000000,853356,10000,true
+Locking V2 - Approx,4,10000000,2914269,10000,true
+Locking V2 - Approx,10,10000000,7865998,10000,true
+Locking V2 - Approx,20,10000000,14689148,10000,true
+Locking V2 - Approx,0,10000000,78827,1000000,true
+Locking V2 - Approx,1,10000000,462910,1000000,true
+Locking V2 - Approx,2,10000000,883907,1000000,true
+Locking V2 - Approx,4,10000000,2924710,1000000,true
+Locking V2 - Approx,10,10000000,7929248,1000000,true
+Locking V2 - Approx,20,10000000,14567039,1000000,true
+Locking V3 - Approx,0,10000000,26968,100,true
+Locking V3 - Approx,1,10000000,65170,100,true
+Locking V3 - Approx,2,10000000,96949,100,true
+Locking V3 - Approx,4,10000000,253076,100,true
+Locking V3 - Approx,10,10000000,753789,100,true
+Locking V3 - Approx,20,10000000,1815390,100,false
+Locking V3 - Approx,0,10000000,25644,10000,true
+Locking V3 - Approx,1,10000000,77734,10000,true
+Locking V3 - Approx,2,10000000,108385,10000,true
+Locking V3 - Approx,4,10000000,230856,10000,true
+Locking V3 - Approx,10,10000000,1013834,10000,true
+Locking V3 - Approx,20,10000000,2053532,10000,false
+Locking V3 - Approx,0,10000000,25973,1000000,true
+Locking V3 - Approx,1,10000000,66909,1000000,true
+Locking V3 - Approx,2,10000000,101309,1000000,true
+Locking V3 - Approx,4,10000000,252416,1000000,true
+Locking V3 - Approx,10,10000000,957654,1000000,true
+Locking V3 - Approx,20,10000000,2019014,1000000,false
+No Locking,0,10000000,20723,-1,true
+No Locking,1,10000000,34974,-1,false
+No Locking,2,10000000,59379,-1,false
+No Locking,4,10000000,126866,-1,false
+No Locking,10,10000000,573925,-1,false
+No Locking,20,10000000,1075061,-1,false
+Locking V1,0,10000000,62117,-1,true
+Locking V1,1,10000000,820088,-1,true
+Locking V1,2,10000000,1267107,-1,true
+Locking V1,4,10000000,2844322,-1,true
+Locking V1,10,10000000,6758799,-1,true
+Locking V1,20,10000000,10896028,-1,true
+Locking V2 - Approx,0,10000000,81004,100,true
+Locking V2 - Approx,1,10000000,474463,100,true
+Locking V2 - Approx,2,10000000,820803,100,true
+Locking V2 - Approx,4,10000000,2958829,100,true
+Locking V2 - Approx,10,10000000,8024487,100,true
+Locking V2 - Approx,20,10000000,14539496,100,true
+Locking V2 - Approx,0,10000000,75527,10000,true
+Locking V2 - Approx,1,10000000,462478,10000,true
+Locking V2 - Approx,2,10000000,812198,10000,true
+Locking V2 - Approx,4,10000000,2933977,10000,true
+Locking V2 - Approx,10,10000000,7916732,10000,true
+Locking V2 - Approx,20,10000000,14931935,10000,true
+Locking V2 - Approx,0,10000000,75407,1000000,true
+Locking V2 - Approx,1,10000000,454242,1000000,true
+Locking V2 - Approx,2,10000000,833369,1000000,true
+Locking V2 - Approx,4,10000000,2965127,1000000,true
+Locking V2 - Approx,10,10000000,7914295,1000000,true
+Locking V2 - Approx,20,10000000,14869848,1000000,true
+Locking V3 - Approx,0,10000000,27345,100,true
+Locking V3 - Approx,1,10000000,63436,100,true
+Locking V3 - Approx,2,10000000,146796,100,true
+Locking V3 - Approx,4,10000000,249647,100,true
+Locking V3 - Approx,10,10000000,714216,100,true
+Locking V3 - Approx,20,10000000,1755337,100,false
+Locking V3 - Approx,0,10000000,25965,10000,true
+Locking V3 - Approx,1,10000000,84506,10000,true
+Locking V3 - Approx,2,10000000,113750,10000,true
+Locking V3 - Approx,4,10000000,227528,10000,true
+Locking V3 - Approx,10,10000000,1002753,10000,true
+Locking V3 - Approx,20,10000000,2069050,10000,false
+Locking V3 - Approx,0,10000000,25174,1000000,true
+Locking V3 - Approx,1,10000000,101797,1000000,true
+Locking V3 - Approx,2,10000000,141035,1000000,true
+Locking V3 - Approx,4,10000000,227707,1000000,true
+Locking V3 - Approx,10,10000000,970001,1000000,true
+Locking V3 - Approx,20,10000000,1930308,1000000,false
+No Locking,0,10000000,20622,-1,true
+No Locking,1,10000000,34068,-1,false
+No Locking,2,10000000,69121,-1,false
+No Locking,4,10000000,154045,-1,false
+No Locking,10,10000000,487445,-1,false
+No Locking,20,10000000,978578,-1,false
+Locking V1,0,10000000,62433,-1,true
+Locking V1,1,10000000,821781,-1,true
+Locking V1,2,10000000,1231638,-1,true
+Locking V1,4,10000000,2890639,-1,true
+Locking V1,10,10000000,6794959,-1,true
+Locking V1,20,10000000,10592172,-1,true
+Locking V2 - Approx,0,10000000,81642,100,true
+Locking V2 - Approx,1,10000000,452058,100,true
+Locking V2 - Approx,2,10000000,837031,100,true
+Locking V2 - Approx,4,10000000,2984693,100,true
+Locking V2 - Approx,10,10000000,8011751,100,true
+Locking V2 - Approx,20,10000000,14706661,100,true
+Locking V2 - Approx,0,10000000,75868,10000,true
+Locking V2 - Approx,1,10000000,446680,10000,true
+Locking V2 - Approx,2,10000000,845966,10000,true
+Locking V2 - Approx,4,10000000,2949930,10000,true
+Locking V2 - Approx,10,10000000,7969126,10000,true
+Locking V2 - Approx,20,10000000,14761121,10000,true
+Locking V2 - Approx,0,10000000,76251,1000000,true
+Locking V2 - Approx,1,10000000,452556,1000000,true
+Locking V2 - Approx,2,10000000,836292,1000000,true
+Locking V2 - Approx,4,10000000,2965207,1000000,true
+Locking V2 - Approx,10,10000000,7901434,1000000,true
+Locking V2 - Approx,20,10000000,14549546,1000000,true
+Locking V3 - Approx,0,10000000,26953,100,true
+Locking V3 - Approx,1,10000000,68457,100,true
+Locking V3 - Approx,2,10000000,97514,100,true
+Locking V3 - Approx,4,10000000,198439,100,true
+Locking V3 - Approx,10,10000000,733922,100,true
+Locking V3 - Approx,20,10000000,1767903,100,false
+Locking V3 - Approx,0,10000000,24779,10000,true
+Locking V3 - Approx,1,10000000,64766,10000,true
+Locking V3 - Approx,2,10000000,114257,10000,true
+Locking V3 - Approx,4,10000000,258820,10000,true
+Locking V3 - Approx,10,10000000,958250,10000,true
+Locking V3 - Approx,20,10000000,2027874,10000,false
+Locking V3 - Approx,0,10000000,26114,1000000,true
+Locking V3 - Approx,1,10000000,60150,1000000,true
+Locking V3 - Approx,2,10000000,126892,1000000,true
+Locking V3 - Approx,4,10000000,235452,1000000,true
+Locking V3 - Approx,10,10000000,1004139,1000000,true
+Locking V3 - Approx,20,10000000,1960316,1000000,false
+No Locking,0,10000000,20641,-1,true
+No Locking,1,10000000,27442,-1,false
+No Locking,2,10000000,62055,-1,false
+No Locking,4,10000000,124628,-1,false
+No Locking,10,10000000,449354,-1,false
+No Locking,20,10000000,926727,-1,false
+Locking V1,0,10000000,62812,-1,true
+Locking V1,1,10000000,832701,-1,true
+Locking V1,2,10000000,1351811,-1,true
+Locking V1,4,10000000,2904769,-1,true
+Locking V1,10,10000000,6842985,-1,true
+Locking V1,20,10000000,10567188,-1,true
+Locking V2 - Approx,0,10000000,80613,100,true
+Locking V2 - Approx,1,10000000,482787,100,true
+Locking V2 - Approx,2,10000000,903100,100,true
+Locking V2 - Approx,4,10000000,2943482,100,true
+Locking V2 - Approx,10,10000000,7958706,100,true
+Locking V2 - Approx,20,10000000,14719183,100,true
+Locking V2 - Approx,0,10000000,76800,10000,true
+Locking V2 - Approx,1,10000000,452400,10000,true
+Locking V2 - Approx,2,10000000,842586,10000,true
+Locking V2 - Approx,4,10000000,2869652,10000,true
+Locking V2 - Approx,10,10000000,7906495,10000,true
+Locking V2 - Approx,20,10000000,14646911,10000,true
+Locking V2 - Approx,0,10000000,76350,1000000,true
+Locking V2 - Approx,1,10000000,458470,1000000,true
+Locking V2 - Approx,2,10000000,796737,1000000,true
+Locking V2 - Approx,4,10000000,2873325,1000000,true
+Locking V2 - Approx,10,10000000,7933802,1000000,true
+Locking V2 - Approx,20,10000000,14647529,1000000,true
+Locking V3 - Approx,0,10000000,26731,100,true
+Locking V3 - Approx,1,10000000,62940,100,true
+Locking V3 - Approx,2,10000000,103744,100,true
+Locking V3 - Approx,4,10000000,203908,100,true
+Locking V3 - Approx,10,10000000,719920,100,true
+Locking V3 - Approx,20,10000000,1842433,100,false
+Locking V3 - Approx,0,10000000,25946,10000,true
+Locking V3 - Approx,1,10000000,70356,10000,true
+Locking V3 - Approx,2,10000000,116661,10000,true
+Locking V3 - Approx,4,10000000,222964,10000,true
+Locking V3 - Approx,10,10000000,1003648,10000,true
+Locking V3 - Approx,20,10000000,1884877,10000,false
+Locking V3 - Approx,0,10000000,25993,1000000,true
+Locking V3 - Approx,1,10000000,60559,1000000,true
+Locking V3 - Approx,2,10000000,129211,1000000,true
+Locking V3 - Approx,4,10000000,225416,1000000,true
+Locking V3 - Approx,10,10000000,946970,1000000,true
+Locking V3 - Approx,20,10000000,1974452,1000000,false
+No Locking,0,10000000,21165,-1,true
+No Locking,1,10000000,31891,-1,false
+No Locking,2,10000000,51234,-1,false
+No Locking,4,10000000,130406,-1,false
+No Locking,10,10000000,523047,-1,false
+No Locking,20,10000000,1020234,-1,false
+Locking V1,0,10000000,62360,-1,true
+Locking V1,1,10000000,606402,-1,true
+Locking V1,2,10000000,1331396,-1,true
+Locking V1,4,10000000,2848860,-1,true
+Locking V1,10,10000000,6848741,-1,true
+Locking V1,20,10000000,11079894,-1,true
+Locking V2 - Approx,0,10000000,81533,100,true
+Locking V2 - Approx,1,10000000,438222,100,true
+Locking V2 - Approx,2,10000000,833119,100,true
+Locking V2 - Approx,4,10000000,2964231,100,true
+Locking V2 - Approx,10,10000000,7968618,100,true
+Locking V2 - Approx,20,10000000,14770969,100,true
+Locking V2 - Approx,0,10000000,75490,10000,true
+Locking V2 - Approx,1,10000000,455586,10000,true
+Locking V2 - Approx,2,10000000,900485,10000,true
+Locking V2 - Approx,4,10000000,2923844,10000,true
+Locking V2 - Approx,10,10000000,7925581,10000,true
+Locking V2 - Approx,20,10000000,14987470,10000,true
+Locking V2 - Approx,0,10000000,75128,1000000,true
+Locking V2 - Approx,1,10000000,466446,1000000,true
+Locking V2 - Approx,2,10000000,875597,1000000,true
+Locking V2 - Approx,4,10000000,2944473,1000000,true
+Locking V2 - Approx,10,10000000,7861580,1000000,true
+Locking V2 - Approx,20,10000000,14954369,1000000,true
+Locking V3 - Approx,0,10000000,26455,100,true
+Locking V3 - Approx,1,10000000,58184,100,true
+Locking V3 - Approx,2,10000000,104817,100,true
+Locking V3 - Approx,4,10000000,240216,100,true
+Locking V3 - Approx,10,10000000,726160,100,true
+Locking V3 - Approx,20,10000000,1740263,100,false
+Locking V3 - Approx,0,10000000,26753,10000,true
+Locking V3 - Approx,1,10000000,61048,10000,true
+Locking V3 - Approx,2,10000000,127356,10000,true
+Locking V3 - Approx,4,10000000,241780,10000,true
+Locking V3 - Approx,10,10000000,996274,10000,true
+Locking V3 - Approx,20,10000000,1859018,10000,false
+Locking V3 - Approx,0,10000000,25826,1000000,true
+Locking V3 - Approx,1,10000000,55967,1000000,true
+Locking V3 - Approx,2,10000000,107021,1000000,true
+Locking V3 - Approx,4,10000000,233682,1000000,true
+Locking V3 - Approx,10,10000000,970590,1000000,true
+Locking V3 - Approx,20,10000000,2019864,1000000,false
