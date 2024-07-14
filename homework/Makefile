@@ -1,9 +1,10 @@
-NUM_LOOPS=1000000
+NUM_LOOPS=10000000
 
 compile:
-	gcc -o counter_no_lock locks_counter_no_lock.c
-	gcc -o counter_v1 locks_counter_v1.c
-	gcc -o counter_v2 locks_counter_v2_approximate_counter.c
+	gcc -o counter_no_lock locks_counter_no_lock.c locks_utils.c
+	gcc -o counter_v1 locks_counter_v1.c locks_utils.c
+	gcc -o counter_v2 locks_counter_v2_approximate_counter.c locks_utils.c
+	gcc -o counter_v3 locks_counter_v3_approximate_counter.c locks_utils.c
 
 run: compile
 	@bash -c 'for i in {1..20}; do \
@@ -37,26 +38,44 @@ run: compile
 		./counter_v2 4 $(NUM_LOOPS) 1000000; \
 		./counter_v2 10 $(NUM_LOOPS) 1000000; \
 		./counter_v2 20 $(NUM_LOOPS) 1000000; \
+		./counter_v3 0 $(NUM_LOOPS) 100; \
+		./counter_v3 1 $(NUM_LOOPS) 100; \
+		./counter_v3 2 $(NUM_LOOPS) 100; \
+		./counter_v3 4 $(NUM_LOOPS) 100; \
+		./counter_v3 10 $(NUM_LOOPS) 100; \
+		./counter_v3 20 $(NUM_LOOPS) 100; \
+		./counter_v3 0 $(NUM_LOOPS) 10000; \
+		./counter_v3 1 $(NUM_LOOPS) 10000; \
+		./counter_v3 2 $(NUM_LOOPS) 10000; \
+		./counter_v3 4 $(NUM_LOOPS) 10000; \
+		./counter_v3 10 $(NUM_LOOPS) 10000; \
+		./counter_v3 20 $(NUM_LOOPS) 10000; \
+		./counter_v3 0 $(NUM_LOOPS) 1000000; \
+		./counter_v3 1 $(NUM_LOOPS) 1000000; \
+		./counter_v3 2 $(NUM_LOOPS) 1000000; \
+		./counter_v3 4 $(NUM_LOOPS) 1000000; \
+		./counter_v3 10 $(NUM_LOOPS) 1000000; \
+		./counter_v3 20 $(NUM_LOOPS) 1000000; \
 	done'
 
-run_approx: compile
+run_v3: compile
 	@bash -c 'for i in {1..20}; do \
-		./counter_v2 0 $(NUM_LOOPS) 100; \
-		./counter_v2 1 $(NUM_LOOPS) 100; \
-		./counter_v2 2 $(NUM_LOOPS) 100; \
-		./counter_v2 4 $(NUM_LOOPS) 100; \
-		./counter_v2 10 $(NUM_LOOPS) 100; \
-		./counter_v2 20 $(NUM_LOOPS) 100; \
-		./counter_v2 0 $(NUM_LOOPS) 10000; \
-		./counter_v2 1 $(NUM_LOOPS) 10000; \
-		./counter_v2 2 $(NUM_LOOPS) 10000; \
-		./counter_v2 4 $(NUM_LOOPS) 10000; \
-		./counter_v2 10 $(NUM_LOOPS) 10000; \
-		./counter_v2 20 $(NUM_LOOPS) 10000; \
-		./counter_v2 0 $(NUM_LOOPS) 1000000; \
-		./counter_v2 1 $(NUM_LOOPS) 1000000; \
-		./counter_v2 2 $(NUM_LOOPS) 1000000; \
-		./counter_v2 4 $(NUM_LOOPS) 1000000; \
-		./counter_v2 10 $(NUM_LOOPS) 1000000; \
-		./counter_v2 20 $(NUM_LOOPS) 1000000; \
-	done'
+		./counter_v3 0 $(NUM_LOOPS) 100; \
+		./counter_v3 1 $(NUM_LOOPS) 100; \
+		./counter_v3 2 $(NUM_LOOPS) 100; \
+		./counter_v3 4 $(NUM_LOOPS) 100; \
+		./counter_v3 10 $(NUM_LOOPS) 100; \
+		./counter_v3 20 $(NUM_LOOPS) 100; \
+		./counter_v3 0 $(NUM_LOOPS) 10000; \
+		./counter_v3 1 $(NUM_LOOPS) 10000; \
+		./counter_v3 2 $(NUM_LOOPS) 10000; \
+		./counter_v3 4 $(NUM_LOOPS) 10000; \
+		./counter_v3 10 $(NUM_LOOPS) 10000; \
+		./counter_v3 20 $(NUM_LOOPS) 10000; \
+		./counter_v3 0 $(NUM_LOOPS) 1000000; \
+		./counter_v3 1 $(NUM_LOOPS) 1000000; \
+		./counter_v3 2 $(NUM_LOOPS) 1000000; \
+		./counter_v3 4 $(NUM_LOOPS) 1000000; \
+		./counter_v3 10 $(NUM_LOOPS) 1000000; \
+		./counter_v3 20 $(NUM_LOOPS) 1000000; \
+		done'

@@ -66,7 +66,7 @@ void increment(counter_t *c, int thread_id, int num_cores) {
     // right cpu to use
     int cpu = thread_id % num_cores;
     // lock local lock
-    lock(&c->local_locks[cpu]);
+    // lock(&c->local_locks[cpu]);
     c->local_values[cpu]++;
     // if local value is greater than the update frequency, then update the global value
     if (c->local_values[cpu] >= c->update_frequency) {
@@ -76,7 +76,7 @@ void increment(counter_t *c, int thread_id, int num_cores) {
         unlock(&c->global_lock);
         c->local_values[cpu] = 0;
     }
-    unlock(&c->local_locks[cpu]);
+    // unlock(&c->local_locks[cpu]);
 }
 
 // void decrement(counter_t *c) {
@@ -107,7 +107,7 @@ void *worker(void *arg) {
 }
 
 int main(int argc, char *argv[]) {
-    printf("COUNTER - V2\n");
+    printf("COUNTER - V3\n");
     if (argc < 4) {
         printf("Enter the number of threads to create and the counter\n");
         return 1;
@@ -153,7 +153,7 @@ int main(int argc, char *argv[]) {
     char *matches = counter.global_value == expected_count ? "true" : "false";
     printf("Count matches expected value: %s\n", matches);
     printf("----\n\n");
-    int status = record_stats("Locking V2 - Approx", num_threads, num_loops, micro_seconds, update_frequency, matches);
+    int status = record_stats("Locking V3 - Approx", num_threads, num_loops, micro_seconds, update_frequency, matches);
 
     //cleanup; destroy locks and free memory
     pthread_mutex_destroy(&counter.global_lock);
