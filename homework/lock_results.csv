@@ -1,961 +1,1301 @@
 Type,# Threads,# Loops,Microseconds,Update Frequency,Matches
-No Locking,0,10000000,20407,-1,true
-No Locking,1,10000000,27075,-1,false
-No Locking,2,10000000,63363,-1,false
-No Locking,4,10000000,132761,-1,false
-No Locking,10,10000000,445085,-1,false
-No Locking,20,10000000,837411,-1,false
-Locking V1,0,10000000,62337,-1,true
-Locking V1,1,10000000,793674,-1,true
-Locking V1,2,10000000,1260307,-1,true
-Locking V1,4,10000000,2398950,-1,true
-Locking V1,10,10000000,6626258,-1,true
-Locking V1,20,10000000,10734432,-1,true
-Locking V2 - Approx,0,10000000,80114,100,true
-Locking V2 - Approx,1,10000000,492978,100,true
-Locking V2 - Approx,2,10000000,808009,100,true
-Locking V2 - Approx,4,10000000,2895302,100,true
-Locking V2 - Approx,10,10000000,7725640,100,true
-Locking V2 - Approx,20,10000000,14834302,100,true
-Locking V2 - Approx,0,10000000,79328,10000,true
-Locking V2 - Approx,1,10000000,482858,10000,true
-Locking V2 - Approx,2,10000000,809386,10000,true
-Locking V2 - Approx,4,10000000,2913343,10000,true
-Locking V2 - Approx,10,10000000,7969360,10000,true
-Locking V2 - Approx,20,10000000,14859352,10000,true
-Locking V2 - Approx,0,10000000,76996,1000000,true
-Locking V2 - Approx,1,10000000,455769,1000000,true
-Locking V2 - Approx,2,10000000,776623,1000000,true
-Locking V2 - Approx,4,10000000,2910554,1000000,true
-Locking V2 - Approx,10,10000000,7679858,1000000,true
-Locking V2 - Approx,20,10000000,14310428,1000000,true
-Locking V3 - Approx,0,10000000,27426,100,true
-Locking V3 - Approx,1,10000000,72130,100,true
-Locking V3 - Approx,2,10000000,108797,100,true
-Locking V3 - Approx,4,10000000,242436,100,true
-Locking V3 - Approx,10,10000000,744813,100,true
-Locking V3 - Approx,20,10000000,1761714,100,false
-Locking V3 - Approx,0,10000000,25413,10000,true
-Locking V3 - Approx,1,10000000,65864,10000,true
-Locking V3 - Approx,2,10000000,115352,10000,true
-Locking V3 - Approx,4,10000000,229690,10000,true
-Locking V3 - Approx,10,10000000,905422,10000,true
-Locking V3 - Approx,20,10000000,1708395,10000,false
-Locking V3 - Approx,0,10000000,26100,1000000,true
-Locking V3 - Approx,1,10000000,70177,1000000,true
-Locking V3 - Approx,2,10000000,108570,1000000,true
-Locking V3 - Approx,4,10000000,223114,1000000,true
-Locking V3 - Approx,10,10000000,884363,1000000,true
-Locking V3 - Approx,20,10000000,1725721,1000000,false
-No Locking,0,10000000,21495,-1,true
-No Locking,1,10000000,40712,-1,false
-No Locking,2,10000000,49833,-1,false
-No Locking,4,10000000,128961,-1,false
-No Locking,10,10000000,485982,-1,false
-No Locking,20,10000000,1027190,-1,false
-Locking V1,0,10000000,62173,-1,true
-Locking V1,1,10000000,801688,-1,true
-Locking V1,2,10000000,1240917,-1,true
-Locking V1,4,10000000,2842420,-1,true
-Locking V1,10,10000000,6578854,-1,true
-Locking V1,20,10000000,10580135,-1,true
-Locking V2 - Approx,0,10000000,79510,100,true
-Locking V2 - Approx,1,10000000,455962,100,true
-Locking V2 - Approx,2,10000000,829432,100,true
-Locking V2 - Approx,4,10000000,2968350,100,true
-Locking V2 - Approx,10,10000000,7872061,100,true
-Locking V2 - Approx,20,10000000,14522188,100,true
-Locking V2 - Approx,0,10000000,76441,10000,true
-Locking V2 - Approx,1,10000000,474412,10000,true
-Locking V2 - Approx,2,10000000,759773,10000,true
-Locking V2 - Approx,4,10000000,2977946,10000,true
-Locking V2 - Approx,10,10000000,7884329,10000,true
-Locking V2 - Approx,20,10000000,14322130,10000,true
-Locking V2 - Approx,0,10000000,77219,1000000,true
-Locking V2 - Approx,1,10000000,643246,1000000,true
-Locking V2 - Approx,2,10000000,1171486,1000000,true
-Locking V2 - Approx,4,10000000,2855265,1000000,true
-Locking V2 - Approx,10,10000000,7637087,1000000,true
-Locking V2 - Approx,20,10000000,14519138,1000000,true
-Locking V3 - Approx,0,10000000,26916,100,true
-Locking V3 - Approx,1,10000000,61332,100,true
-Locking V3 - Approx,2,10000000,94453,100,true
-Locking V3 - Approx,4,10000000,201827,100,true
-Locking V3 - Approx,10,10000000,712076,100,true
-Locking V3 - Approx,20,10000000,1835426,100,false
-Locking V3 - Approx,0,10000000,25984,10000,true
-Locking V3 - Approx,1,10000000,75156,10000,true
-Locking V3 - Approx,2,10000000,124930,10000,true
-Locking V3 - Approx,4,10000000,231001,10000,true
-Locking V3 - Approx,10,10000000,928896,10000,true
-Locking V3 - Approx,20,10000000,1914569,10000,false
-Locking V3 - Approx,0,10000000,25730,1000000,true
-Locking V3 - Approx,1,10000000,65303,1000000,true
-Locking V3 - Approx,2,10000000,134676,1000000,true
-Locking V3 - Approx,4,10000000,230848,1000000,true
-Locking V3 - Approx,10,10000000,899785,1000000,true
-Locking V3 - Approx,20,10000000,1813804,1000000,false
-No Locking,0,10000000,21211,-1,true
-No Locking,1,10000000,35407,-1,false
-No Locking,2,10000000,56877,-1,false
-No Locking,4,10000000,127223,-1,false
-No Locking,10,10000000,459974,-1,false
-No Locking,20,10000000,867266,-1,false
-Locking V1,0,10000000,63379,-1,true
-Locking V1,1,10000000,594384,-1,true
-Locking V1,2,10000000,1213253,-1,true
-Locking V1,4,10000000,2936627,-1,true
-Locking V1,10,10000000,6946135,-1,true
-Locking V1,20,10000000,10723692,-1,true
-Locking V2 - Approx,0,10000000,80543,100,true
-Locking V2 - Approx,1,10000000,507869,100,true
-Locking V2 - Approx,2,10000000,807822,100,true
-Locking V2 - Approx,4,10000000,2938460,100,true
-Locking V2 - Approx,10,10000000,7946217,100,true
-Locking V2 - Approx,20,10000000,15190828,100,true
-Locking V2 - Approx,0,10000000,76800,10000,true
-Locking V2 - Approx,1,10000000,479982,10000,true
-Locking V2 - Approx,2,10000000,833532,10000,true
-Locking V2 - Approx,4,10000000,2735614,10000,true
-Locking V2 - Approx,10,10000000,7726627,10000,true
-Locking V2 - Approx,20,10000000,14790069,10000,true
-Locking V2 - Approx,0,10000000,75847,1000000,true
-Locking V2 - Approx,1,10000000,447486,1000000,true
-Locking V2 - Approx,2,10000000,802748,1000000,true
-Locking V2 - Approx,4,10000000,2939341,1000000,true
-Locking V2 - Approx,10,10000000,7894675,1000000,true
-Locking V2 - Approx,20,10000000,14819022,1000000,true
-Locking V3 - Approx,0,10000000,27644,100,true
-Locking V3 - Approx,1,10000000,66684,100,true
-Locking V3 - Approx,2,10000000,107872,100,true
-Locking V3 - Approx,4,10000000,210929,100,true
-Locking V3 - Approx,10,10000000,724154,100,true
-Locking V3 - Approx,20,10000000,1787874,100,false
-Locking V3 - Approx,0,10000000,25833,10000,true
-Locking V3 - Approx,1,10000000,73813,10000,true
-Locking V3 - Approx,2,10000000,133946,10000,true
-Locking V3 - Approx,4,10000000,236179,10000,true
-Locking V3 - Approx,10,10000000,1011457,10000,true
-Locking V3 - Approx,20,10000000,1954155,10000,false
-Locking V3 - Approx,0,10000000,25265,1000000,true
-Locking V3 - Approx,1,10000000,67064,1000000,true
-Locking V3 - Approx,2,10000000,113473,1000000,true
-Locking V3 - Approx,4,10000000,222336,1000000,true
-Locking V3 - Approx,10,10000000,956109,1000000,true
-Locking V3 - Approx,20,10000000,1974295,1000000,false
-No Locking,0,10000000,21140,-1,true
-No Locking,1,10000000,61725,-1,false
-No Locking,2,10000000,63937,-1,false
-No Locking,4,10000000,132343,-1,false
-No Locking,10,10000000,509305,-1,false
-No Locking,20,10000000,960901,-1,false
-Locking V1,0,10000000,62152,-1,true
-Locking V1,1,10000000,598948,-1,true
-Locking V1,2,10000000,1212366,-1,true
-Locking V1,4,10000000,2913792,-1,true
-Locking V1,10,10000000,6490876,-1,true
-Locking V1,20,10000000,10781026,-1,true
-Locking V2 - Approx,0,10000000,80452,100,true
-Locking V2 - Approx,1,10000000,479186,100,true
-Locking V2 - Approx,2,10000000,843139,100,true
-Locking V2 - Approx,4,10000000,2931842,100,true
-Locking V2 - Approx,10,10000000,8028308,100,true
-Locking V2 - Approx,20,10000000,14681026,100,true
-Locking V2 - Approx,0,10000000,79471,10000,true
-Locking V2 - Approx,1,10000000,491807,10000,true
-Locking V2 - Approx,2,10000000,760074,10000,true
-Locking V2 - Approx,4,10000000,2926915,10000,true
-Locking V2 - Approx,10,10000000,7776741,10000,true
-Locking V2 - Approx,20,10000000,14900336,10000,true
-Locking V2 - Approx,0,10000000,76962,1000000,true
-Locking V2 - Approx,1,10000000,502180,1000000,true
-Locking V2 - Approx,2,10000000,777396,1000000,true
-Locking V2 - Approx,4,10000000,2960915,1000000,true
-Locking V2 - Approx,10,10000000,7902005,1000000,true
-Locking V2 - Approx,20,10000000,14630468,1000000,true
-Locking V3 - Approx,0,10000000,27747,100,true
-Locking V3 - Approx,1,10000000,72085,100,true
-Locking V3 - Approx,2,10000000,119045,100,true
-Locking V3 - Approx,4,10000000,214143,100,true
-Locking V3 - Approx,10,10000000,734851,100,true
-Locking V3 - Approx,20,10000000,1779277,100,false
-Locking V3 - Approx,0,10000000,25713,10000,true
-Locking V3 - Approx,1,10000000,60091,10000,true
-Locking V3 - Approx,2,10000000,115623,10000,true
-Locking V3 - Approx,4,10000000,224971,10000,true
-Locking V3 - Approx,10,10000000,910738,10000,true
-Locking V3 - Approx,20,10000000,1870560,10000,false
-Locking V3 - Approx,0,10000000,25928,1000000,true
-Locking V3 - Approx,1,10000000,57385,1000000,true
-Locking V3 - Approx,2,10000000,111066,1000000,true
-Locking V3 - Approx,4,10000000,254207,1000000,true
-Locking V3 - Approx,10,10000000,909723,1000000,true
-Locking V3 - Approx,20,10000000,1831808,1000000,false
-No Locking,0,10000000,20637,-1,true
-No Locking,1,10000000,29368,-1,false
-No Locking,2,10000000,66674,-1,false
-No Locking,4,10000000,127413,-1,false
-No Locking,10,10000000,487489,-1,false
-No Locking,20,10000000,1021993,-1,false
-Locking V1,0,10000000,62018,-1,true
-Locking V1,1,10000000,800033,-1,true
-Locking V1,2,10000000,1217290,-1,true
-Locking V1,4,10000000,2856921,-1,true
-Locking V1,10,10000000,6845821,-1,true
-Locking V1,20,10000000,10724741,-1,true
-Locking V2 - Approx,0,10000000,81900,100,true
-Locking V2 - Approx,1,10000000,465720,100,true
-Locking V2 - Approx,2,10000000,913540,100,true
-Locking V2 - Approx,4,10000000,2907590,100,true
-Locking V2 - Approx,10,10000000,7826815,100,true
-Locking V2 - Approx,20,10000000,14181979,100,true
-Locking V2 - Approx,0,10000000,76346,10000,true
-Locking V2 - Approx,1,10000000,439128,10000,true
-Locking V2 - Approx,2,10000000,780452,10000,true
-Locking V2 - Approx,4,10000000,2936769,10000,true
-Locking V2 - Approx,10,10000000,7871757,10000,true
-Locking V2 - Approx,20,10000000,14656473,10000,true
-Locking V2 - Approx,0,10000000,77206,1000000,true
-Locking V2 - Approx,1,10000000,447839,1000000,true
-Locking V2 - Approx,2,10000000,928475,1000000,true
-Locking V2 - Approx,4,10000000,2883661,1000000,true
-Locking V2 - Approx,10,10000000,7639692,1000000,true
-Locking V2 - Approx,20,10000000,14510712,1000000,true
-Locking V3 - Approx,0,10000000,29074,100,true
-Locking V3 - Approx,1,10000000,58394,100,true
-Locking V3 - Approx,2,10000000,91980,100,true
-Locking V3 - Approx,4,10000000,195195,100,true
-Locking V3 - Approx,10,10000000,706320,100,true
-Locking V3 - Approx,20,10000000,1773297,100,false
-Locking V3 - Approx,0,10000000,25969,10000,true
-Locking V3 - Approx,1,10000000,56043,10000,true
-Locking V3 - Approx,2,10000000,97680,10000,true
-Locking V3 - Approx,4,10000000,254293,10000,true
-Locking V3 - Approx,10,10000000,963359,10000,true
-Locking V3 - Approx,20,10000000,1789583,10000,false
-Locking V3 - Approx,0,10000000,25449,1000000,true
-Locking V3 - Approx,1,10000000,59648,1000000,true
-Locking V3 - Approx,2,10000000,106206,1000000,true
-Locking V3 - Approx,4,10000000,234568,1000000,true
-Locking V3 - Approx,10,10000000,914715,1000000,true
-Locking V3 - Approx,20,10000000,1809546,1000000,false
-No Locking,0,10000000,20763,-1,true
-No Locking,1,10000000,39102,-1,false
-No Locking,2,10000000,52164,-1,false
-No Locking,4,10000000,131202,-1,false
-No Locking,10,10000000,469426,-1,false
-No Locking,20,10000000,999762,-1,false
-Locking V1,0,10000000,62168,-1,true
-Locking V1,1,10000000,785025,-1,true
-Locking V1,2,10000000,1241329,-1,true
-Locking V1,4,10000000,2764849,-1,true
-Locking V1,10,10000000,6697718,-1,true
-Locking V1,20,10000000,10737835,-1,true
-Locking V2 - Approx,0,10000000,81198,100,true
-Locking V2 - Approx,1,10000000,458794,100,true
-Locking V2 - Approx,2,10000000,827414,100,true
-Locking V2 - Approx,4,10000000,2946976,100,true
-Locking V2 - Approx,10,10000000,7712415,100,true
-Locking V2 - Approx,20,10000000,14384246,100,true
-Locking V2 - Approx,0,10000000,75617,10000,true
-Locking V2 - Approx,1,10000000,474040,10000,true
-Locking V2 - Approx,2,10000000,908712,10000,true
-Locking V2 - Approx,4,10000000,2888025,10000,true
-Locking V2 - Approx,10,10000000,7784388,10000,true
-Locking V2 - Approx,20,10000000,14283794,10000,true
-Locking V2 - Approx,0,10000000,76721,1000000,true
-Locking V2 - Approx,1,10000000,583665,1000000,true
-Locking V2 - Approx,2,10000000,1000522,1000000,true
-Locking V2 - Approx,4,10000000,2674702,1000000,true
-Locking V2 - Approx,10,10000000,7963448,1000000,true
-Locking V2 - Approx,20,10000000,14751166,1000000,true
-Locking V3 - Approx,0,10000000,27394,100,true
-Locking V3 - Approx,1,10000000,68234,100,true
-Locking V3 - Approx,2,10000000,95048,100,true
-Locking V3 - Approx,4,10000000,195185,100,true
-Locking V3 - Approx,10,10000000,709282,100,true
-Locking V3 - Approx,20,10000000,1674409,100,false
-Locking V3 - Approx,0,10000000,25829,10000,true
-Locking V3 - Approx,1,10000000,83559,10000,true
-Locking V3 - Approx,2,10000000,115015,10000,true
-Locking V3 - Approx,4,10000000,256976,10000,true
-Locking V3 - Approx,10,10000000,958581,10000,true
-Locking V3 - Approx,20,10000000,1862018,10000,false
-Locking V3 - Approx,0,10000000,25114,1000000,true
-Locking V3 - Approx,1,10000000,58847,1000000,true
-Locking V3 - Approx,2,10000000,110840,1000000,true
-Locking V3 - Approx,4,10000000,226211,1000000,true
-Locking V3 - Approx,10,10000000,900447,1000000,true
-Locking V3 - Approx,20,10000000,1781420,1000000,false
-No Locking,0,10000000,20702,-1,true
-No Locking,1,10000000,29901,-1,false
-No Locking,2,10000000,51747,-1,false
-No Locking,4,10000000,127854,-1,false
-No Locking,10,10000000,466934,-1,false
-No Locking,20,10000000,850128,-1,false
-Locking V1,0,10000000,63221,-1,true
-Locking V1,1,10000000,773566,-1,true
-Locking V1,2,10000000,1234861,-1,true
-Locking V1,4,10000000,2814706,-1,true
-Locking V1,10,10000000,6782924,-1,true
-Locking V1,20,10000000,10902101,-1,true
-Locking V2 - Approx,0,10000000,80893,100,true
-Locking V2 - Approx,1,10000000,448971,100,true
-Locking V2 - Approx,2,10000000,821680,100,true
-Locking V2 - Approx,4,10000000,2923239,100,true
-Locking V2 - Approx,10,10000000,8057928,100,true
-Locking V2 - Approx,20,10000000,14703943,100,true
-Locking V2 - Approx,0,10000000,76909,10000,true
-Locking V2 - Approx,1,10000000,442650,10000,true
-Locking V2 - Approx,2,10000000,777735,10000,true
-Locking V2 - Approx,4,10000000,2880558,10000,true
-Locking V2 - Approx,10,10000000,7926945,10000,true
-Locking V2 - Approx,20,10000000,14760825,10000,true
-Locking V2 - Approx,0,10000000,75898,1000000,true
-Locking V2 - Approx,1,10000000,444295,1000000,true
-Locking V2 - Approx,2,10000000,788037,1000000,true
-Locking V2 - Approx,4,10000000,2861427,1000000,true
-Locking V2 - Approx,10,10000000,8010822,1000000,true
-Locking V2 - Approx,20,10000000,14852250,1000000,true
-Locking V3 - Approx,0,10000000,27154,100,true
-Locking V3 - Approx,1,10000000,61623,100,true
-Locking V3 - Approx,2,10000000,97501,100,true
-Locking V3 - Approx,4,10000000,197747,100,true
-Locking V3 - Approx,10,10000000,770468,100,true
-Locking V3 - Approx,20,10000000,1768399,100,false
-Locking V3 - Approx,0,10000000,25686,10000,true
-Locking V3 - Approx,1,10000000,68131,10000,true
-Locking V3 - Approx,2,10000000,118278,10000,true
-Locking V3 - Approx,4,10000000,218688,10000,true
-Locking V3 - Approx,10,10000000,1034764,10000,true
-Locking V3 - Approx,20,10000000,1873809,10000,false
-Locking V3 - Approx,0,10000000,25832,1000000,true
-Locking V3 - Approx,1,10000000,56469,1000000,true
-Locking V3 - Approx,2,10000000,87926,1000000,true
-Locking V3 - Approx,4,10000000,260246,1000000,true
-Locking V3 - Approx,10,10000000,960536,1000000,true
-Locking V3 - Approx,20,10000000,1894606,1000000,false
-No Locking,0,10000000,20602,-1,true
-No Locking,1,10000000,31712,-1,false
-No Locking,2,10000000,49632,-1,false
-No Locking,4,10000000,130297,-1,false
-No Locking,10,10000000,481138,-1,false
-No Locking,20,10000000,955828,-1,false
-Locking V1,0,10000000,61770,-1,true
-Locking V1,1,10000000,814711,-1,true
-Locking V1,2,10000000,1244262,-1,true
-Locking V1,4,10000000,2851498,-1,true
-Locking V1,10,10000000,6771794,-1,true
-Locking V1,20,10000000,10624762,-1,true
-Locking V2 - Approx,0,10000000,81235,100,true
-Locking V2 - Approx,1,10000000,455086,100,true
-Locking V2 - Approx,2,10000000,788221,100,true
-Locking V2 - Approx,4,10000000,2962444,100,true
-Locking V2 - Approx,10,10000000,7946663,100,true
-Locking V2 - Approx,20,10000000,14736238,100,true
-Locking V2 - Approx,0,10000000,77933,10000,true
-Locking V2 - Approx,1,10000000,456237,10000,true
-Locking V2 - Approx,2,10000000,799925,10000,true
-Locking V2 - Approx,4,10000000,2874592,10000,true
-Locking V2 - Approx,10,10000000,7887883,10000,true
-Locking V2 - Approx,20,10000000,14742052,10000,true
-Locking V2 - Approx,0,10000000,75774,1000000,true
-Locking V2 - Approx,1,10000000,454469,1000000,true
-Locking V2 - Approx,2,10000000,760141,1000000,true
-Locking V2 - Approx,4,10000000,2880401,1000000,true
-Locking V2 - Approx,10,10000000,7771839,1000000,true
-Locking V2 - Approx,20,10000000,14659441,1000000,true
-Locking V3 - Approx,0,10000000,26851,100,true
-Locking V3 - Approx,1,10000000,65908,100,true
-Locking V3 - Approx,2,10000000,104104,100,true
-Locking V3 - Approx,4,10000000,229260,100,true
-Locking V3 - Approx,10,10000000,718948,100,true
-Locking V3 - Approx,20,10000000,1774811,100,false
-Locking V3 - Approx,0,10000000,25527,10000,true
-Locking V3 - Approx,1,10000000,64627,10000,true
-Locking V3 - Approx,2,10000000,126351,10000,true
-Locking V3 - Approx,4,10000000,228938,10000,true
-Locking V3 - Approx,10,10000000,956416,10000,true
-Locking V3 - Approx,20,10000000,1927907,10000,false
-Locking V3 - Approx,0,10000000,25480,1000000,true
-Locking V3 - Approx,1,10000000,58420,1000000,true
-Locking V3 - Approx,2,10000000,101302,1000000,true
-Locking V3 - Approx,4,10000000,231000,1000000,true
-Locking V3 - Approx,10,10000000,1026852,1000000,true
-Locking V3 - Approx,20,10000000,1938472,1000000,false
-No Locking,0,10000000,21140,-1,true
-No Locking,1,10000000,26992,-1,false
-No Locking,2,10000000,54016,-1,false
-No Locking,4,10000000,127739,-1,false
-No Locking,10,10000000,547849,-1,false
-No Locking,20,10000000,988033,-1,false
-Locking V1,0,10000000,63329,-1,true
-Locking V1,1,10000000,809181,-1,true
-Locking V1,2,10000000,1335650,-1,true
-Locking V1,4,10000000,2918374,-1,true
-Locking V1,10,10000000,6660610,-1,true
-Locking V1,20,10000000,10951812,-1,true
-Locking V2 - Approx,0,10000000,78822,100,true
-Locking V2 - Approx,1,10000000,487467,100,true
-Locking V2 - Approx,2,10000000,787326,100,true
-Locking V2 - Approx,4,10000000,2956286,100,true
-Locking V2 - Approx,10,10000000,7999963,100,true
-Locking V2 - Approx,20,10000000,14946370,100,true
-Locking V2 - Approx,0,10000000,77410,10000,true
-Locking V2 - Approx,1,10000000,453223,10000,true
-Locking V2 - Approx,2,10000000,735888,10000,true
-Locking V2 - Approx,4,10000000,2933951,10000,true
-Locking V2 - Approx,10,10000000,7989677,10000,true
-Locking V2 - Approx,20,10000000,14858848,10000,true
-Locking V2 - Approx,0,10000000,75640,1000000,true
-Locking V2 - Approx,1,10000000,438366,1000000,true
-Locking V2 - Approx,2,10000000,739875,1000000,true
-Locking V2 - Approx,4,10000000,2882807,1000000,true
-Locking V2 - Approx,10,10000000,7959733,1000000,true
-Locking V2 - Approx,20,10000000,15033748,1000000,true
-Locking V3 - Approx,0,10000000,27597,100,true
-Locking V3 - Approx,1,10000000,66633,100,true
-Locking V3 - Approx,2,10000000,91409,100,true
-Locking V3 - Approx,4,10000000,194466,100,true
-Locking V3 - Approx,10,10000000,728943,100,true
-Locking V3 - Approx,20,10000000,1808463,100,false
-Locking V3 - Approx,0,10000000,26011,10000,true
-Locking V3 - Approx,1,10000000,73941,10000,true
-Locking V3 - Approx,2,10000000,117493,10000,true
-Locking V3 - Approx,4,10000000,236936,10000,true
-Locking V3 - Approx,10,10000000,1034171,10000,true
-Locking V3 - Approx,20,10000000,2011947,10000,false
-Locking V3 - Approx,0,10000000,25486,1000000,true
-Locking V3 - Approx,1,10000000,70201,1000000,true
-Locking V3 - Approx,2,10000000,97699,1000000,true
-Locking V3 - Approx,4,10000000,219585,1000000,true
-Locking V3 - Approx,10,10000000,949950,1000000,true
-Locking V3 - Approx,20,10000000,1894844,1000000,false
-No Locking,0,10000000,20746,-1,true
-No Locking,1,10000000,37200,-1,false
-No Locking,2,10000000,48782,-1,false
-No Locking,4,10000000,125632,-1,false
-No Locking,10,10000000,536397,-1,false
-No Locking,20,10000000,974473,-1,false
-Locking V1,0,10000000,62722,-1,true
-Locking V1,1,10000000,810333,-1,true
-Locking V1,2,10000000,1295437,-1,true
-Locking V1,4,10000000,2799942,-1,true
-Locking V1,10,10000000,6731283,-1,true
-Locking V1,20,10000000,10689665,-1,true
-Locking V2 - Approx,0,10000000,81852,100,true
-Locking V2 - Approx,1,10000000,465287,100,true
-Locking V2 - Approx,2,10000000,803637,100,true
-Locking V2 - Approx,4,10000000,2920681,100,true
-Locking V2 - Approx,10,10000000,7986799,100,true
-Locking V2 - Approx,20,10000000,14708282,100,true
-Locking V2 - Approx,0,10000000,76318,10000,true
-Locking V2 - Approx,1,10000000,448633,10000,true
-Locking V2 - Approx,2,10000000,803166,10000,true
-Locking V2 - Approx,4,10000000,2919856,10000,true
-Locking V2 - Approx,10,10000000,7932134,10000,true
-Locking V2 - Approx,20,10000000,14770700,10000,true
-Locking V2 - Approx,0,10000000,78321,1000000,true
-Locking V2 - Approx,1,10000000,456746,1000000,true
-Locking V2 - Approx,2,10000000,750989,1000000,true
-Locking V2 - Approx,4,10000000,2902419,1000000,true
-Locking V2 - Approx,10,10000000,7875089,1000000,true
-Locking V2 - Approx,20,10000000,14694185,1000000,true
-Locking V3 - Approx,0,10000000,27159,100,true
-Locking V3 - Approx,1,10000000,62690,100,true
-Locking V3 - Approx,2,10000000,101777,100,true
-Locking V3 - Approx,4,10000000,196030,100,true
-Locking V3 - Approx,10,10000000,730148,100,true
-Locking V3 - Approx,20,10000000,1785448,100,false
-Locking V3 - Approx,0,10000000,25359,10000,true
-Locking V3 - Approx,1,10000000,76141,10000,true
-Locking V3 - Approx,2,10000000,110732,10000,true
-Locking V3 - Approx,4,10000000,237225,10000,true
-Locking V3 - Approx,10,10000000,992957,10000,true
-Locking V3 - Approx,20,10000000,1968093,10000,false
-Locking V3 - Approx,0,10000000,25683,1000000,true
-Locking V3 - Approx,1,10000000,59802,1000000,true
-Locking V3 - Approx,2,10000000,107957,1000000,true
-Locking V3 - Approx,4,10000000,232557,1000000,true
-Locking V3 - Approx,10,10000000,977987,1000000,true
-Locking V3 - Approx,20,10000000,1917291,1000000,false
-No Locking,0,10000000,20898,-1,true
-No Locking,1,10000000,27598,-1,false
-No Locking,2,10000000,58590,-1,false
-No Locking,4,10000000,132121,-1,false
-No Locking,10,10000000,457535,-1,false
-No Locking,20,10000000,978244,-1,false
-Locking V1,0,10000000,61209,-1,true
-Locking V1,1,10000000,784845,-1,true
-Locking V1,2,10000000,1266253,-1,true
-Locking V1,4,10000000,2896893,-1,true
-Locking V1,10,10000000,6767844,-1,true
-Locking V1,20,10000000,10333076,-1,true
-Locking V2 - Approx,0,10000000,190156,100,true
-Locking V2 - Approx,1,10000000,612552,100,true
-Locking V2 - Approx,2,10000000,996469,100,true
-Locking V2 - Approx,4,10000000,2909350,100,true
-Locking V2 - Approx,10,10000000,7603151,100,true
-Locking V2 - Approx,20,10000000,14651331,100,true
-Locking V2 - Approx,0,10000000,75613,10000,true
-Locking V2 - Approx,1,10000000,452338,10000,true
-Locking V2 - Approx,2,10000000,818758,10000,true
-Locking V2 - Approx,4,10000000,2937632,10000,true
-Locking V2 - Approx,10,10000000,7354959,10000,true
-Locking V2 - Approx,20,10000000,14555587,10000,true
-Locking V2 - Approx,0,10000000,75801,1000000,true
-Locking V2 - Approx,1,10000000,480041,1000000,true
-Locking V2 - Approx,2,10000000,948615,1000000,true
-Locking V2 - Approx,4,10000000,2923269,1000000,true
-Locking V2 - Approx,10,10000000,7867830,1000000,true
-Locking V2 - Approx,20,10000000,14287217,1000000,true
-Locking V3 - Approx,0,10000000,28417,100,true
-Locking V3 - Approx,1,10000000,67980,100,true
-Locking V3 - Approx,2,10000000,96731,100,true
-Locking V3 - Approx,4,10000000,204756,100,true
-Locking V3 - Approx,10,10000000,768841,100,true
-Locking V3 - Approx,20,10000000,1759021,100,false
-Locking V3 - Approx,0,10000000,26299,10000,true
-Locking V3 - Approx,1,10000000,68020,10000,true
-Locking V3 - Approx,2,10000000,96958,10000,true
-Locking V3 - Approx,4,10000000,250339,10000,true
-Locking V3 - Approx,10,10000000,1067759,10000,true
-Locking V3 - Approx,20,10000000,1935260,10000,false
-Locking V3 - Approx,0,10000000,25766,1000000,true
-Locking V3 - Approx,1,10000000,91726,1000000,true
-Locking V3 - Approx,2,10000000,116731,1000000,true
-Locking V3 - Approx,4,10000000,224467,1000000,true
-Locking V3 - Approx,10,10000000,988599,1000000,true
-Locking V3 - Approx,20,10000000,1968292,1000000,false
-No Locking,0,10000000,21318,-1,true
-No Locking,1,10000000,33127,-1,false
-No Locking,2,10000000,56746,-1,false
-No Locking,4,10000000,148865,-1,false
-No Locking,10,10000000,496385,-1,false
-No Locking,20,10000000,1041872,-1,false
-Locking V1,0,10000000,62803,-1,true
-Locking V1,1,10000000,790799,-1,true
-Locking V1,2,10000000,1275920,-1,true
-Locking V1,4,10000000,2896887,-1,true
-Locking V1,10,10000000,6554605,-1,true
-Locking V1,20,10000000,10781145,-1,true
-Locking V2 - Approx,0,10000000,79559,100,true
-Locking V2 - Approx,1,10000000,468124,100,true
-Locking V2 - Approx,2,10000000,758499,100,true
-Locking V2 - Approx,4,10000000,2884894,100,true
-Locking V2 - Approx,10,10000000,7972922,100,true
-Locking V2 - Approx,20,10000000,14512672,100,true
-Locking V2 - Approx,0,10000000,75580,10000,true
-Locking V2 - Approx,1,10000000,444656,10000,true
-Locking V2 - Approx,2,10000000,813379,10000,true
-Locking V2 - Approx,4,10000000,2918674,10000,true
-Locking V2 - Approx,10,10000000,7970825,10000,true
-Locking V2 - Approx,20,10000000,14590501,10000,true
-Locking V2 - Approx,0,10000000,76835,1000000,true
-Locking V2 - Approx,1,10000000,467537,1000000,true
-Locking V2 - Approx,2,10000000,762489,1000000,true
-Locking V2 - Approx,4,10000000,2959813,1000000,true
-Locking V2 - Approx,10,10000000,7972262,1000000,true
-Locking V2 - Approx,20,10000000,14605640,1000000,true
-Locking V3 - Approx,0,10000000,26873,100,true
-Locking V3 - Approx,1,10000000,66455,100,true
-Locking V3 - Approx,2,10000000,90945,100,true
-Locking V3 - Approx,4,10000000,206981,100,true
-Locking V3 - Approx,10,10000000,744411,100,true
-Locking V3 - Approx,20,10000000,1836238,100,false
-Locking V3 - Approx,0,10000000,25727,10000,true
-Locking V3 - Approx,1,10000000,57496,10000,true
-Locking V3 - Approx,2,10000000,111348,10000,true
-Locking V3 - Approx,4,10000000,241766,10000,true
-Locking V3 - Approx,10,10000000,1012003,10000,true
-Locking V3 - Approx,20,10000000,1965331,10000,false
-Locking V3 - Approx,0,10000000,25886,1000000,true
-Locking V3 - Approx,1,10000000,65232,1000000,true
-Locking V3 - Approx,2,10000000,118442,1000000,true
-Locking V3 - Approx,4,10000000,246058,1000000,true
-Locking V3 - Approx,10,10000000,992254,1000000,true
-Locking V3 - Approx,20,10000000,2040709,1000000,false
-No Locking,0,10000000,20853,-1,true
-No Locking,1,10000000,37086,-1,false
-No Locking,2,10000000,56481,-1,false
-No Locking,4,10000000,154294,-1,false
-No Locking,10,10000000,499033,-1,false
-No Locking,20,10000000,1017841,-1,false
-Locking V1,0,10000000,62959,-1,true
-Locking V1,1,10000000,820028,-1,true
-Locking V1,2,10000000,1265433,-1,true
-Locking V1,4,10000000,2847579,-1,true
-Locking V1,10,10000000,6565236,-1,true
-Locking V1,20,10000000,10897680,-1,true
-Locking V2 - Approx,0,10000000,80649,100,true
-Locking V2 - Approx,1,10000000,493681,100,true
-Locking V2 - Approx,2,10000000,815704,100,true
-Locking V2 - Approx,4,10000000,2974206,100,true
-Locking V2 - Approx,10,10000000,7935248,100,true
-Locking V2 - Approx,20,10000000,14668141,100,true
-Locking V2 - Approx,0,10000000,76056,10000,true
-Locking V2 - Approx,1,10000000,442870,10000,true
-Locking V2 - Approx,2,10000000,850230,10000,true
-Locking V2 - Approx,4,10000000,2916152,10000,true
-Locking V2 - Approx,10,10000000,7987226,10000,true
-Locking V2 - Approx,20,10000000,14791107,10000,true
-Locking V2 - Approx,0,10000000,76024,1000000,true
-Locking V2 - Approx,1,10000000,467464,1000000,true
-Locking V2 - Approx,2,10000000,795731,1000000,true
-Locking V2 - Approx,4,10000000,2933902,1000000,true
-Locking V2 - Approx,10,10000000,7867943,1000000,true
-Locking V2 - Approx,20,10000000,14761766,1000000,true
-Locking V3 - Approx,0,10000000,27831,100,true
-Locking V3 - Approx,1,10000000,62647,100,true
-Locking V3 - Approx,2,10000000,90277,100,true
-Locking V3 - Approx,4,10000000,215412,100,true
-Locking V3 - Approx,10,10000000,739466,100,true
-Locking V3 - Approx,20,10000000,1801466,100,false
-Locking V3 - Approx,0,10000000,25745,10000,true
-Locking V3 - Approx,1,10000000,59650,10000,true
-Locking V3 - Approx,2,10000000,107895,10000,true
-Locking V3 - Approx,4,10000000,221162,10000,true
-Locking V3 - Approx,10,10000000,1091205,10000,true
-Locking V3 - Approx,20,10000000,1926424,10000,false
-Locking V3 - Approx,0,10000000,25639,1000000,true
-Locking V3 - Approx,1,10000000,57205,1000000,true
-Locking V3 - Approx,2,10000000,106115,1000000,true
-Locking V3 - Approx,4,10000000,247244,1000000,true
-Locking V3 - Approx,10,10000000,969115,1000000,true
-Locking V3 - Approx,20,10000000,1860416,1000000,false
-No Locking,0,10000000,20724,-1,true
-No Locking,1,10000000,27249,-1,false
-No Locking,2,10000000,52625,-1,false
-No Locking,4,10000000,131465,-1,false
-No Locking,10,10000000,565352,-1,false
-No Locking,20,10000000,967901,-1,false
-Locking V1,0,10000000,63160,-1,true
-Locking V1,1,10000000,794516,-1,true
-Locking V1,2,10000000,1249598,-1,true
-Locking V1,4,10000000,2874394,-1,true
-Locking V1,10,10000000,6504648,-1,true
-Locking V1,20,10000000,10863289,-1,true
-Locking V2 - Approx,0,10000000,80662,100,true
-Locking V2 - Approx,1,10000000,447024,100,true
-Locking V2 - Approx,2,10000000,756747,100,true
-Locking V2 - Approx,4,10000000,2995881,100,true
-Locking V2 - Approx,10,10000000,7985803,100,true
-Locking V2 - Approx,20,10000000,14696112,100,true
-Locking V2 - Approx,0,10000000,75942,10000,true
-Locking V2 - Approx,1,10000000,455303,10000,true
-Locking V2 - Approx,2,10000000,857322,10000,true
-Locking V2 - Approx,4,10000000,2918673,10000,true
-Locking V2 - Approx,10,10000000,7918281,10000,true
-Locking V2 - Approx,20,10000000,14772113,10000,true
-Locking V2 - Approx,0,10000000,76383,1000000,true
-Locking V2 - Approx,1,10000000,447657,1000000,true
-Locking V2 - Approx,2,10000000,765479,1000000,true
-Locking V2 - Approx,4,10000000,2901694,1000000,true
-Locking V2 - Approx,10,10000000,7906922,1000000,true
-Locking V2 - Approx,20,10000000,14657081,1000000,true
-Locking V3 - Approx,0,10000000,26686,100,true
-Locking V3 - Approx,1,10000000,64663,100,true
-Locking V3 - Approx,2,10000000,100539,100,true
-Locking V3 - Approx,4,10000000,201572,100,true
-Locking V3 - Approx,10,10000000,750959,100,true
-Locking V3 - Approx,20,10000000,1774338,100,false
-Locking V3 - Approx,0,10000000,26321,10000,true
-Locking V3 - Approx,1,10000000,62494,10000,true
-Locking V3 - Approx,2,10000000,134591,10000,true
-Locking V3 - Approx,4,10000000,226358,10000,true
-Locking V3 - Approx,10,10000000,972240,10000,true
-Locking V3 - Approx,20,10000000,1978863,10000,false
-Locking V3 - Approx,0,10000000,25400,1000000,true
-Locking V3 - Approx,1,10000000,64300,1000000,true
-Locking V3 - Approx,2,10000000,114099,1000000,true
-Locking V3 - Approx,4,10000000,225230,1000000,true
-Locking V3 - Approx,10,10000000,969965,1000000,true
-Locking V3 - Approx,20,10000000,2065973,1000000,false
-No Locking,0,10000000,21270,-1,true
-No Locking,1,10000000,28785,-1,false
-No Locking,2,10000000,58868,-1,false
-No Locking,4,10000000,130214,-1,false
-No Locking,10,10000000,526254,-1,false
-No Locking,20,10000000,912363,-1,false
-Locking V1,0,10000000,64435,-1,true
-Locking V1,1,10000000,849232,-1,true
-Locking V1,2,10000000,1245850,-1,true
-Locking V1,4,10000000,2850603,-1,true
-Locking V1,10,10000000,6629107,-1,true
-Locking V1,20,10000000,10825951,-1,true
-Locking V2 - Approx,0,10000000,81730,100,true
-Locking V2 - Approx,1,10000000,474052,100,true
-Locking V2 - Approx,2,10000000,865177,100,true
-Locking V2 - Approx,4,10000000,2956624,100,true
-Locking V2 - Approx,10,10000000,7890567,100,true
-Locking V2 - Approx,20,10000000,14537131,100,true
-Locking V2 - Approx,0,10000000,75702,10000,true
-Locking V2 - Approx,1,10000000,452392,10000,true
-Locking V2 - Approx,2,10000000,785413,10000,true
-Locking V2 - Approx,4,10000000,2922975,10000,true
-Locking V2 - Approx,10,10000000,7845537,10000,true
-Locking V2 - Approx,20,10000000,14687226,10000,true
-Locking V2 - Approx,0,10000000,76321,1000000,true
-Locking V2 - Approx,1,10000000,451716,1000000,true
-Locking V2 - Approx,2,10000000,816359,1000000,true
-Locking V2 - Approx,4,10000000,2925623,1000000,true
-Locking V2 - Approx,10,10000000,7949612,1000000,true
-Locking V2 - Approx,20,10000000,14484711,1000000,true
-Locking V3 - Approx,0,10000000,27828,100,true
-Locking V3 - Approx,1,10000000,66538,100,true
-Locking V3 - Approx,2,10000000,90499,100,true
-Locking V3 - Approx,4,10000000,200421,100,true
-Locking V3 - Approx,10,10000000,708457,100,true
-Locking V3 - Approx,20,10000000,1823650,100,false
-Locking V3 - Approx,0,10000000,25380,10000,true
-Locking V3 - Approx,1,10000000,66306,10000,true
-Locking V3 - Approx,2,10000000,100426,10000,true
-Locking V3 - Approx,4,10000000,228535,10000,true
-Locking V3 - Approx,10,10000000,1012266,10000,true
-Locking V3 - Approx,20,10000000,2042984,10000,false
-Locking V3 - Approx,0,10000000,25534,1000000,true
-Locking V3 - Approx,1,10000000,58608,1000000,true
-Locking V3 - Approx,2,10000000,96986,1000000,true
-Locking V3 - Approx,4,10000000,224348,1000000,true
-Locking V3 - Approx,10,10000000,970961,1000000,true
-Locking V3 - Approx,20,10000000,1997290,1000000,false
-No Locking,0,10000000,21133,-1,true
-No Locking,1,10000000,32317,-1,false
-No Locking,2,10000000,56064,-1,false
-No Locking,4,10000000,122002,-1,false
-No Locking,10,10000000,540606,-1,false
-No Locking,20,10000000,969826,-1,false
-Locking V1,0,10000000,62735,-1,true
-Locking V1,1,10000000,827464,-1,true
-Locking V1,2,10000000,1304482,-1,true
-Locking V1,4,10000000,2956819,-1,true
-Locking V1,10,10000000,6782843,-1,true
-Locking V1,20,10000000,10703759,-1,true
-Locking V2 - Approx,0,10000000,80979,100,true
-Locking V2 - Approx,1,10000000,455875,100,true
-Locking V2 - Approx,2,10000000,744813,100,true
-Locking V2 - Approx,4,10000000,2923138,100,true
-Locking V2 - Approx,10,10000000,7838927,100,true
-Locking V2 - Approx,20,10000000,14669417,100,true
-Locking V2 - Approx,0,10000000,76107,10000,true
-Locking V2 - Approx,1,10000000,469398,10000,true
-Locking V2 - Approx,2,10000000,853356,10000,true
-Locking V2 - Approx,4,10000000,2914269,10000,true
-Locking V2 - Approx,10,10000000,7865998,10000,true
-Locking V2 - Approx,20,10000000,14689148,10000,true
-Locking V2 - Approx,0,10000000,78827,1000000,true
-Locking V2 - Approx,1,10000000,462910,1000000,true
-Locking V2 - Approx,2,10000000,883907,1000000,true
-Locking V2 - Approx,4,10000000,2924710,1000000,true
-Locking V2 - Approx,10,10000000,7929248,1000000,true
-Locking V2 - Approx,20,10000000,14567039,1000000,true
-Locking V3 - Approx,0,10000000,26968,100,true
-Locking V3 - Approx,1,10000000,65170,100,true
-Locking V3 - Approx,2,10000000,96949,100,true
-Locking V3 - Approx,4,10000000,253076,100,true
-Locking V3 - Approx,10,10000000,753789,100,true
-Locking V3 - Approx,20,10000000,1815390,100,false
-Locking V3 - Approx,0,10000000,25644,10000,true
-Locking V3 - Approx,1,10000000,77734,10000,true
-Locking V3 - Approx,2,10000000,108385,10000,true
-Locking V3 - Approx,4,10000000,230856,10000,true
-Locking V3 - Approx,10,10000000,1013834,10000,true
-Locking V3 - Approx,20,10000000,2053532,10000,false
-Locking V3 - Approx,0,10000000,25973,1000000,true
-Locking V3 - Approx,1,10000000,66909,1000000,true
-Locking V3 - Approx,2,10000000,101309,1000000,true
-Locking V3 - Approx,4,10000000,252416,1000000,true
-Locking V3 - Approx,10,10000000,957654,1000000,true
-Locking V3 - Approx,20,10000000,2019014,1000000,false
-No Locking,0,10000000,20723,-1,true
-No Locking,1,10000000,34974,-1,false
-No Locking,2,10000000,59379,-1,false
-No Locking,4,10000000,126866,-1,false
-No Locking,10,10000000,573925,-1,false
-No Locking,20,10000000,1075061,-1,false
-Locking V1,0,10000000,62117,-1,true
-Locking V1,1,10000000,820088,-1,true
-Locking V1,2,10000000,1267107,-1,true
-Locking V1,4,10000000,2844322,-1,true
-Locking V1,10,10000000,6758799,-1,true
-Locking V1,20,10000000,10896028,-1,true
-Locking V2 - Approx,0,10000000,81004,100,true
-Locking V2 - Approx,1,10000000,474463,100,true
-Locking V2 - Approx,2,10000000,820803,100,true
-Locking V2 - Approx,4,10000000,2958829,100,true
-Locking V2 - Approx,10,10000000,8024487,100,true
-Locking V2 - Approx,20,10000000,14539496,100,true
-Locking V2 - Approx,0,10000000,75527,10000,true
-Locking V2 - Approx,1,10000000,462478,10000,true
-Locking V2 - Approx,2,10000000,812198,10000,true
-Locking V2 - Approx,4,10000000,2933977,10000,true
-Locking V2 - Approx,10,10000000,7916732,10000,true
-Locking V2 - Approx,20,10000000,14931935,10000,true
-Locking V2 - Approx,0,10000000,75407,1000000,true
-Locking V2 - Approx,1,10000000,454242,1000000,true
-Locking V2 - Approx,2,10000000,833369,1000000,true
-Locking V2 - Approx,4,10000000,2965127,1000000,true
-Locking V2 - Approx,10,10000000,7914295,1000000,true
-Locking V2 - Approx,20,10000000,14869848,1000000,true
-Locking V3 - Approx,0,10000000,27345,100,true
-Locking V3 - Approx,1,10000000,63436,100,true
-Locking V3 - Approx,2,10000000,146796,100,true
-Locking V3 - Approx,4,10000000,249647,100,true
-Locking V3 - Approx,10,10000000,714216,100,true
-Locking V3 - Approx,20,10000000,1755337,100,false
-Locking V3 - Approx,0,10000000,25965,10000,true
-Locking V3 - Approx,1,10000000,84506,10000,true
-Locking V3 - Approx,2,10000000,113750,10000,true
-Locking V3 - Approx,4,10000000,227528,10000,true
-Locking V3 - Approx,10,10000000,1002753,10000,true
-Locking V3 - Approx,20,10000000,2069050,10000,false
-Locking V3 - Approx,0,10000000,25174,1000000,true
-Locking V3 - Approx,1,10000000,101797,1000000,true
-Locking V3 - Approx,2,10000000,141035,1000000,true
-Locking V3 - Approx,4,10000000,227707,1000000,true
-Locking V3 - Approx,10,10000000,970001,1000000,true
-Locking V3 - Approx,20,10000000,1930308,1000000,false
-No Locking,0,10000000,20622,-1,true
-No Locking,1,10000000,34068,-1,false
-No Locking,2,10000000,69121,-1,false
-No Locking,4,10000000,154045,-1,false
-No Locking,10,10000000,487445,-1,false
-No Locking,20,10000000,978578,-1,false
-Locking V1,0,10000000,62433,-1,true
-Locking V1,1,10000000,821781,-1,true
-Locking V1,2,10000000,1231638,-1,true
-Locking V1,4,10000000,2890639,-1,true
-Locking V1,10,10000000,6794959,-1,true
-Locking V1,20,10000000,10592172,-1,true
-Locking V2 - Approx,0,10000000,81642,100,true
-Locking V2 - Approx,1,10000000,452058,100,true
-Locking V2 - Approx,2,10000000,837031,100,true
-Locking V2 - Approx,4,10000000,2984693,100,true
-Locking V2 - Approx,10,10000000,8011751,100,true
-Locking V2 - Approx,20,10000000,14706661,100,true
-Locking V2 - Approx,0,10000000,75868,10000,true
-Locking V2 - Approx,1,10000000,446680,10000,true
-Locking V2 - Approx,2,10000000,845966,10000,true
-Locking V2 - Approx,4,10000000,2949930,10000,true
-Locking V2 - Approx,10,10000000,7969126,10000,true
-Locking V2 - Approx,20,10000000,14761121,10000,true
-Locking V2 - Approx,0,10000000,76251,1000000,true
-Locking V2 - Approx,1,10000000,452556,1000000,true
-Locking V2 - Approx,2,10000000,836292,1000000,true
-Locking V2 - Approx,4,10000000,2965207,1000000,true
-Locking V2 - Approx,10,10000000,7901434,1000000,true
-Locking V2 - Approx,20,10000000,14549546,1000000,true
-Locking V3 - Approx,0,10000000,26953,100,true
-Locking V3 - Approx,1,10000000,68457,100,true
-Locking V3 - Approx,2,10000000,97514,100,true
-Locking V3 - Approx,4,10000000,198439,100,true
-Locking V3 - Approx,10,10000000,733922,100,true
-Locking V3 - Approx,20,10000000,1767903,100,false
-Locking V3 - Approx,0,10000000,24779,10000,true
-Locking V3 - Approx,1,10000000,64766,10000,true
-Locking V3 - Approx,2,10000000,114257,10000,true
-Locking V3 - Approx,4,10000000,258820,10000,true
-Locking V3 - Approx,10,10000000,958250,10000,true
-Locking V3 - Approx,20,10000000,2027874,10000,false
-Locking V3 - Approx,0,10000000,26114,1000000,true
-Locking V3 - Approx,1,10000000,60150,1000000,true
-Locking V3 - Approx,2,10000000,126892,1000000,true
-Locking V3 - Approx,4,10000000,235452,1000000,true
-Locking V3 - Approx,10,10000000,1004139,1000000,true
-Locking V3 - Approx,20,10000000,1960316,1000000,false
-No Locking,0,10000000,20641,-1,true
-No Locking,1,10000000,27442,-1,false
-No Locking,2,10000000,62055,-1,false
-No Locking,4,10000000,124628,-1,false
-No Locking,10,10000000,449354,-1,false
-No Locking,20,10000000,926727,-1,false
-Locking V1,0,10000000,62812,-1,true
-Locking V1,1,10000000,832701,-1,true
-Locking V1,2,10000000,1351811,-1,true
-Locking V1,4,10000000,2904769,-1,true
-Locking V1,10,10000000,6842985,-1,true
-Locking V1,20,10000000,10567188,-1,true
-Locking V2 - Approx,0,10000000,80613,100,true
-Locking V2 - Approx,1,10000000,482787,100,true
-Locking V2 - Approx,2,10000000,903100,100,true
-Locking V2 - Approx,4,10000000,2943482,100,true
-Locking V2 - Approx,10,10000000,7958706,100,true
-Locking V2 - Approx,20,10000000,14719183,100,true
-Locking V2 - Approx,0,10000000,76800,10000,true
-Locking V2 - Approx,1,10000000,452400,10000,true
-Locking V2 - Approx,2,10000000,842586,10000,true
-Locking V2 - Approx,4,10000000,2869652,10000,true
-Locking V2 - Approx,10,10000000,7906495,10000,true
-Locking V2 - Approx,20,10000000,14646911,10000,true
-Locking V2 - Approx,0,10000000,76350,1000000,true
-Locking V2 - Approx,1,10000000,458470,1000000,true
-Locking V2 - Approx,2,10000000,796737,1000000,true
-Locking V2 - Approx,4,10000000,2873325,1000000,true
-Locking V2 - Approx,10,10000000,7933802,1000000,true
-Locking V2 - Approx,20,10000000,14647529,1000000,true
-Locking V3 - Approx,0,10000000,26731,100,true
-Locking V3 - Approx,1,10000000,62940,100,true
-Locking V3 - Approx,2,10000000,103744,100,true
-Locking V3 - Approx,4,10000000,203908,100,true
-Locking V3 - Approx,10,10000000,719920,100,true
-Locking V3 - Approx,20,10000000,1842433,100,false
-Locking V3 - Approx,0,10000000,25946,10000,true
-Locking V3 - Approx,1,10000000,70356,10000,true
-Locking V3 - Approx,2,10000000,116661,10000,true
-Locking V3 - Approx,4,10000000,222964,10000,true
-Locking V3 - Approx,10,10000000,1003648,10000,true
-Locking V3 - Approx,20,10000000,1884877,10000,false
-Locking V3 - Approx,0,10000000,25993,1000000,true
-Locking V3 - Approx,1,10000000,60559,1000000,true
-Locking V3 - Approx,2,10000000,129211,1000000,true
-Locking V3 - Approx,4,10000000,225416,1000000,true
-Locking V3 - Approx,10,10000000,946970,1000000,true
-Locking V3 - Approx,20,10000000,1974452,1000000,false
-No Locking,0,10000000,21165,-1,true
-No Locking,1,10000000,31891,-1,false
-No Locking,2,10000000,51234,-1,false
-No Locking,4,10000000,130406,-1,false
-No Locking,10,10000000,523047,-1,false
-No Locking,20,10000000,1020234,-1,false
-Locking V1,0,10000000,62360,-1,true
-Locking V1,1,10000000,606402,-1,true
-Locking V1,2,10000000,1331396,-1,true
-Locking V1,4,10000000,2848860,-1,true
-Locking V1,10,10000000,6848741,-1,true
-Locking V1,20,10000000,11079894,-1,true
-Locking V2 - Approx,0,10000000,81533,100,true
-Locking V2 - Approx,1,10000000,438222,100,true
-Locking V2 - Approx,2,10000000,833119,100,true
-Locking V2 - Approx,4,10000000,2964231,100,true
-Locking V2 - Approx,10,10000000,7968618,100,true
-Locking V2 - Approx,20,10000000,14770969,100,true
-Locking V2 - Approx,0,10000000,75490,10000,true
-Locking V2 - Approx,1,10000000,455586,10000,true
-Locking V2 - Approx,2,10000000,900485,10000,true
-Locking V2 - Approx,4,10000000,2923844,10000,true
-Locking V2 - Approx,10,10000000,7925581,10000,true
-Locking V2 - Approx,20,10000000,14987470,10000,true
-Locking V2 - Approx,0,10000000,75128,1000000,true
-Locking V2 - Approx,1,10000000,466446,1000000,true
-Locking V2 - Approx,2,10000000,875597,1000000,true
-Locking V2 - Approx,4,10000000,2944473,1000000,true
-Locking V2 - Approx,10,10000000,7861580,1000000,true
-Locking V2 - Approx,20,10000000,14954369,1000000,true
-Locking V3 - Approx,0,10000000,26455,100,true
-Locking V3 - Approx,1,10000000,58184,100,true
-Locking V3 - Approx,2,10000000,104817,100,true
-Locking V3 - Approx,4,10000000,240216,100,true
-Locking V3 - Approx,10,10000000,726160,100,true
-Locking V3 - Approx,20,10000000,1740263,100,false
-Locking V3 - Approx,0,10000000,26753,10000,true
-Locking V3 - Approx,1,10000000,61048,10000,true
-Locking V3 - Approx,2,10000000,127356,10000,true
-Locking V3 - Approx,4,10000000,241780,10000,true
-Locking V3 - Approx,10,10000000,996274,10000,true
-Locking V3 - Approx,20,10000000,1859018,10000,false
-Locking V3 - Approx,0,10000000,25826,1000000,true
-Locking V3 - Approx,1,10000000,55967,1000000,true
-Locking V3 - Approx,2,10000000,107021,1000000,true
-Locking V3 - Approx,4,10000000,233682,1000000,true
-Locking V3 - Approx,10,10000000,970590,1000000,true
-Locking V3 - Approx,20,10000000,2019864,1000000,false
+V0 - No Locking,0,10000000,20897,-1,true
+V0 - No Locking,1,10000000,30745,-1,false
+V0 - No Locking,2,10000000,46503,-1,false
+V0 - No Locking,4,10000000,153267,-1,false
+V0 - No Locking,10,10000000,470709,-1,false
+V0 - No Locking,20,10000000,865574,-1,false
+V1 - Full Locking,0,10000000,61381,-1,true
+V1 - Full Locking,1,10000000,744241,-1,true
+V1 - Full Locking,2,10000000,1334338,-1,true
+V1 - Full Locking,4,10000000,2850685,-1,true
+V1 - Full Locking,10,10000000,6657945,-1,true
+V1 - Full Locking,20,10000000,10774867,-1,true
+V2 - Approx (local locking),0,10000000,80054,100,true
+V2 - Approx (local locking),1,10000000,511153,100,true
+V2 - Approx (local locking),2,10000000,875276,100,true
+V2 - Approx (local locking),4,10000000,2973586,100,true
+V2 - Approx (local locking),10,10000000,7710765,100,true
+V2 - Approx (local locking),20,10000000,13749146,100,true
+V2 - Approx (local locking),0,10000000,75463,10000,true
+V2 - Approx (local locking),1,10000000,495700,10000,true
+V2 - Approx (local locking),2,10000000,938238,10000,true
+V2 - Approx (local locking),4,10000000,2850850,10000,true
+V2 - Approx (local locking),10,10000000,7747732,10000,true
+V2 - Approx (local locking),20,10000000,14466481,10000,true
+V2 - Approx (local locking),0,10000000,77166,1000000,true
+V2 - Approx (local locking),1,10000000,564430,1000000,true
+V2 - Approx (local locking),2,10000000,1137580,1000000,true
+V2 - Approx (local locking),4,10000000,2895737,1000000,true
+V2 - Approx (local locking),10,10000000,7889683,1000000,true
+V2 - Approx (local locking),20,10000000,14662305,1000000,true
+V3 - Approx (No local),0,10000000,27446,100,true
+V3 - Approx (No local),1,10000000,71362,100,true
+V3 - Approx (No local),2,10000000,143532,100,true
+V3 - Approx (No local),4,10000000,258683,100,true
+V3 - Approx (No local),10,10000000,725927,100,true
+V3 - Approx (No local),20,10000000,1718514,100,false
+V3 - Approx (No local),0,10000000,25745,10000,true
+V3 - Approx (No local),1,10000000,66749,10000,true
+V3 - Approx (No local),2,10000000,131251,10000,true
+V3 - Approx (No local),4,10000000,228256,10000,true
+V3 - Approx (No local),10,10000000,947731,10000,true
+V3 - Approx (No local),20,10000000,1799127,10000,false
+V3 - Approx (No local),0,10000000,25808,1000000,true
+V3 - Approx (No local),1,10000000,70899,1000000,true
+V3 - Approx (No local),2,10000000,134949,1000000,true
+V3 - Approx (No local),4,10000000,227748,1000000,true
+V3 - Approx (No local),10,10000000,882286,1000000,true
+V3 - Approx (No local),20,10000000,1404713,1000000,false
+V4 - Approx (thread counters),0,10000000,22664,100,true
+V4 - Approx (thread counters),1,10000000,47679,100,true
+V4 - Approx (thread counters),2,10000000,82542,100,true
+V4 - Approx (thread counters),4,10000000,151691,100,true
+V4 - Approx (thread counters),20,10000000,1280333,100,true
+V4 - Approx (thread counters),0,10000000,20934,10000,true
+V4 - Approx (thread counters),1,10000000,40377,10000,true
+V4 - Approx (thread counters),2,10000000,102235,10000,true
+V4 - Approx (thread counters),4,10000000,175615,10000,true
+V4 - Approx (thread counters),10,10000000,715249,10000,true
+V4 - Approx (thread counters),20,10000000,1234834,10000,true
+V4 - Approx (thread counters),0,10000000,21065,1000000,true
+V4 - Approx (thread counters),1,10000000,47128,1000000,true
+V4 - Approx (thread counters),2,10000000,100146,1000000,true
+V4 - Approx (thread counters),4,10000000,172694,1000000,true
+V4 - Approx (thread counters),10,10000000,648911,1000000,true
+V4 - Approx (thread counters),20,10000000,1148999,1000000,true
+V0 - No Locking,0,10000000,20584,-1,true
+V0 - No Locking,1,10000000,30472,-1,false
+V0 - No Locking,2,10000000,65274,-1,false
+V0 - No Locking,4,10000000,133961,-1,false
+V0 - No Locking,10,10000000,428800,-1,false
+V0 - No Locking,20,10000000,807699,-1,false
+V1 - Full Locking,0,10000000,61137,-1,true
+V1 - Full Locking,1,10000000,612934,-1,true
+V1 - Full Locking,2,10000000,1216776,-1,true
+V1 - Full Locking,4,10000000,2566677,-1,true
+V1 - Full Locking,10,10000000,7055403,-1,true
+V1 - Full Locking,20,10000000,10775730,-1,true
+V2 - Approx (local locking),0,10000000,80153,100,true
+V2 - Approx (local locking),1,10000000,650514,100,true
+V2 - Approx (local locking),2,10000000,1431189,100,true
+V2 - Approx (local locking),4,10000000,3012512,100,true
+V2 - Approx (local locking),10,10000000,7835142,100,true
+V2 - Approx (local locking),20,10000000,15022556,100,true
+V2 - Approx (local locking),0,10000000,76326,10000,true
+V2 - Approx (local locking),1,10000000,625350,10000,true
+V2 - Approx (local locking),2,10000000,1377882,10000,true
+V2 - Approx (local locking),4,10000000,2991692,10000,true
+V2 - Approx (local locking),10,10000000,7668350,10000,true
+V2 - Approx (local locking),20,10000000,14738998,10000,true
+V2 - Approx (local locking),0,10000000,77144,1000000,true
+V2 - Approx (local locking),1,10000000,521550,1000000,true
+V2 - Approx (local locking),2,10000000,951433,1000000,true
+V2 - Approx (local locking),4,10000000,2885708,1000000,true
+V2 - Approx (local locking),10,10000000,7891927,1000000,true
+V2 - Approx (local locking),20,10000000,14745652,1000000,true
+V3 - Approx (No local),0,10000000,27540,100,true
+V3 - Approx (No local),1,10000000,71442,100,true
+V3 - Approx (No local),2,10000000,151500,100,true
+V3 - Approx (No local),4,10000000,203711,100,true
+V3 - Approx (No local),10,10000000,723058,100,true
+V3 - Approx (No local),20,10000000,1727564,100,false
+V3 - Approx (No local),0,10000000,25764,10000,true
+V3 - Approx (No local),1,10000000,66692,10000,true
+V3 - Approx (No local),2,10000000,127662,10000,true
+V3 - Approx (No local),4,10000000,228515,10000,true
+V3 - Approx (No local),10,10000000,863840,10000,true
+V3 - Approx (No local),20,10000000,1902640,10000,false
+V3 - Approx (No local),0,10000000,25534,1000000,true
+V3 - Approx (No local),1,10000000,87855,1000000,true
+V3 - Approx (No local),2,10000000,166645,1000000,true
+V3 - Approx (No local),4,10000000,237584,1000000,true
+V3 - Approx (No local),10,10000000,955511,1000000,true
+V3 - Approx (No local),20,10000000,1963353,1000000,false
+V4 - Approx (thread counters),0,10000000,22754,100,true
+V4 - Approx (thread counters),1,10000000,48957,100,true
+V4 - Approx (thread counters),2,10000000,68221,100,true
+V4 - Approx (thread counters),4,10000000,150467,100,true
+V4 - Approx (thread counters),20,10000000,1222380,100,true
+V4 - Approx (thread counters),0,10000000,20978,10000,true
+V4 - Approx (thread counters),1,10000000,45181,10000,true
+V4 - Approx (thread counters),2,10000000,99797,10000,true
+V4 - Approx (thread counters),4,10000000,172875,10000,true
+V4 - Approx (thread counters),10,10000000,755203,10000,true
+V4 - Approx (thread counters),20,10000000,1281250,10000,true
+V4 - Approx (thread counters),0,10000000,21626,1000000,true
+V4 - Approx (thread counters),1,10000000,45309,1000000,true
+V4 - Approx (thread counters),2,10000000,103835,1000000,true
+V4 - Approx (thread counters),4,10000000,193008,1000000,true
+V4 - Approx (thread counters),10,10000000,728807,1000000,true
+V4 - Approx (thread counters),20,10000000,1372524,1000000,true
+V0 - No Locking,0,10000000,20940,-1,true
+V0 - No Locking,1,10000000,35623,-1,false
+V0 - No Locking,2,10000000,78311,-1,false
+V0 - No Locking,4,10000000,131489,-1,false
+V0 - No Locking,10,10000000,475385,-1,false
+V0 - No Locking,20,10000000,885998,-1,false
+V1 - Full Locking,0,10000000,62442,-1,true
+V1 - Full Locking,1,10000000,809378,-1,true
+V1 - Full Locking,2,10000000,1260825,-1,true
+V1 - Full Locking,4,10000000,2861963,-1,true
+V1 - Full Locking,10,10000000,6633633,-1,true
+V1 - Full Locking,20,10000000,10578682,-1,true
+V2 - Approx (local locking),0,10000000,81029,100,true
+V2 - Approx (local locking),1,10000000,495168,100,true
+V2 - Approx (local locking),2,10000000,1002638,100,true
+V2 - Approx (local locking),4,10000000,2918058,100,true
+V2 - Approx (local locking),10,10000000,7925537,100,true
+V2 - Approx (local locking),20,10000000,14608161,100,true
+V2 - Approx (local locking),0,10000000,75940,10000,true
+V2 - Approx (local locking),1,10000000,512190,10000,true
+V2 - Approx (local locking),2,10000000,1049590,10000,true
+V2 - Approx (local locking),4,10000000,2900755,10000,true
+V2 - Approx (local locking),10,10000000,7815248,10000,true
+V2 - Approx (local locking),20,10000000,14729939,10000,true
+V2 - Approx (local locking),0,10000000,76282,1000000,true
+V2 - Approx (local locking),1,10000000,607431,1000000,true
+V2 - Approx (local locking),2,10000000,1140314,1000000,true
+V2 - Approx (local locking),4,10000000,2949075,1000000,true
+V2 - Approx (local locking),10,10000000,7816896,1000000,true
+V2 - Approx (local locking),20,10000000,14551322,1000000,true
+V3 - Approx (No local),0,10000000,27043,100,true
+V3 - Approx (No local),1,10000000,67090,100,true
+V3 - Approx (No local),2,10000000,96534,100,true
+V3 - Approx (No local),4,10000000,216352,100,true
+V3 - Approx (No local),10,10000000,839763,100,true
+V3 - Approx (No local),20,10000000,1783221,100,false
+V3 - Approx (No local),0,10000000,25639,10000,true
+V3 - Approx (No local),1,10000000,71079,10000,true
+V3 - Approx (No local),2,10000000,110855,10000,true
+V3 - Approx (No local),4,10000000,222530,10000,true
+V3 - Approx (No local),10,10000000,892608,10000,true
+V3 - Approx (No local),20,10000000,1879295,10000,false
+V3 - Approx (No local),0,10000000,26064,1000000,true
+V3 - Approx (No local),1,10000000,72522,1000000,true
+V3 - Approx (No local),2,10000000,115921,1000000,true
+V3 - Approx (No local),4,10000000,227685,1000000,true
+V3 - Approx (No local),10,10000000,910771,1000000,true
+V3 - Approx (No local),20,10000000,1706934,1000000,false
+V4 - Approx (thread counters),0,10000000,22486,100,true
+V4 - Approx (thread counters),1,10000000,58229,100,true
+V4 - Approx (thread counters),2,10000000,83249,100,true
+V4 - Approx (thread counters),4,10000000,186817,100,true
+V4 - Approx (thread counters),20,10000000,1304554,100,true
+V4 - Approx (thread counters),0,10000000,21078,10000,true
+V4 - Approx (thread counters),1,10000000,73637,10000,true
+V4 - Approx (thread counters),2,10000000,138791,10000,true
+V4 - Approx (thread counters),4,10000000,167334,10000,true
+V4 - Approx (thread counters),10,10000000,669304,10000,true
+V4 - Approx (thread counters),20,10000000,1289157,10000,true
+V4 - Approx (thread counters),0,10000000,20555,1000000,true
+V4 - Approx (thread counters),1,10000000,46562,1000000,true
+V4 - Approx (thread counters),2,10000000,87253,1000000,true
+V4 - Approx (thread counters),4,10000000,168385,1000000,true
+V4 - Approx (thread counters),10,10000000,677243,1000000,true
+V4 - Approx (thread counters),20,10000000,1414541,1000000,true
+V0 - No Locking,0,10000000,20973,-1,true
+V0 - No Locking,1,10000000,34949,-1,false
+V0 - No Locking,2,10000000,55083,-1,false
+V0 - No Locking,4,10000000,129916,-1,false
+V0 - No Locking,10,10000000,469651,-1,false
+V0 - No Locking,20,10000000,936743,-1,false
+V1 - Full Locking,0,10000000,62968,-1,true
+V1 - Full Locking,1,10000000,807658,-1,true
+V1 - Full Locking,2,10000000,1221799,-1,true
+V1 - Full Locking,4,10000000,2736095,-1,true
+V1 - Full Locking,10,10000000,6743928,-1,true
+V1 - Full Locking,20,10000000,10630332,-1,true
+V2 - Approx (local locking),0,10000000,80610,100,true
+V2 - Approx (local locking),1,10000000,470601,100,true
+V2 - Approx (local locking),2,10000000,905759,100,true
+V2 - Approx (local locking),4,10000000,2952947,100,true
+V2 - Approx (local locking),10,10000000,7848365,100,true
+V2 - Approx (local locking),20,10000000,14369630,100,true
+V2 - Approx (local locking),0,10000000,76615,10000,true
+V2 - Approx (local locking),1,10000000,452360,10000,true
+V2 - Approx (local locking),2,10000000,967704,10000,true
+V2 - Approx (local locking),4,10000000,2858608,10000,true
+V2 - Approx (local locking),10,10000000,7713355,10000,true
+V2 - Approx (local locking),20,10000000,14463115,10000,true
+V2 - Approx (local locking),0,10000000,75533,1000000,true
+V2 - Approx (local locking),1,10000000,461162,1000000,true
+V2 - Approx (local locking),2,10000000,1027691,1000000,true
+V2 - Approx (local locking),4,10000000,2949133,1000000,true
+V2 - Approx (local locking),10,10000000,7657173,1000000,true
+V2 - Approx (local locking),20,10000000,14585653,1000000,true
+V3 - Approx (No local),0,10000000,27029,100,true
+V3 - Approx (No local),1,10000000,68657,100,true
+V3 - Approx (No local),2,10000000,98183,100,true
+V3 - Approx (No local),4,10000000,196640,100,true
+V3 - Approx (No local),10,10000000,736652,100,true
+V3 - Approx (No local),20,10000000,1846008,100,false
+V3 - Approx (No local),0,10000000,26147,10000,true
+V3 - Approx (No local),1,10000000,99890,10000,true
+V3 - Approx (No local),2,10000000,145394,10000,true
+V3 - Approx (No local),4,10000000,233287,10000,true
+V3 - Approx (No local),10,10000000,977271,10000,true
+V3 - Approx (No local),20,10000000,1687147,10000,false
+V3 - Approx (No local),0,10000000,25008,1000000,true
+V3 - Approx (No local),1,10000000,77858,1000000,true
+V3 - Approx (No local),2,10000000,121543,1000000,true
+V3 - Approx (No local),4,10000000,226646,1000000,true
+V3 - Approx (No local),10,10000000,821711,1000000,true
+V3 - Approx (No local),20,10000000,1658273,1000000,false
+V4 - Approx (thread counters),0,10000000,22166,100,true
+V4 - Approx (thread counters),1,10000000,62011,100,true
+V4 - Approx (thread counters),2,10000000,77155,100,true
+V4 - Approx (thread counters),4,10000000,142826,100,true
+V4 - Approx (thread counters),20,10000000,1356681,100,true
+V4 - Approx (thread counters),0,10000000,21278,10000,true
+V4 - Approx (thread counters),1,10000000,53233,10000,true
+V4 - Approx (thread counters),2,10000000,115665,10000,true
+V4 - Approx (thread counters),4,10000000,160523,10000,true
+V4 - Approx (thread counters),10,10000000,748760,10000,true
+V4 - Approx (thread counters),20,10000000,1341082,10000,true
+V4 - Approx (thread counters),0,10000000,21347,1000000,true
+V4 - Approx (thread counters),1,10000000,48428,1000000,true
+V4 - Approx (thread counters),2,10000000,92621,1000000,true
+V4 - Approx (thread counters),4,10000000,174638,1000000,true
+V4 - Approx (thread counters),10,10000000,809592,1000000,true
+V4 - Approx (thread counters),20,10000000,1407902,1000000,true
+V0 - No Locking,0,10000000,21030,-1,true
+V0 - No Locking,1,10000000,33551,-1,false
+V0 - No Locking,2,10000000,52937,-1,false
+V0 - No Locking,4,10000000,126947,-1,false
+V0 - No Locking,10,10000000,498986,-1,false
+V0 - No Locking,20,10000000,993103,-1,false
+V1 - Full Locking,0,10000000,61715,-1,true
+V1 - Full Locking,1,10000000,740281,-1,true
+V1 - Full Locking,2,10000000,1297711,-1,true
+V1 - Full Locking,4,10000000,2829513,-1,true
+V1 - Full Locking,10,10000000,6515492,-1,true
+V1 - Full Locking,20,10000000,10820451,-1,true
+V2 - Approx (local locking),0,10000000,79354,100,true
+V2 - Approx (local locking),1,10000000,458303,100,true
+V2 - Approx (local locking),2,10000000,920402,100,true
+V2 - Approx (local locking),4,10000000,2873022,100,true
+V2 - Approx (local locking),10,10000000,7655628,100,true
+V2 - Approx (local locking),20,10000000,14687770,100,true
+V2 - Approx (local locking),0,10000000,77173,10000,true
+V2 - Approx (local locking),1,10000000,460827,10000,true
+V2 - Approx (local locking),2,10000000,837145,10000,true
+V2 - Approx (local locking),4,10000000,2893688,10000,true
+V2 - Approx (local locking),10,10000000,7915449,10000,true
+V2 - Approx (local locking),20,10000000,14674091,10000,true
+V2 - Approx (local locking),0,10000000,75841,1000000,true
+V2 - Approx (local locking),1,10000000,454364,1000000,true
+V2 - Approx (local locking),2,10000000,839225,1000000,true
+V2 - Approx (local locking),4,10000000,2854689,1000000,true
+V2 - Approx (local locking),10,10000000,7602789,1000000,true
+V2 - Approx (local locking),20,10000000,14364528,1000000,true
+V3 - Approx (No local),0,10000000,27593,100,true
+V3 - Approx (No local),1,10000000,71933,100,true
+V3 - Approx (No local),2,10000000,106813,100,true
+V3 - Approx (No local),4,10000000,202094,100,true
+V3 - Approx (No local),10,10000000,774197,100,true
+V3 - Approx (No local),20,10000000,1769603,100,false
+V3 - Approx (No local),0,10000000,25617,10000,true
+V3 - Approx (No local),1,10000000,74218,10000,true
+V3 - Approx (No local),2,10000000,114175,10000,true
+V3 - Approx (No local),4,10000000,242733,10000,true
+V3 - Approx (No local),10,10000000,913512,10000,true
+V3 - Approx (No local),20,10000000,1844310,10000,false
+V3 - Approx (No local),0,10000000,24957,1000000,true
+V3 - Approx (No local),1,10000000,74033,1000000,true
+V3 - Approx (No local),2,10000000,99566,1000000,true
+V3 - Approx (No local),4,10000000,227580,1000000,true
+V3 - Approx (No local),10,10000000,905234,1000000,true
+V3 - Approx (No local),20,10000000,1763735,1000000,false
+V4 - Approx (thread counters),0,10000000,22330,100,true
+V4 - Approx (thread counters),1,10000000,46318,100,true
+V4 - Approx (thread counters),2,10000000,71777,100,true
+V4 - Approx (thread counters),4,10000000,160268,100,true
+V4 - Approx (thread counters),20,10000000,1245253,100,true
+V4 - Approx (thread counters),0,10000000,20678,10000,true
+V4 - Approx (thread counters),1,10000000,49118,10000,true
+V4 - Approx (thread counters),2,10000000,99927,10000,true
+V4 - Approx (thread counters),4,10000000,174930,10000,true
+V4 - Approx (thread counters),10,10000000,607343,10000,true
+V4 - Approx (thread counters),20,10000000,1371400,10000,true
+V4 - Approx (thread counters),0,10000000,20889,1000000,true
+V4 - Approx (thread counters),1,10000000,57141,1000000,true
+V4 - Approx (thread counters),2,10000000,90328,1000000,true
+V4 - Approx (thread counters),4,10000000,170683,1000000,true
+V4 - Approx (thread counters),10,10000000,713483,1000000,true
+V4 - Approx (thread counters),20,10000000,1343811,1000000,true
+V0 - No Locking,0,10000000,20429,-1,true
+V0 - No Locking,1,10000000,36331,-1,false
+V0 - No Locking,2,10000000,59735,-1,false
+V0 - No Locking,4,10000000,129917,-1,false
+V0 - No Locking,10,10000000,453361,-1,false
+V0 - No Locking,20,10000000,913875,-1,false
+V1 - Full Locking,0,10000000,63005,-1,true
+V1 - Full Locking,1,10000000,786068,-1,true
+V1 - Full Locking,2,10000000,1296392,-1,true
+V1 - Full Locking,4,10000000,2489207,-1,true
+V1 - Full Locking,10,10000000,6546227,-1,true
+V1 - Full Locking,20,10000000,10837422,-1,true
+V2 - Approx (local locking),0,10000000,79869,100,true
+V2 - Approx (local locking),1,10000000,473173,100,true
+V2 - Approx (local locking),2,10000000,856965,100,true
+V2 - Approx (local locking),4,10000000,2969111,100,true
+V2 - Approx (local locking),10,10000000,7810451,100,true
+V2 - Approx (local locking),20,10000000,14660643,100,true
+V2 - Approx (local locking),0,10000000,81154,10000,true
+V2 - Approx (local locking),1,10000000,648974,10000,true
+V2 - Approx (local locking),2,10000000,1078201,10000,true
+V2 - Approx (local locking),4,10000000,2866050,10000,true
+V2 - Approx (local locking),10,10000000,7688087,10000,true
+V2 - Approx (local locking),20,10000000,14194414,10000,true
+V2 - Approx (local locking),0,10000000,76003,1000000,true
+V2 - Approx (local locking),1,10000000,532843,1000000,true
+V2 - Approx (local locking),2,10000000,990541,1000000,true
+V2 - Approx (local locking),4,10000000,2910999,1000000,true
+V2 - Approx (local locking),10,10000000,7629144,1000000,true
+V2 - Approx (local locking),20,10000000,14457421,1000000,true
+V3 - Approx (No local),0,10000000,27288,100,true
+V3 - Approx (No local),1,10000000,71777,100,true
+V3 - Approx (No local),2,10000000,99562,100,true
+V3 - Approx (No local),4,10000000,218304,100,true
+V3 - Approx (No local),10,10000000,750250,100,true
+V3 - Approx (No local),20,10000000,1691465,100,false
+V3 - Approx (No local),0,10000000,25782,10000,true
+V3 - Approx (No local),1,10000000,65302,10000,true
+V3 - Approx (No local),2,10000000,133883,10000,true
+V3 - Approx (No local),4,10000000,234591,10000,true
+V3 - Approx (No local),10,10000000,892741,10000,true
+V3 - Approx (No local),20,10000000,1812409,10000,false
+V3 - Approx (No local),0,10000000,25286,1000000,true
+V3 - Approx (No local),1,10000000,58416,1000000,true
+V3 - Approx (No local),2,10000000,103811,1000000,true
+V3 - Approx (No local),4,10000000,223650,1000000,true
+V3 - Approx (No local),10,10000000,935319,1000000,true
+V3 - Approx (No local),20,10000000,1750498,1000000,false
+V4 - Approx (thread counters),0,10000000,22511,100,true
+V4 - Approx (thread counters),1,10000000,53920,100,true
+V4 - Approx (thread counters),2,10000000,78657,100,true
+V4 - Approx (thread counters),4,10000000,200138,100,true
+V4 - Approx (thread counters),20,10000000,1249217,100,true
+V4 - Approx (thread counters),0,10000000,20930,10000,true
+V4 - Approx (thread counters),1,10000000,38875,10000,true
+V4 - Approx (thread counters),2,10000000,64296,10000,true
+V4 - Approx (thread counters),4,10000000,159833,10000,true
+V4 - Approx (thread counters),10,10000000,757378,10000,true
+V4 - Approx (thread counters),20,10000000,1340234,10000,true
+V4 - Approx (thread counters),0,10000000,21169,1000000,true
+V4 - Approx (thread counters),1,10000000,45664,1000000,true
+V4 - Approx (thread counters),2,10000000,98507,1000000,true
+V4 - Approx (thread counters),4,10000000,172041,1000000,true
+V4 - Approx (thread counters),10,10000000,692323,1000000,true
+V4 - Approx (thread counters),20,10000000,1353521,1000000,true
+V0 - No Locking,0,10000000,20833,-1,true
+V0 - No Locking,1,10000000,26821,-1,false
+V0 - No Locking,2,10000000,83796,-1,false
+V0 - No Locking,4,10000000,129887,-1,false
+V0 - No Locking,10,10000000,465912,-1,false
+V0 - No Locking,20,10000000,925061,-1,false
+V1 - Full Locking,0,10000000,61959,-1,true
+V1 - Full Locking,1,10000000,769170,-1,true
+V1 - Full Locking,2,10000000,1233402,-1,true
+V1 - Full Locking,4,10000000,2787815,-1,true
+V1 - Full Locking,10,10000000,6701686,-1,true
+V1 - Full Locking,20,10000000,10688088,-1,true
+V2 - Approx (local locking),0,10000000,80873,100,true
+V2 - Approx (local locking),1,10000000,513407,100,true
+V2 - Approx (local locking),2,10000000,806000,100,true
+V2 - Approx (local locking),4,10000000,2926303,100,true
+V2 - Approx (local locking),10,10000000,7897073,100,true
+V2 - Approx (local locking),20,10000000,14629074,100,true
+V2 - Approx (local locking),0,10000000,81560,10000,true
+V2 - Approx (local locking),1,10000000,531889,10000,true
+V2 - Approx (local locking),2,10000000,872974,10000,true
+V2 - Approx (local locking),4,10000000,2875553,10000,true
+V2 - Approx (local locking),10,10000000,7528886,10000,true
+V2 - Approx (local locking),20,10000000,14557615,10000,true
+V2 - Approx (local locking),0,10000000,76887,1000000,true
+V2 - Approx (local locking),1,10000000,564368,1000000,true
+V2 - Approx (local locking),2,10000000,940809,1000000,true
+V2 - Approx (local locking),4,10000000,3005470,1000000,true
+V2 - Approx (local locking),10,10000000,7783804,1000000,true
+V2 - Approx (local locking),20,10000000,14627250,1000000,true
+V3 - Approx (No local),0,10000000,26718,100,true
+V3 - Approx (No local),1,10000000,70314,100,true
+V3 - Approx (No local),2,10000000,90510,100,true
+V3 - Approx (No local),4,10000000,196185,100,true
+V3 - Approx (No local),10,10000000,736652,100,true
+V3 - Approx (No local),20,10000000,1802725,100,false
+V3 - Approx (No local),0,10000000,25357,10000,true
+V3 - Approx (No local),1,10000000,66688,10000,true
+V3 - Approx (No local),2,10000000,132245,10000,true
+V3 - Approx (No local),4,10000000,230248,10000,true
+V3 - Approx (No local),10,10000000,925442,10000,true
+V3 - Approx (No local),20,10000000,1841795,10000,false
+V3 - Approx (No local),0,10000000,25072,1000000,true
+V3 - Approx (No local),1,10000000,54509,1000000,true
+V3 - Approx (No local),2,10000000,107824,1000000,true
+V3 - Approx (No local),4,10000000,232289,1000000,true
+V3 - Approx (No local),10,10000000,928060,1000000,true
+V3 - Approx (No local),20,10000000,1682918,1000000,false
+V4 - Approx (thread counters),0,10000000,22415,100,true
+V4 - Approx (thread counters),1,10000000,74900,100,true
+V4 - Approx (thread counters),2,10000000,108844,100,true
+V4 - Approx (thread counters),4,10000000,142924,100,true
+V4 - Approx (thread counters),20,10000000,1296908,100,true
+V4 - Approx (thread counters),0,10000000,20595,10000,true
+V4 - Approx (thread counters),1,10000000,44681,10000,true
+V4 - Approx (thread counters),2,10000000,90393,10000,true
+V4 - Approx (thread counters),4,10000000,165437,10000,true
+V4 - Approx (thread counters),10,10000000,716371,10000,true
+V4 - Approx (thread counters),20,10000000,1331166,10000,true
+V4 - Approx (thread counters),0,10000000,20846,1000000,true
+V4 - Approx (thread counters),1,10000000,49885,1000000,true
+V4 - Approx (thread counters),2,10000000,81480,1000000,true
+V4 - Approx (thread counters),4,10000000,155619,1000000,true
+V4 - Approx (thread counters),10,10000000,760312,1000000,true
+V4 - Approx (thread counters),20,10000000,1394131,1000000,true
+V0 - No Locking,0,10000000,20799,-1,true
+V0 - No Locking,1,10000000,32523,-1,false
+V0 - No Locking,2,10000000,61466,-1,false
+V0 - No Locking,4,10000000,128757,-1,false
+V0 - No Locking,10,10000000,493476,-1,false
+V0 - No Locking,20,10000000,987330,-1,false
+V1 - Full Locking,0,10000000,60439,-1,true
+V1 - Full Locking,1,10000000,724610,-1,true
+V1 - Full Locking,2,10000000,1340668,-1,true
+V1 - Full Locking,4,10000000,2842175,-1,true
+V1 - Full Locking,10,10000000,6779710,-1,true
+V1 - Full Locking,20,10000000,10763978,-1,true
+V2 - Approx (local locking),0,10000000,79958,100,true
+V2 - Approx (local locking),1,10000000,457214,100,true
+V2 - Approx (local locking),2,10000000,791101,100,true
+V2 - Approx (local locking),4,10000000,2935913,100,true
+V2 - Approx (local locking),10,10000000,7944811,100,true
+V2 - Approx (local locking),20,10000000,14640159,100,true
+V2 - Approx (local locking),0,10000000,76144,10000,true
+V2 - Approx (local locking),1,10000000,532715,10000,true
+V2 - Approx (local locking),2,10000000,846209,10000,true
+V2 - Approx (local locking),4,10000000,2876946,10000,true
+V2 - Approx (local locking),10,10000000,7618242,10000,true
+V2 - Approx (local locking),20,10000000,14353121,10000,true
+V2 - Approx (local locking),0,10000000,77685,1000000,true
+V2 - Approx (local locking),1,10000000,494250,1000000,true
+V2 - Approx (local locking),2,10000000,1034918,1000000,true
+V2 - Approx (local locking),4,10000000,2862547,1000000,true
+V2 - Approx (local locking),10,10000000,7680719,1000000,true
+V2 - Approx (local locking),20,10000000,14662646,1000000,true
+V3 - Approx (No local),0,10000000,27455,100,true
+V3 - Approx (No local),1,10000000,58744,100,true
+V3 - Approx (No local),2,10000000,90162,100,true
+V3 - Approx (No local),4,10000000,196453,100,true
+V3 - Approx (No local),10,10000000,762646,100,true
+V3 - Approx (No local),20,10000000,1736039,100,false
+V3 - Approx (No local),0,10000000,25728,10000,true
+V3 - Approx (No local),1,10000000,54800,10000,true
+V3 - Approx (No local),2,10000000,117708,10000,true
+V3 - Approx (No local),4,10000000,237091,10000,true
+V3 - Approx (No local),10,10000000,965035,10000,true
+V3 - Approx (No local),20,10000000,1798112,10000,false
+V3 - Approx (No local),0,10000000,26208,1000000,true
+V3 - Approx (No local),1,10000000,67596,1000000,true
+V3 - Approx (No local),2,10000000,162393,1000000,true
+V3 - Approx (No local),4,10000000,229093,1000000,true
+V3 - Approx (No local),10,10000000,909623,1000000,true
+V3 - Approx (No local),20,10000000,1759644,1000000,false
+V4 - Approx (thread counters),0,10000000,22170,100,true
+V4 - Approx (thread counters),1,10000000,51462,100,true
+V4 - Approx (thread counters),2,10000000,82920,100,true
+V4 - Approx (thread counters),4,10000000,162312,100,true
+V4 - Approx (thread counters),20,10000000,1269712,100,true
+V4 - Approx (thread counters),0,10000000,20641,10000,true
+V4 - Approx (thread counters),1,10000000,39000,10000,true
+V4 - Approx (thread counters),2,10000000,84060,10000,true
+V4 - Approx (thread counters),4,10000000,168912,10000,true
+V4 - Approx (thread counters),10,10000000,795172,10000,true
+V4 - Approx (thread counters),20,10000000,1315692,10000,true
+V4 - Approx (thread counters),0,10000000,20974,1000000,true
+V4 - Approx (thread counters),1,10000000,44722,1000000,true
+V4 - Approx (thread counters),2,10000000,64317,1000000,true
+V4 - Approx (thread counters),4,10000000,175890,1000000,true
+V4 - Approx (thread counters),10,10000000,767787,1000000,true
+V4 - Approx (thread counters),20,10000000,1339192,1000000,true
+V0 - No Locking,0,10000000,20616,-1,true
+V0 - No Locking,1,10000000,32703,-1,false
+V0 - No Locking,2,10000000,52734,-1,false
+V0 - No Locking,4,10000000,135245,-1,false
+V0 - No Locking,10,10000000,480108,-1,false
+V0 - No Locking,20,10000000,918933,-1,false
+V1 - Full Locking,0,10000000,63844,-1,true
+V1 - Full Locking,1,10000000,783736,-1,true
+V1 - Full Locking,2,10000000,1228722,-1,true
+V1 - Full Locking,4,10000000,2897466,-1,true
+V1 - Full Locking,10,10000000,6529379,-1,true
+V1 - Full Locking,20,10000000,10981822,-1,true
+V2 - Approx (local locking),0,10000000,80036,100,true
+V2 - Approx (local locking),1,10000000,482417,100,true
+V2 - Approx (local locking),2,10000000,883113,100,true
+V2 - Approx (local locking),4,10000000,2924103,100,true
+V2 - Approx (local locking),10,10000000,7794818,100,true
+V2 - Approx (local locking),20,10000000,14463368,100,true
+V2 - Approx (local locking),0,10000000,76572,10000,true
+V2 - Approx (local locking),1,10000000,588599,10000,true
+V2 - Approx (local locking),2,10000000,1224444,10000,true
+V2 - Approx (local locking),4,10000000,2901986,10000,true
+V2 - Approx (local locking),10,10000000,7517793,10000,true
+V2 - Approx (local locking),20,10000000,14325012,10000,true
+V2 - Approx (local locking),0,10000000,76776,1000000,true
+V2 - Approx (local locking),1,10000000,677168,1000000,true
+V2 - Approx (local locking),2,10000000,1119937,1000000,true
+V2 - Approx (local locking),4,10000000,2918382,1000000,true
+V2 - Approx (local locking),10,10000000,7374123,1000000,true
+V2 - Approx (local locking),20,10000000,14306226,1000000,true
+V3 - Approx (No local),0,10000000,27377,100,true
+V3 - Approx (No local),1,10000000,71902,100,true
+V3 - Approx (No local),2,10000000,95899,100,true
+V3 - Approx (No local),4,10000000,208815,100,true
+V3 - Approx (No local),10,10000000,724237,100,true
+V3 - Approx (No local),20,10000000,1766826,100,false
+V3 - Approx (No local),0,10000000,25735,10000,true
+V3 - Approx (No local),1,10000000,57869,10000,true
+V3 - Approx (No local),2,10000000,109706,10000,true
+V3 - Approx (No local),4,10000000,226774,10000,true
+V3 - Approx (No local),10,10000000,817865,10000,true
+V3 - Approx (No local),20,10000000,1706476,10000,false
+V3 - Approx (No local),0,10000000,25646,1000000,true
+V3 - Approx (No local),1,10000000,65586,1000000,true
+V3 - Approx (No local),2,10000000,133042,1000000,true
+V3 - Approx (No local),4,10000000,228380,1000000,true
+V3 - Approx (No local),10,10000000,931920,1000000,true
+V3 - Approx (No local),20,10000000,1791521,1000000,false
+V4 - Approx (thread counters),0,10000000,22268,100,true
+V4 - Approx (thread counters),1,10000000,46763,100,true
+V4 - Approx (thread counters),2,10000000,69015,100,true
+V4 - Approx (thread counters),4,10000000,141736,100,true
+V4 - Approx (thread counters),20,10000000,1247096,100,true
+V4 - Approx (thread counters),0,10000000,20638,10000,true
+V4 - Approx (thread counters),1,10000000,44721,10000,true
+V4 - Approx (thread counters),2,10000000,86561,10000,true
+V4 - Approx (thread counters),4,10000000,167348,10000,true
+V4 - Approx (thread counters),10,10000000,751895,10000,true
+V4 - Approx (thread counters),20,10000000,1246012,10000,true
+V4 - Approx (thread counters),0,10000000,20569,1000000,true
+V4 - Approx (thread counters),1,10000000,45030,1000000,true
+V4 - Approx (thread counters),2,10000000,83673,1000000,true
+V4 - Approx (thread counters),4,10000000,167212,1000000,true
+V4 - Approx (thread counters),10,10000000,733924,1000000,true
+V4 - Approx (thread counters),20,10000000,1307578,1000000,true
+V0 - No Locking,0,10000000,20636,-1,true
+V0 - No Locking,1,10000000,35497,-1,false
+V0 - No Locking,2,10000000,55921,-1,false
+V0 - No Locking,4,10000000,127995,-1,false
+V0 - No Locking,10,10000000,466729,-1,false
+V0 - No Locking,20,10000000,887100,-1,false
+V1 - Full Locking,0,10000000,62525,-1,true
+V1 - Full Locking,1,10000000,738343,-1,true
+V1 - Full Locking,2,10000000,1302339,-1,true
+V1 - Full Locking,4,10000000,2801547,-1,true
+V1 - Full Locking,10,10000000,6757326,-1,true
+V1 - Full Locking,20,10000000,11090362,-1,true
+V2 - Approx (local locking),0,10000000,80228,100,true
+V2 - Approx (local locking),1,10000000,486646,100,true
+V2 - Approx (local locking),2,10000000,844474,100,true
+V2 - Approx (local locking),4,10000000,2941693,100,true
+V2 - Approx (local locking),10,10000000,7941496,100,true
+V2 - Approx (local locking),20,10000000,14223720,100,true
+V2 - Approx (local locking),0,10000000,75925,10000,true
+V2 - Approx (local locking),1,10000000,504472,10000,true
+V2 - Approx (local locking),2,10000000,1128532,10000,true
+V2 - Approx (local locking),4,10000000,2918246,10000,true
+V2 - Approx (local locking),10,10000000,7730122,10000,true
+V2 - Approx (local locking),20,10000000,14604072,10000,true
+V2 - Approx (local locking),0,10000000,75565,1000000,true
+V2 - Approx (local locking),1,10000000,452156,1000000,true
+V2 - Approx (local locking),2,10000000,734963,1000000,true
+V2 - Approx (local locking),4,10000000,2934801,1000000,true
+V2 - Approx (local locking),10,10000000,7837474,1000000,true
+V2 - Approx (local locking),20,10000000,14399837,1000000,true
+V3 - Approx (No local),0,10000000,27633,100,true
+V3 - Approx (No local),1,10000000,66906,100,true
+V3 - Approx (No local),2,10000000,98772,100,true
+V3 - Approx (No local),4,10000000,213933,100,true
+V3 - Approx (No local),10,10000000,710504,100,true
+V3 - Approx (No local),20,10000000,1803033,100,false
+V3 - Approx (No local),0,10000000,25426,10000,true
+V3 - Approx (No local),1,10000000,65316,10000,true
+V3 - Approx (No local),2,10000000,112159,10000,true
+V3 - Approx (No local),4,10000000,235261,10000,true
+V3 - Approx (No local),10,10000000,938928,10000,true
+V3 - Approx (No local),20,10000000,1683175,10000,false
+V3 - Approx (No local),0,10000000,26278,1000000,true
+V3 - Approx (No local),1,10000000,69312,1000000,true
+V3 - Approx (No local),2,10000000,117694,1000000,true
+V3 - Approx (No local),4,10000000,234518,1000000,true
+V3 - Approx (No local),10,10000000,883612,1000000,true
+V3 - Approx (No local),20,10000000,1735908,1000000,false
+V4 - Approx (thread counters),0,10000000,23011,100,true
+V4 - Approx (thread counters),1,10000000,49938,100,true
+V4 - Approx (thread counters),2,10000000,82514,100,true
+V4 - Approx (thread counters),4,10000000,153541,100,true
+V4 - Approx (thread counters),20,10000000,1243339,100,true
+V4 - Approx (thread counters),0,10000000,21378,10000,true
+V4 - Approx (thread counters),1,10000000,45837,10000,true
+V4 - Approx (thread counters),2,10000000,89279,10000,true
+V4 - Approx (thread counters),4,10000000,164090,10000,true
+V4 - Approx (thread counters),10,10000000,641152,10000,true
+V4 - Approx (thread counters),20,10000000,1009501,10000,true
+V4 - Approx (thread counters),0,10000000,20496,1000000,true
+V4 - Approx (thread counters),1,10000000,46357,1000000,true
+V4 - Approx (thread counters),2,10000000,88003,1000000,true
+V4 - Approx (thread counters),4,10000000,199515,1000000,true
+V4 - Approx (thread counters),10,10000000,547808,1000000,true
+V4 - Approx (thread counters),20,10000000,1274997,1000000,true
+V0 - No Locking,0,10000000,20313,-1,true
+V0 - No Locking,1,10000000,31318,-1,false
+V0 - No Locking,2,10000000,53201,-1,false
+V0 - No Locking,4,10000000,143796,-1,false
+V0 - No Locking,10,10000000,448932,-1,false
+V0 - No Locking,20,10000000,919469,-1,false
+V1 - Full Locking,0,10000000,65887,-1,true
+V1 - Full Locking,1,10000000,729591,-1,true
+V1 - Full Locking,2,10000000,1331712,-1,true
+V1 - Full Locking,4,10000000,2301215,-1,true
+V1 - Full Locking,10,10000000,6660534,-1,true
+V1 - Full Locking,20,10000000,11206442,-1,true
+V2 - Approx (local locking),0,10000000,80260,100,true
+V2 - Approx (local locking),1,10000000,567434,100,true
+V2 - Approx (local locking),2,10000000,928203,100,true
+V2 - Approx (local locking),4,10000000,2915591,100,true
+V2 - Approx (local locking),10,10000000,7677164,100,true
+V2 - Approx (local locking),20,10000000,14351001,100,true
+V2 - Approx (local locking),0,10000000,76457,10000,true
+V2 - Approx (local locking),1,10000000,528687,10000,true
+V2 - Approx (local locking),2,10000000,1284790,10000,true
+V2 - Approx (local locking),4,10000000,2915058,10000,true
+V2 - Approx (local locking),10,10000000,7604409,10000,true
+V2 - Approx (local locking),20,10000000,14892161,10000,true
+V2 - Approx (local locking),0,10000000,75380,1000000,true
+V2 - Approx (local locking),1,10000000,444941,1000000,true
+V2 - Approx (local locking),2,10000000,872283,1000000,true
+V2 - Approx (local locking),4,10000000,2735524,1000000,true
+V2 - Approx (local locking),10,10000000,7840405,1000000,true
+V2 - Approx (local locking),20,10000000,14279458,1000000,true
+V3 - Approx (No local),0,10000000,27286,100,true
+V3 - Approx (No local),1,10000000,70274,100,true
+V3 - Approx (No local),2,10000000,102288,100,true
+V3 - Approx (No local),4,10000000,236090,100,true
+V3 - Approx (No local),10,10000000,720680,100,true
+V3 - Approx (No local),20,10000000,1765438,100,false
+V3 - Approx (No local),0,10000000,25929,10000,true
+V3 - Approx (No local),1,10000000,59867,10000,true
+V3 - Approx (No local),2,10000000,119124,10000,true
+V3 - Approx (No local),4,10000000,220720,10000,true
+V3 - Approx (No local),10,10000000,964220,10000,true
+V3 - Approx (No local),20,10000000,1955795,10000,false
+V3 - Approx (No local),0,10000000,25439,1000000,true
+V3 - Approx (No local),1,10000000,72327,1000000,true
+V3 - Approx (No local),2,10000000,121856,1000000,true
+V3 - Approx (No local),4,10000000,231212,1000000,true
+V3 - Approx (No local),10,10000000,956179,1000000,true
+V3 - Approx (No local),20,10000000,1899117,1000000,false
+V4 - Approx (thread counters),0,10000000,22617,100,true
+V4 - Approx (thread counters),1,10000000,54895,100,true
+V4 - Approx (thread counters),2,10000000,81387,100,true
+V4 - Approx (thread counters),4,10000000,148521,100,true
+V4 - Approx (thread counters),20,10000000,1285121,100,true
+V4 - Approx (thread counters),0,10000000,20816,10000,true
+V4 - Approx (thread counters),1,10000000,50564,10000,true
+V4 - Approx (thread counters),2,10000000,83238,10000,true
+V4 - Approx (thread counters),4,10000000,172003,10000,true
+V4 - Approx (thread counters),10,10000000,754427,10000,true
+V4 - Approx (thread counters),20,10000000,1504524,10000,true
+V4 - Approx (thread counters),0,10000000,20800,1000000,true
+V4 - Approx (thread counters),1,10000000,50374,1000000,true
+V4 - Approx (thread counters),2,10000000,95217,1000000,true
+V4 - Approx (thread counters),4,10000000,173842,1000000,true
+V4 - Approx (thread counters),10,10000000,801854,1000000,true
+V4 - Approx (thread counters),20,10000000,1396608,1000000,true
+V0 - No Locking,0,10000000,20785,-1,true
+V0 - No Locking,1,10000000,31023,-1,false
+V0 - No Locking,2,10000000,50155,-1,false
+V0 - No Locking,4,10000000,129063,-1,false
+V0 - No Locking,10,10000000,520521,-1,false
+V0 - No Locking,20,10000000,857579,-1,false
+V1 - Full Locking,0,10000000,62208,-1,true
+V1 - Full Locking,1,10000000,562679,-1,true
+V1 - Full Locking,2,10000000,1375160,-1,true
+V1 - Full Locking,4,10000000,2874241,-1,true
+V1 - Full Locking,10,10000000,6722348,-1,true
+V1 - Full Locking,20,10000000,11025042,-1,true
+V2 - Approx (local locking),0,10000000,84111,100,true
+V2 - Approx (local locking),1,10000000,454188,100,true
+V2 - Approx (local locking),2,10000000,736489,100,true
+V2 - Approx (local locking),4,10000000,2932594,100,true
+V2 - Approx (local locking),10,10000000,7961645,100,true
+V2 - Approx (local locking),20,10000000,14656866,100,true
+V2 - Approx (local locking),0,10000000,75629,10000,true
+V2 - Approx (local locking),1,10000000,476677,10000,true
+V2 - Approx (local locking),2,10000000,903372,10000,true
+V2 - Approx (local locking),4,10000000,2888697,10000,true
+V2 - Approx (local locking),10,10000000,7843282,10000,true
+V2 - Approx (local locking),20,10000000,14896788,10000,true
+V2 - Approx (local locking),0,10000000,74743,1000000,true
+V2 - Approx (local locking),1,10000000,476659,1000000,true
+V2 - Approx (local locking),2,10000000,790061,1000000,true
+V2 - Approx (local locking),4,10000000,2937226,1000000,true
+V2 - Approx (local locking),10,10000000,7805751,1000000,true
+V2 - Approx (local locking),20,10000000,14626988,1000000,true
+V3 - Approx (No local),0,10000000,27280,100,true
+V3 - Approx (No local),1,10000000,77076,100,true
+V3 - Approx (No local),2,10000000,93832,100,true
+V3 - Approx (No local),4,10000000,199638,100,true
+V3 - Approx (No local),10,10000000,714940,100,true
+V3 - Approx (No local),20,10000000,1797207,100,false
+V3 - Approx (No local),0,10000000,25796,10000,true
+V3 - Approx (No local),1,10000000,65197,10000,true
+V3 - Approx (No local),2,10000000,132210,10000,true
+V3 - Approx (No local),4,10000000,224070,10000,true
+V3 - Approx (No local),10,10000000,959070,10000,true
+V3 - Approx (No local),20,10000000,1850807,10000,false
+V3 - Approx (No local),0,10000000,26094,1000000,true
+V3 - Approx (No local),1,10000000,98839,1000000,true
+V3 - Approx (No local),2,10000000,164376,1000000,true
+V3 - Approx (No local),4,10000000,224412,1000000,true
+V3 - Approx (No local),10,10000000,920953,1000000,true
+V3 - Approx (No local),20,10000000,1869725,1000000,false
+V4 - Approx (thread counters),0,10000000,22643,100,true
+V4 - Approx (thread counters),1,10000000,59318,100,true
+V4 - Approx (thread counters),2,10000000,68070,100,true
+V4 - Approx (thread counters),4,10000000,154335,100,true
+V4 - Approx (thread counters),20,10000000,1323866,100,true
+V4 - Approx (thread counters),0,10000000,20949,10000,true
+V4 - Approx (thread counters),1,10000000,53468,10000,true
+V4 - Approx (thread counters),2,10000000,111196,10000,true
+V4 - Approx (thread counters),4,10000000,166322,10000,true
+V4 - Approx (thread counters),10,10000000,748653,10000,true
+V4 - Approx (thread counters),20,10000000,1392795,10000,true
+V4 - Approx (thread counters),0,10000000,21559,1000000,true
+V4 - Approx (thread counters),1,10000000,52119,1000000,true
+V4 - Approx (thread counters),2,10000000,77719,1000000,true
+V4 - Approx (thread counters),4,10000000,174867,1000000,true
+V4 - Approx (thread counters),10,10000000,777806,1000000,true
+V4 - Approx (thread counters),20,10000000,1396886,1000000,true
+V0 - No Locking,0,10000000,21393,-1,true
+V0 - No Locking,1,10000000,36325,-1,false
+V0 - No Locking,2,10000000,63422,-1,false
+V0 - No Locking,4,10000000,129453,-1,false
+V0 - No Locking,10,10000000,468597,-1,false
+V0 - No Locking,20,10000000,900348,-1,false
+V1 - Full Locking,0,10000000,61078,-1,true
+V1 - Full Locking,1,10000000,593370,-1,true
+V1 - Full Locking,2,10000000,1365392,-1,true
+V1 - Full Locking,4,10000000,2814311,-1,true
+V1 - Full Locking,10,10000000,6720829,-1,true
+V1 - Full Locking,20,10000000,10525032,-1,true
+V2 - Approx (local locking),0,10000000,81105,100,true
+V2 - Approx (local locking),1,10000000,458447,100,true
+V2 - Approx (local locking),2,10000000,945616,100,true
+V2 - Approx (local locking),4,10000000,2945907,100,true
+V2 - Approx (local locking),10,10000000,7881400,100,true
+V2 - Approx (local locking),20,10000000,14589077,100,true
+V2 - Approx (local locking),0,10000000,77425,10000,true
+V2 - Approx (local locking),1,10000000,459216,10000,true
+V2 - Approx (local locking),2,10000000,796172,10000,true
+V2 - Approx (local locking),4,10000000,2932229,10000,true
+V2 - Approx (local locking),10,10000000,7838555,10000,true
+V2 - Approx (local locking),20,10000000,14795524,10000,true
+V2 - Approx (local locking),0,10000000,76587,1000000,true
+V2 - Approx (local locking),1,10000000,471981,1000000,true
+V2 - Approx (local locking),2,10000000,843662,1000000,true
+V2 - Approx (local locking),4,10000000,2966849,1000000,true
+V2 - Approx (local locking),10,10000000,7792003,1000000,true
+V2 - Approx (local locking),20,10000000,14540929,1000000,true
+V3 - Approx (No local),0,10000000,27149,100,true
+V3 - Approx (No local),1,10000000,67059,100,true
+V3 - Approx (No local),2,10000000,95211,100,true
+V3 - Approx (No local),4,10000000,211993,100,true
+V3 - Approx (No local),10,10000000,724962,100,true
+V3 - Approx (No local),20,10000000,1765681,100,false
+V3 - Approx (No local),0,10000000,26058,10000,true
+V3 - Approx (No local),1,10000000,66061,10000,true
+V3 - Approx (No local),2,10000000,102721,10000,true
+V3 - Approx (No local),4,10000000,232838,10000,true
+V3 - Approx (No local),10,10000000,948413,10000,true
+V3 - Approx (No local),20,10000000,1889442,10000,false
+V3 - Approx (No local),0,10000000,25066,1000000,true
+V3 - Approx (No local),1,10000000,67399,1000000,true
+V3 - Approx (No local),2,10000000,139112,1000000,true
+V3 - Approx (No local),4,10000000,226131,1000000,true
+V3 - Approx (No local),10,10000000,943275,1000000,true
+V3 - Approx (No local),20,10000000,1908867,1000000,false
+V4 - Approx (thread counters),0,10000000,21996,100,true
+V4 - Approx (thread counters),1,10000000,56709,100,true
+V4 - Approx (thread counters),2,10000000,69064,100,true
+V4 - Approx (thread counters),4,10000000,148780,100,true
+V4 - Approx (thread counters),20,10000000,1175330,100,true
+V4 - Approx (thread counters),0,10000000,20499,10000,true
+V4 - Approx (thread counters),1,10000000,51200,10000,true
+V4 - Approx (thread counters),2,10000000,105922,10000,true
+V4 - Approx (thread counters),4,10000000,170780,10000,true
+V4 - Approx (thread counters),10,10000000,816458,10000,true
+V4 - Approx (thread counters),20,10000000,1388827,10000,true
+V4 - Approx (thread counters),0,10000000,21434,1000000,true
+V4 - Approx (thread counters),1,10000000,50167,1000000,true
+V4 - Approx (thread counters),2,10000000,76990,1000000,true
+V4 - Approx (thread counters),4,10000000,188860,1000000,true
+V4 - Approx (thread counters),10,10000000,861791,1000000,true
+V4 - Approx (thread counters),20,10000000,1488862,1000000,true
+V0 - No Locking,0,10000000,21066,-1,true
+V0 - No Locking,1,10000000,30453,-1,false
+V0 - No Locking,2,10000000,46571,-1,false
+V0 - No Locking,4,10000000,123961,-1,false
+V0 - No Locking,10,10000000,483553,-1,false
+V0 - No Locking,20,10000000,858691,-1,false
+V1 - Full Locking,0,10000000,60891,-1,true
+V1 - Full Locking,1,10000000,811360,-1,true
+V1 - Full Locking,2,10000000,1321645,-1,true
+V1 - Full Locking,4,10000000,2801828,-1,true
+V1 - Full Locking,10,10000000,6726482,-1,true
+V1 - Full Locking,20,10000000,10746823,-1,true
+V2 - Approx (local locking),0,10000000,81476,100,true
+V2 - Approx (local locking),1,10000000,463166,100,true
+V2 - Approx (local locking),2,10000000,844498,100,true
+V2 - Approx (local locking),4,10000000,2980759,100,true
+V2 - Approx (local locking),10,10000000,7916141,100,true
+V2 - Approx (local locking),20,10000000,14612980,100,true
+V2 - Approx (local locking),0,10000000,76462,10000,true
+V2 - Approx (local locking),1,10000000,472694,10000,true
+V2 - Approx (local locking),2,10000000,967668,10000,true
+V2 - Approx (local locking),4,10000000,2905435,10000,true
+V2 - Approx (local locking),10,10000000,7835588,10000,true
+V2 - Approx (local locking),20,10000000,14826623,10000,true
+V2 - Approx (local locking),0,10000000,76279,1000000,true
+V2 - Approx (local locking),1,10000000,486445,1000000,true
+V2 - Approx (local locking),2,10000000,1020127,1000000,true
+V2 - Approx (local locking),4,10000000,2980539,1000000,true
+V2 - Approx (local locking),10,10000000,7907535,1000000,true
+V2 - Approx (local locking),20,10000000,14693446,1000000,true
+V3 - Approx (No local),0,10000000,27257,100,true
+V3 - Approx (No local),1,10000000,67115,100,true
+V3 - Approx (No local),2,10000000,94568,100,true
+V3 - Approx (No local),4,10000000,238371,100,true
+V3 - Approx (No local),10,10000000,728229,100,true
+V3 - Approx (No local),20,10000000,1804593,100,false
+V3 - Approx (No local),0,10000000,25756,10000,true
+V3 - Approx (No local),1,10000000,69467,10000,true
+V3 - Approx (No local),2,10000000,121244,10000,true
+V3 - Approx (No local),4,10000000,226073,10000,true
+V3 - Approx (No local),10,10000000,949480,10000,true
+V3 - Approx (No local),20,10000000,1887180,10000,false
+V3 - Approx (No local),0,10000000,26393,1000000,true
+V3 - Approx (No local),1,10000000,70807,1000000,true
+V3 - Approx (No local),2,10000000,117285,1000000,true
+V3 - Approx (No local),4,10000000,224414,1000000,true
+V3 - Approx (No local),10,10000000,965828,1000000,true
+V3 - Approx (No local),20,10000000,1798333,1000000,false
+V4 - Approx (thread counters),0,10000000,22338,100,true
+V4 - Approx (thread counters),1,10000000,51051,100,true
+V4 - Approx (thread counters),2,10000000,69295,100,true
+V4 - Approx (thread counters),4,10000000,178313,100,true
+V4 - Approx (thread counters),20,10000000,1303574,100,true
+V4 - Approx (thread counters),0,10000000,21259,10000,true
+V4 - Approx (thread counters),1,10000000,55287,10000,true
+V4 - Approx (thread counters),2,10000000,86261,10000,true
+V4 - Approx (thread counters),4,10000000,174612,10000,true
+V4 - Approx (thread counters),10,10000000,741248,10000,true
+V4 - Approx (thread counters),20,10000000,1426515,10000,true
+V4 - Approx (thread counters),0,10000000,21442,1000000,true
+V4 - Approx (thread counters),1,10000000,56570,1000000,true
+V4 - Approx (thread counters),2,10000000,86820,1000000,true
+V4 - Approx (thread counters),4,10000000,168131,1000000,true
+V4 - Approx (thread counters),10,10000000,830914,1000000,true
+V4 - Approx (thread counters),20,10000000,1324847,1000000,true
+V0 - No Locking,0,10000000,21271,-1,true
+V0 - No Locking,1,10000000,31753,-1,false
+V0 - No Locking,2,10000000,57507,-1,false
+V0 - No Locking,4,10000000,130911,-1,false
+V0 - No Locking,10,10000000,519821,-1,false
+V0 - No Locking,20,10000000,881902,-1,false
+V1 - Full Locking,0,10000000,62130,-1,true
+V1 - Full Locking,1,10000000,804561,-1,true
+V1 - Full Locking,2,10000000,1261170,-1,true
+V1 - Full Locking,4,10000000,2842704,-1,true
+V1 - Full Locking,10,10000000,6715924,-1,true
+V1 - Full Locking,20,10000000,10735591,-1,true
+V2 - Approx (local locking),0,10000000,80127,100,true
+V2 - Approx (local locking),1,10000000,453891,100,true
+V2 - Approx (local locking),2,10000000,865655,100,true
+V2 - Approx (local locking),4,10000000,2951052,100,true
+V2 - Approx (local locking),10,10000000,7889927,100,true
+V2 - Approx (local locking),20,10000000,14748187,100,true
+V2 - Approx (local locking),0,10000000,76093,10000,true
+V2 - Approx (local locking),1,10000000,514886,10000,true
+V2 - Approx (local locking),2,10000000,859228,10000,true
+V2 - Approx (local locking),4,10000000,2852132,10000,true
+V2 - Approx (local locking),10,10000000,7788926,10000,true
+V2 - Approx (local locking),20,10000000,14715547,10000,true
+V2 - Approx (local locking),0,10000000,75412,1000000,true
+V2 - Approx (local locking),1,10000000,460775,1000000,true
+V2 - Approx (local locking),2,10000000,844271,1000000,true
+V2 - Approx (local locking),4,10000000,2954625,1000000,true
+V2 - Approx (local locking),10,10000000,7802950,1000000,true
+V2 - Approx (local locking),20,10000000,14801247,1000000,true
+V3 - Approx (No local),0,10000000,27585,100,true
+V3 - Approx (No local),1,10000000,75191,100,true
+V3 - Approx (No local),2,10000000,95672,100,true
+V3 - Approx (No local),4,10000000,198522,100,true
+V3 - Approx (No local),10,10000000,722257,100,true
+V3 - Approx (No local),20,10000000,1796046,100,false
+V3 - Approx (No local),0,10000000,25434,10000,true
+V3 - Approx (No local),1,10000000,67478,10000,true
+V3 - Approx (No local),2,10000000,120437,10000,true
+V3 - Approx (No local),4,10000000,224318,10000,true
+V3 - Approx (No local),10,10000000,925612,10000,true
+V3 - Approx (No local),20,10000000,1897150,10000,false
+V3 - Approx (No local),0,10000000,25954,1000000,true
+V3 - Approx (No local),1,10000000,70034,1000000,true
+V3 - Approx (No local),2,10000000,109817,1000000,true
+V3 - Approx (No local),4,10000000,223671,1000000,true
+V3 - Approx (No local),10,10000000,953827,1000000,true
+V3 - Approx (No local),20,10000000,1979832,1000000,false
+V4 - Approx (thread counters),0,10000000,22371,100,true
+V4 - Approx (thread counters),1,10000000,49082,100,true
+V4 - Approx (thread counters),2,10000000,74876,100,true
+V4 - Approx (thread counters),4,10000000,145829,100,true
+V4 - Approx (thread counters),20,10000000,1305487,100,true
+V4 - Approx (thread counters),0,10000000,21491,10000,true
+V4 - Approx (thread counters),1,10000000,55403,10000,true
+V4 - Approx (thread counters),2,10000000,81400,10000,true
+V4 - Approx (thread counters),4,10000000,191178,10000,true
+V4 - Approx (thread counters),10,10000000,704151,10000,true
+V4 - Approx (thread counters),20,10000000,1404846,10000,true
+V4 - Approx (thread counters),0,10000000,21380,1000000,true
+V4 - Approx (thread counters),1,10000000,71326,1000000,true
+V4 - Approx (thread counters),2,10000000,98957,1000000,true
+V4 - Approx (thread counters),4,10000000,151521,1000000,true
+V4 - Approx (thread counters),10,10000000,719505,1000000,true
+V4 - Approx (thread counters),20,10000000,1480633,1000000,true
+V0 - No Locking,0,10000000,20599,-1,true
+V0 - No Locking,1,10000000,29754,-1,false
+V0 - No Locking,2,10000000,75564,-1,false
+V0 - No Locking,4,10000000,129308,-1,false
+V0 - No Locking,10,10000000,468178,-1,false
+V0 - No Locking,20,10000000,889878,-1,false
+V1 - Full Locking,0,10000000,61515,-1,true
+V1 - Full Locking,1,10000000,838579,-1,true
+V1 - Full Locking,2,10000000,1251214,-1,true
+V1 - Full Locking,4,10000000,2392791,-1,true
+V1 - Full Locking,10,10000000,6685962,-1,true
+V1 - Full Locking,20,10000000,10882890,-1,true
+V2 - Approx (local locking),0,10000000,79964,100,true
+V2 - Approx (local locking),1,10000000,525535,100,true
+V2 - Approx (local locking),2,10000000,879355,100,true
+V2 - Approx (local locking),4,10000000,2943846,100,true
+V2 - Approx (local locking),10,10000000,7915870,100,true
+V2 - Approx (local locking),20,10000000,14635554,100,true
+V2 - Approx (local locking),0,10000000,80759,10000,true
+V2 - Approx (local locking),1,10000000,470401,10000,true
+V2 - Approx (local locking),2,10000000,808062,10000,true
+V2 - Approx (local locking),4,10000000,2891676,10000,true
+V2 - Approx (local locking),10,10000000,7803467,10000,true
+V2 - Approx (local locking),20,10000000,14660803,10000,true
+V2 - Approx (local locking),0,10000000,75969,1000000,true
+V2 - Approx (local locking),1,10000000,458218,1000000,true
+V2 - Approx (local locking),2,10000000,741768,1000000,true
+V2 - Approx (local locking),4,10000000,2924119,1000000,true
+V2 - Approx (local locking),10,10000000,7865047,1000000,true
+V2 - Approx (local locking),20,10000000,14677142,1000000,true
+V3 - Approx (No local),0,10000000,27275,100,true
+V3 - Approx (No local),1,10000000,63633,100,true
+V3 - Approx (No local),2,10000000,91764,100,true
+V3 - Approx (No local),4,10000000,251874,100,true
+V3 - Approx (No local),10,10000000,789089,100,true
+V3 - Approx (No local),20,10000000,1782766,100,false
+V3 - Approx (No local),0,10000000,24990,10000,true
+V3 - Approx (No local),1,10000000,54030,10000,true
+V3 - Approx (No local),2,10000000,103470,10000,true
+V3 - Approx (No local),4,10000000,261191,10000,true
+V3 - Approx (No local),10,10000000,962322,10000,true
+V3 - Approx (No local),20,10000000,1908972,10000,false
+V3 - Approx (No local),0,10000000,25079,1000000,true
+V3 - Approx (No local),1,10000000,64790,1000000,true
+V3 - Approx (No local),2,10000000,108782,1000000,true
+V3 - Approx (No local),4,10000000,230723,1000000,true
+V3 - Approx (No local),10,10000000,1027329,1000000,true
+V3 - Approx (No local),20,10000000,1982462,1000000,false
+V4 - Approx (thread counters),0,10000000,22353,100,true
+V4 - Approx (thread counters),1,10000000,42819,100,true
+V4 - Approx (thread counters),2,10000000,66119,100,true
+V4 - Approx (thread counters),4,10000000,147495,100,true
+V4 - Approx (thread counters),20,10000000,1294673,100,true
+V4 - Approx (thread counters),0,10000000,20608,10000,true
+V4 - Approx (thread counters),1,10000000,50117,10000,true
+V4 - Approx (thread counters),2,10000000,76497,10000,true
+V4 - Approx (thread counters),4,10000000,172305,10000,true
+V4 - Approx (thread counters),10,10000000,844568,10000,true
+V4 - Approx (thread counters),20,10000000,1532019,10000,true
+V4 - Approx (thread counters),0,10000000,20364,1000000,true
+V4 - Approx (thread counters),1,10000000,48853,1000000,true
+V4 - Approx (thread counters),2,10000000,79020,1000000,true
+V4 - Approx (thread counters),4,10000000,160718,1000000,true
+V4 - Approx (thread counters),10,10000000,775878,1000000,true
+V4 - Approx (thread counters),20,10000000,1579818,1000000,true
+V0 - No Locking,0,10000000,20391,-1,true
+V0 - No Locking,1,10000000,26532,-1,false
+V0 - No Locking,2,10000000,66864,-1,false
+V0 - No Locking,4,10000000,120651,-1,false
+V0 - No Locking,10,10000000,553200,-1,false
+V0 - No Locking,20,10000000,1078291,-1,false
+V1 - Full Locking,0,10000000,60465,-1,true
+V1 - Full Locking,1,10000000,841935,-1,true
+V1 - Full Locking,2,10000000,1307064,-1,true
+V1 - Full Locking,4,10000000,2849439,-1,true
+V1 - Full Locking,10,10000000,6813315,-1,true
+V1 - Full Locking,20,10000000,10958928,-1,true
+V2 - Approx (local locking),0,10000000,78458,100,true
+V2 - Approx (local locking),1,10000000,452944,100,true
+V2 - Approx (local locking),2,10000000,806108,100,true
+V2 - Approx (local locking),4,10000000,2931801,100,true
+V2 - Approx (local locking),10,10000000,7860008,100,true
+V2 - Approx (local locking),20,10000000,14565533,100,true
+V2 - Approx (local locking),0,10000000,75209,10000,true
+V2 - Approx (local locking),1,10000000,444266,10000,true
+V2 - Approx (local locking),2,10000000,850104,10000,true
+V2 - Approx (local locking),4,10000000,2911767,10000,true
+V2 - Approx (local locking),10,10000000,7932290,10000,true
+V2 - Approx (local locking),20,10000000,14978050,10000,true
+V2 - Approx (local locking),0,10000000,74501,1000000,true
+V2 - Approx (local locking),1,10000000,443311,1000000,true
+V2 - Approx (local locking),2,10000000,879438,1000000,true
+V2 - Approx (local locking),4,10000000,2945175,1000000,true
+V2 - Approx (local locking),10,10000000,7933747,1000000,true
+V2 - Approx (local locking),20,10000000,14435532,1000000,true
+V3 - Approx (No local),0,10000000,26816,100,true
+V3 - Approx (No local),1,10000000,60691,100,true
+V3 - Approx (No local),2,10000000,95517,100,true
+V3 - Approx (No local),4,10000000,192843,100,true
+V3 - Approx (No local),10,10000000,709651,100,true
+V3 - Approx (No local),20,10000000,1828570,100,false
+V3 - Approx (No local),0,10000000,25621,10000,true
+V3 - Approx (No local),1,10000000,55468,10000,true
+V3 - Approx (No local),2,10000000,112963,10000,true
+V3 - Approx (No local),4,10000000,257304,10000,true
+V3 - Approx (No local),10,10000000,1057597,10000,true
+V3 - Approx (No local),20,10000000,2005874,10000,false
+V3 - Approx (No local),0,10000000,25182,1000000,true
+V3 - Approx (No local),1,10000000,58925,1000000,true
+V3 - Approx (No local),2,10000000,99576,1000000,true
+V3 - Approx (No local),4,10000000,221506,1000000,true
+V3 - Approx (No local),10,10000000,1045607,1000000,true
+V3 - Approx (No local),20,10000000,1938151,1000000,false
+V4 - Approx (thread counters),0,10000000,21943,100,true
+V4 - Approx (thread counters),1,10000000,45127,100,true
+V4 - Approx (thread counters),2,10000000,89012,100,true
+V4 - Approx (thread counters),4,10000000,138552,100,true
+V4 - Approx (thread counters),20,10000000,1266169,100,true
+V4 - Approx (thread counters),0,10000000,20414,10000,true
+V4 - Approx (thread counters),1,10000000,50089,10000,true
+V4 - Approx (thread counters),2,10000000,74619,10000,true
+V4 - Approx (thread counters),4,10000000,180948,10000,true
+V4 - Approx (thread counters),10,10000000,790637,10000,true
+V4 - Approx (thread counters),20,10000000,1630600,10000,true
+V4 - Approx (thread counters),0,10000000,20113,1000000,true
+V4 - Approx (thread counters),1,10000000,44300,1000000,true
+V4 - Approx (thread counters),2,10000000,84005,1000000,true
+V4 - Approx (thread counters),4,10000000,166659,1000000,true
+V4 - Approx (thread counters),10,10000000,892065,1000000,true
+V4 - Approx (thread counters),20,10000000,1565287,1000000,true
+V0 - No Locking,0,10000000,20441,-1,true
+V0 - No Locking,1,10000000,32336,-1,false
+V0 - No Locking,2,10000000,43363,-1,false
+V0 - No Locking,4,10000000,131905,-1,false
+V0 - No Locking,10,10000000,567415,-1,false
+V0 - No Locking,20,10000000,1017232,-1,false
+V1 - Full Locking,0,10000000,59861,-1,true
+V1 - Full Locking,1,10000000,808601,-1,true
+V1 - Full Locking,2,10000000,1347631,-1,true
+V1 - Full Locking,4,10000000,2910164,-1,true
+V1 - Full Locking,10,10000000,7108023,-1,true
+V1 - Full Locking,20,10000000,11085145,-1,true
+V2 - Approx (local locking),0,10000000,81276,100,true
+V2 - Approx (local locking),1,10000000,440940,100,true
+V2 - Approx (local locking),2,10000000,805113,100,true
+V2 - Approx (local locking),4,10000000,2933307,100,true
+V2 - Approx (local locking),10,10000000,8088157,100,true
+V2 - Approx (local locking),20,10000000,14855548,100,true
+V2 - Approx (local locking),0,10000000,74993,10000,true
+V2 - Approx (local locking),1,10000000,450847,10000,true
+V2 - Approx (local locking),2,10000000,768755,10000,true
+V2 - Approx (local locking),4,10000000,2903580,10000,true
+V2 - Approx (local locking),10,10000000,6785110,10000,true
+V2 - Approx (local locking),20,10000000,14758770,10000,true
+V2 - Approx (local locking),0,10000000,73416,1000000,true
+V2 - Approx (local locking),1,10000000,456149,1000000,true
+V2 - Approx (local locking),2,10000000,680574,1000000,true
+V2 - Approx (local locking),4,10000000,2788609,1000000,true
+V2 - Approx (local locking),10,10000000,8054290,1000000,true
+V2 - Approx (local locking),20,10000000,14421638,1000000,true
+V3 - Approx (No local),0,10000000,26800,100,true
+V3 - Approx (No local),1,10000000,66322,100,true
+V3 - Approx (No local),2,10000000,88697,100,true
+V3 - Approx (No local),4,10000000,194586,100,true
+V3 - Approx (No local),10,10000000,700087,100,true
+V3 - Approx (No local),20,10000000,1853263,100,false
+V3 - Approx (No local),0,10000000,24583,10000,true
+V3 - Approx (No local),1,10000000,59984,10000,true
+V3 - Approx (No local),2,10000000,86707,10000,true
+V3 - Approx (No local),4,10000000,212586,10000,true
+V3 - Approx (No local),10,10000000,992521,10000,true
+V3 - Approx (No local),20,10000000,1953421,10000,false
+V3 - Approx (No local),0,10000000,24839,1000000,true
+V3 - Approx (No local),1,10000000,68840,1000000,true
+V3 - Approx (No local),2,10000000,118870,1000000,true
+V3 - Approx (No local),4,10000000,225248,1000000,true
+V3 - Approx (No local),10,10000000,1061302,1000000,true
+V3 - Approx (No local),20,10000000,1901701,1000000,false
+V4 - Approx (thread counters),0,10000000,22106,100,true
+V4 - Approx (thread counters),1,10000000,46016,100,true
+V4 - Approx (thread counters),2,10000000,601294,100,true
+V4 - Approx (thread counters),4,10000000,164969,100,true
+V4 - Approx (thread counters),20,10000000,1246207,100,true
+V4 - Approx (thread counters),0,10000000,21172,10000,true
+V4 - Approx (thread counters),1,10000000,56407,10000,true
+V4 - Approx (thread counters),2,10000000,68535,10000,true
+V4 - Approx (thread counters),4,10000000,164164,10000,true
+V4 - Approx (thread counters),10,10000000,911719,10000,true
+V4 - Approx (thread counters),20,10000000,1474382,10000,true
+V4 - Approx (thread counters),0,10000000,20460,1000000,true
+V4 - Approx (thread counters),1,10000000,39439,1000000,true
+V4 - Approx (thread counters),2,10000000,67106,1000000,true
+V4 - Approx (thread counters),4,10000000,175136,1000000,true
+V4 - Approx (thread counters),10,10000000,917447,1000000,true
+V4 - Approx (thread counters),20,10000000,1501718,1000000,true
+V0 - No Locking,0,10000000,19950,-1,true
+V0 - No Locking,1,10000000,32631,-1,false
+V0 - No Locking,2,10000000,42917,-1,false
+V0 - No Locking,4,10000000,103422,-1,false
+V0 - No Locking,10,10000000,597345,-1,false
+V0 - No Locking,20,10000000,1004846,-1,false
+V1 - Full Locking,0,10000000,59502,-1,true
+V1 - Full Locking,1,10000000,790383,-1,true
+V1 - Full Locking,2,10000000,1276790,-1,true
+V1 - Full Locking,4,10000000,3044796,-1,true
+V1 - Full Locking,10,10000000,7558353,-1,true
+V1 - Full Locking,20,10000000,39518737,-1,true
+V2 - Approx (local locking),0,10000000,78471,100,true
+V2 - Approx (local locking),1,10000000,453394,100,true
+V2 - Approx (local locking),2,10000000,645362,100,true
+V2 - Approx (local locking),4,10000000,2787086,100,true
+V2 - Approx (local locking),10,10000000,8093529,100,true
+V2 - Approx (local locking),20,10000000,217553667,100,true
+V2 - Approx (local locking),0,10000000,74325,10000,true
+V2 - Approx (local locking),1,10000000,436308,10000,true
+V2 - Approx (local locking),2,10000000,683240,10000,true
+V2 - Approx (local locking),4,10000000,2721400,10000,true
+V2 - Approx (local locking),10,10000000,8029061,10000,true
+V2 - Approx (local locking),20,10000000,14932305,10000,true
+V2 - Approx (local locking),0,10000000,75553,1000000,true
+V2 - Approx (local locking),1,10000000,446277,1000000,true
+V2 - Approx (local locking),2,10000000,681125,1000000,true
+V2 - Approx (local locking),4,10000000,2712145,1000000,true
+V2 - Approx (local locking),10,10000000,8263832,1000000,true
+V2 - Approx (local locking),20,10000000,14684788,1000000,true
+V3 - Approx (No local),0,10000000,26441,100,true
+V3 - Approx (No local),1,10000000,66481,100,true
+V3 - Approx (No local),2,10000000,87383,100,true
+V3 - Approx (No local),4,10000000,195155,100,true
+V3 - Approx (No local),10,10000000,746448,100,true
+V3 - Approx (No local),20,10000000,206718339,100,false
+V3 - Approx (No local),0,10000000,24283,10000,true
+V3 - Approx (No local),1,10000000,64074,10000,true
+V3 - Approx (No local),2,10000000,96937,10000,true
+V3 - Approx (No local),4,10000000,219319,10000,true
+V3 - Approx (No local),10,10000000,977366,10000,true
+V3 - Approx (No local),20,10000000,1885102,10000,false
+V3 - Approx (No local),0,10000000,24898,1000000,true
+V3 - Approx (No local),1,10000000,60174,1000000,true
+V3 - Approx (No local),2,10000000,105842,1000000,true
+V3 - Approx (No local),4,10000000,228466,1000000,true
+V3 - Approx (No local),10,10000000,995194,1000000,true
+V3 - Approx (No local),20,10000000,1937904,1000000,false
+V4 - Approx (thread counters),0,10000000,22120,100,true
+V4 - Approx (thread counters),1,10000000,60050,100,true
+V4 - Approx (thread counters),2,10000000,64346,100,true
+V4 - Approx (thread counters),4,10000000,141818,100,true
+V4 - Approx (thread counters),20,10000000,1336856,100,true
+V4 - Approx (thread counters),0,10000000,20176,10000,true
+V4 - Approx (thread counters),1,10000000,39912,10000,true
+V4 - Approx (thread counters),2,10000000,84359,10000,true
+V4 - Approx (thread counters),4,10000000,172635,10000,true
+V4 - Approx (thread counters),10,10000000,785434,10000,true
+V4 - Approx (thread counters),20,10000000,1493907,10000,true
+V4 - Approx (thread counters),0,10000000,20665,1000000,true
+V4 - Approx (thread counters),1,10000000,44177,1000000,true
+V4 - Approx (thread counters),2,10000000,70254,1000000,true
+V4 - Approx (thread counters),4,10000000,160369,1000000,true
+V4 - Approx (thread counters),10,10000000,802635,1000000,true
+V4 - Approx (thread counters),20,10000000,1401252,1000000,true
+V0 - No Locking,0,10000000,19772,-1,true
+V0 - No Locking,1,10000000,32232,-1,false
+V0 - No Locking,2,10000000,42574,-1,false
+V0 - No Locking,4,10000000,134950,-1,false
+V0 - No Locking,10,10000000,624243,-1,false
+V0 - No Locking,20,10000000,1024662,-1,false
+V1 - Full Locking,0,10000000,62735,-1,true
+V1 - Full Locking,1,10000000,893812,-1,true
+V1 - Full Locking,2,10000000,1348616,-1,true
+V1 - Full Locking,4,10000000,2881208,-1,true
+V1 - Full Locking,10,10000000,7375847,-1,true
+V1 - Full Locking,20,10000000,958229858,-1,true
+V2 - Approx (local locking),0,10000000,76795,100,true
+V2 - Approx (local locking),1,10000000,459230,100,true
+V2 - Approx (local locking),2,10000000,677051,100,true
+V2 - Approx (local locking),4,10000000,2785600,100,true
+V2 - Approx (local locking),10,10000000,7825364,100,true
+V2 - Approx (local locking),20,10000000,14933259,100,true
+V2 - Approx (local locking),0,10000000,72803,10000,true
+V2 - Approx (local locking),1,10000000,430851,10000,true
+V2 - Approx (local locking),2,10000000,641535,10000,true
+V2 - Approx (local locking),4,10000000,2753005,10000,true
+V2 - Approx (local locking),10,10000000,7968593,10000,true
+V2 - Approx (local locking),20,10000000,14934577,10000,true
+V2 - Approx (local locking),0,10000000,72801,1000000,true
+V2 - Approx (local locking),1,10000000,464068,1000000,true
+V2 - Approx (local locking),2,10000000,671101,1000000,true
+V2 - Approx (local locking),4,10000000,2725537,1000000,true
+V2 - Approx (local locking),10,10000000,7966958,1000000,true
+V2 - Approx (local locking),20,10000000,14860016,1000000,true
+V3 - Approx (No local),0,10000000,26093,100,true
+V3 - Approx (No local),1,10000000,64870,100,true
+V3 - Approx (No local),2,10000000,90147,100,true
+V3 - Approx (No local),4,10000000,218773,100,true
+V3 - Approx (No local),10,10000000,735015,100,true
+V3 - Approx (No local),20,10000000,1844942,100,false
+V3 - Approx (No local),0,10000000,24687,10000,true
+V3 - Approx (No local),1,10000000,56147,10000,true
+V3 - Approx (No local),2,10000000,91927,10000,true
+V3 - Approx (No local),4,10000000,199283,10000,true
+V3 - Approx (No local),10,10000000,990600,10000,true
+V3 - Approx (No local),20,10000000,1884284,10000,false
+V3 - Approx (No local),0,10000000,25347,1000000,true
+V3 - Approx (No local),1,10000000,54531,1000000,true
+V3 - Approx (No local),2,10000000,97240,1000000,true
+V3 - Approx (No local),4,10000000,187629,1000000,true
+V3 - Approx (No local),10,10000000,1092509,1000000,true
+V3 - Approx (No local),20,10000000,1954278,1000000,false
+V4 - Approx (thread counters),0,10000000,22271,100,true
+V4 - Approx (thread counters),1,10000000,50116,100,true
+V4 - Approx (thread counters),2,10000000,63094,100,true
+V4 - Approx (thread counters),4,10000000,141003,100,true
+V4 - Approx (thread counters),20,10000000,1276836,100,true
+V4 - Approx (thread counters),0,10000000,20171,10000,true
+V4 - Approx (thread counters),1,10000000,46748,10000,true
+V4 - Approx (thread counters),2,10000000,60464,10000,true
+V4 - Approx (thread counters),4,10000000,159673,10000,true
+V4 - Approx (thread counters),10,10000000,789083,10000,true
+V4 - Approx (thread counters),20,10000000,1608399,10000,true
+V4 - Approx (thread counters),0,10000000,20071,1000000,true
+V4 - Approx (thread counters),1,10000000,38508,1000000,true
+V4 - Approx (thread counters),2,10000000,67193,1000000,true
+V4 - Approx (thread counters),4,10000000,160868,1000000,true
+V4 - Approx (thread counters),10,10000000,935636,1000000,true
+V4 - Approx (thread counters),20,10000000,1506420,1000000,true
