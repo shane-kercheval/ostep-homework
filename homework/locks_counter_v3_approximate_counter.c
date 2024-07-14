@@ -1,3 +1,9 @@
+/*
+* This version removes the locks to the local values.
+* We can see that the performance is only slightly lower than the no-lock solution (and much better than the global lock solution),
+* but this doesn't work when there are more threads than CPUs.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
@@ -11,7 +17,7 @@ typedef struct {
     int global_value;
     pthread_mutex_t global_lock;
     int *local_values;
-    pthread_mutex_t *local_locks;
+    // pthread_mutex_t *local_locks;
     int update_frequency;
 } counter_t;
 counter_t counter;
@@ -47,13 +53,13 @@ void init(counter_t *c, long num_cores, int update_frequency) {
         exit(1);
     }
     c->local_values = (int *)malloc(num_cores * sizeof(int));
-    c->local_locks = (pthread_mutex_t *)malloc(num_cores * sizeof(pthread_mutex_t));
+    // c->local_locks = (pthread_mutex_t *)malloc(num_cores * sizeof(pthread_mutex_t));
     for (long i = 0; i < num_cores; i++) {
         c->local_values[i] = 0;
-        if (pthread_mutex_init(&c->local_locks[i], NULL) != 0) {
-            fprintf(stderr, "Error initializing the mutex\n");
-            exit(1);
-        }
+        // if (pthread_mutex_init(&c->local_locks[i], NULL) != 0) {
+        //     fprintf(stderr, "Error initializing the mutex\n");
+        //     exit(1);
+        // }
     }
     c->update_frequency = update_frequency;
 }
@@ -153,14 +159,14 @@ int main(int argc, char *argv[]) {
     char *matches = counter.global_value == expected_count ? "true" : "false";
     printf("Count matches expected value: %s\n", matches);
     printf("----\n\n");
-    int status = record_stats("Locking V3 - Approx", num_threads, num_loops, micro_seconds, update_frequency, matches);
+    int status = record_stats("V3 - Approx (No local)", num_threads, num_loops, micro_seconds, update_frequency, matches);
 
     //cleanup; destroy locks and free memory
     pthread_mutex_destroy(&counter.global_lock);
-    for (long i = 0; i < num_cpus; i++) {
-        pthread_mutex_destroy(&counter.local_locks[i]);
-    }
-    free(counter.local_locks);
+    // for (long i = 0; i < num_threads; i++) {
+    //     pthread_mutex_destroy(&counter.local_locks[i]);
+    // }
+    // free(counter.local_locks);
     free(counter.local_values);
 
     if (status != 0) {

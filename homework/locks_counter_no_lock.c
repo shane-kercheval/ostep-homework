@@ -92,7 +92,7 @@ int main(int argc, char *argv[]) {
     char *matches = counter.value == expected_count ? "true" : "false";
     printf("Count matches expected value: %s\n", matches);
     printf("----\n\n");
-    int status = record_stats("No Locking", num_threads, num_loops, micro_seconds, -1, matches);
+    int status = record_stats("V0 - No Locking", num_threads, num_loops, micro_seconds, -1, matches);
     if (status != 0) {
         return status;
     }
