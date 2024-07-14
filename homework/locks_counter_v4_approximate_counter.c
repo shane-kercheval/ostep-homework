@@ -50,45 +50,29 @@ void init(counter_t *c, int num_threads, int update_frequency) {
         fprintf(stderr, "Error initializing the mutex\n");
         exit(1);
     }
-    c->local_values = (int *)malloc(num_threads * sizeof(int));
-    // c->local_locks = (pthread_mutex_t *)malloc(num_threads * sizeof(pthread_mutex_t));
-    // for (long i = 0; i < num_threads; i++) {
-    //     c->local_values[i] = 0;
-    //     if (pthread_mutex_init(&c->local_locks[i], NULL) != 0) {
-    //         fprintf(stderr, "Error initializing the mutex\n");
-    //         exit(1);
-    //     }
-    // }
+    // we need to allocate memory for the number of threads plus the main thread
+    // c->local_values = (int *)malloc((num_threads + 1) * sizeof(int));
+    // use calloc so that the memory is zeroed out; found this via valgrind which said that the memory was uninitialized
+    // i.e. Conditional jump or move depends on uninitialised value(s)
+    // and Uninitialised value was created by a heap allocation
+    c->local_values = (int *)calloc(num_threads + 1, sizeof(int));
+    if (c->local_values == NULL) {
+        fprintf(stderr, "Failed to allocate memory for local_values\n");
+        exit(1);
+    }
     c->update_frequency = update_frequency;
 }
 
 void increment(counter_t *c, int thread_id) {
     // from OSTEP:
-    // lock(&c->local_locks[cpu]);
     c->local_values[thread_id]++;
-    // if local value is greater than the update frequency, then update the global value
     if (c->local_values[thread_id] >= c->update_frequency) {
-        // lock global lock
         lock(&c->global_lock);
         c->global_value += c->local_values[thread_id];
         unlock(&c->global_lock);
         c->local_values[thread_id] = 0;
     }
-    // unlock(&c->local_locks[cpu]);
 }
-
-// void decrement(counter_t *c) {
-//     lock(&c->lock);
-//     c->value--;
-//     unlock(&c->lock);
-// }
-
-// int get(counter_t *c) {
-//     lock(&c->lock);
-//     int value = c->value;
-//     unlock(&c->lock);
-//     return value;
-// }
 
 void run_loops(int num_loops, int thread_id) {
     printf("+starting thread %d\n", thread_id);
@@ -134,7 +118,8 @@ int main(int argc, char *argv[]) {
             return 1;
         }
     }
-    run_loops(num_loops, num_threads);  // e.g. 10 threads, ids are 0-9; main() id is 10
+    // passing in `num_threads` because if the value is e.g. 10 threads, thread ids are 0-9; and main() id is 10
+    run_loops(num_loops, num_threads);
     for (int i = 0; i < num_threads; i++) {
         pthread_join(threads[i], NULL);
     }

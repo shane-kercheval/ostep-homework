@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "locks_utils.h": "c",
+        "*.tcc": "c",
+        "unordered_map": "c",
+        "numeric": "c",
+        "ostream": "c"
+    }
+}

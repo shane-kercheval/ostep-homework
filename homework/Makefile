@@ -7,10 +7,14 @@ compile:
 	gcc -o counter_v3 locks_counter_v3_approximate_counter.c locks_utils.c
 	gcc -o counter_v4 locks_counter_v4_approximate_counter.c locks_utils.c
 
-valgrind: compile
-	valgrind --leak-check=full ./counter_v2
+# check for memory leaks
+valgrind_v3: compile
+	valgrind --leak-check=full --track-origins=yes -s ./counter_v3 2 100000 1000
 
+valgrind_v4: compile
+	valgrind --leak-check=full --track-origins=yes -s ./counter_v4 2 100000 1000
 
+# check for concurrency errors
 # no errors because single thread
 helgrind_no_lock_0: compile
 	valgrind --tool=helgrind ./counter_no_lock 0 $(NUM_LOOPS)

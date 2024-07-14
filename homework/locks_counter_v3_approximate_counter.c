@@ -160,7 +160,9 @@ int main(int argc, char *argv[]) {
     printf("Count matches expected value: %s\n", matches);
     printf("----\n\n");
     int status = record_stats("V3 - Approx (No local)", num_threads, num_loops, micro_seconds, update_frequency, matches);
-
+    if (status != 0) {
+        return status;
+    }
     //cleanup; destroy locks and free memory
     pthread_mutex_destroy(&counter.global_lock);
     // for (long i = 0; i < num_threads; i++) {
@@ -168,9 +170,5 @@ int main(int argc, char *argv[]) {
     // }
     // free(counter.local_locks);
     free(counter.local_values);
-
-    if (status != 0) {
-        return status;
-    }
     return 0;
 }
