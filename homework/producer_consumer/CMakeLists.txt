@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(ProducerConsumer)
+project(ProducerConsumer VERSION 1.0 DESCRIPTION "A producer-consumer example project")
 
 # Enable most warning messages from the compiler
 add_compile_options(-Wall)
