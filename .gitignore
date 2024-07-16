@@ -3,3 +3,4 @@ homework/out
 .vscode/tasks.json
 homework/.DS_Store
 /homework/producer_consumer/build
+.DS_Store
