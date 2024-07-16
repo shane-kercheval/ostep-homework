@@ -4,6 +4,8 @@
         "*.tcc": "c",
         "unordered_map": "c",
         "numeric": "c",
-        "ostream": "c"
+        "ostream": "c",
+        "time.h": "c",
+        "pthread.h": "c"
     }
 }
